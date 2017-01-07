@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.bestprice-vn.tk/';
+$config['base_url']	= 'http://snotevn.com:8888/';
 
 /*
 |--------------------------------------------------------------------------
