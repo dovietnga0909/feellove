@@ -61,7 +61,7 @@
     		<td align="right">
                 <ul>
                     <li style="font-size: 14px">Best Price Vietnam., JSC</li>
-                    <li>Email: sales@Bestviettravel.xyz</li>
+                    <li>Email: sales@snotevn.com:8888</li>
                     <li>Điện thoại: (04) 3978 1425 - Fax: (04) 3978 1425</li>
                 </ul>
     		</td>
@@ -184,7 +184,7 @@
         <tr>
         	<td>
                 <ul>
-                	<li>Email: sales@Bestviettravel.xyz</li>
+                	<li>Email: sales@snotevn.com:8888</li>
                 	<li>Điện thoại: (04) 3978 1425 - Fax: (04) 3978 1425</li>
                 	<li>
                        <b>Văn phòng Hà Nội:</b> <span>12A, Ngõ Bà Triệu, Phố Bà Triệu, Quận Hai Bà Trưng, Hà Nội.</span></li>

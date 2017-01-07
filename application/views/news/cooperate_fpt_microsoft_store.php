@@ -163,7 +163,7 @@
     		<span style="color: #F50206; font-size: 24px; font-weight: bold;">*</span>Điều kiện chương trình:
     	</h4>
     	<ul>
-            <li>Nhập mã <span style="color: #FF4F03; font-size: 18px; font-weight: bold;">LUMIA</span> khi đặt dịch vụ tại <a href="<?=site_url()?>">www.Bestviettravel.xyz</a>, hoặc mang phiếu quà tặng đến văn phòng BestPrice để nhận ưu đãi.</li>
+            <li>Nhập mã <span style="color: #FF4F03; font-size: 18px; font-weight: bold;">LUMIA</span> khi đặt dịch vụ tại <a href="<?=site_url()?>">www.snotevn.com:8888</a>, hoặc mang phiếu quà tặng đến văn phòng BestPrice để nhận ưu đãi.</li>
     		<li>Thời hạn hạn đặt thanh toán trước 15/07/2015.</li>
     		<li>Thời hạn sử dụng dịch vụ trước 31/08/2015.</li>
             <li>Không áp dụng vào các dịp lễ tết cùng những chương trình khuyến mãi khác.</li>

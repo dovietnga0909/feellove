@@ -37,7 +37,7 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
-define('SITE_NAME',	'Bestviettravel.xyz');
+define('SITE_NAME',	'snotevn.com:8888');
 define('BRANCH_NAME',	'Best Price Vietnam');
 
 /*
@@ -461,7 +461,7 @@ define('SKYPE', 'SKYPE');
 define('PHONE_SUPPORT','(04) 3978 1425');
 define('PHONE_SUPPORT_FLIGHT','(04) 3978 1805');
 define('HOTLINE_SUPPORT','0936 179 428');
-define('EMAIL_SUPPORT','sales@Bestviettravel.xyz');
+define('EMAIL_SUPPORT','sales@snotevn.com:8888');
 
 
 define('ADMIN_USER_ID', 1);

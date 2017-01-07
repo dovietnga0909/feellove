@@ -2053,7 +2053,7 @@ function flight_to_destination($des_id) {
 		$config['smtp_host']='74.220.207.140';
 		$config['smtp_port']='25';
 		$config['smtp_timeout']='30';
-		$config['smtp_user']='booking@Bestviettravel.xyz';
+		$config['smtp_user']='booking@snotevn.com:8888';
 		$config['smtp_pass']='Bpt052010';
 		*/
 		
@@ -2088,7 +2088,7 @@ function flight_to_destination($des_id) {
 		$config['smtp_host']='74.220.207.140';
 		$config['smtp_port']='25';
 		$config['smtp_timeout']='30';
-		$config['smtp_user']='booking@Bestviettravel.xyz';
+		$config['smtp_user']='booking@snotevn.com:8888';
 		$config['smtp_pass']='Bpt052010';
 		*/
 		
@@ -2102,7 +2102,7 @@ function flight_to_destination($des_id) {
 		
 		
 		/*
-		$config['smtp_user']='booking@Bestviettravel.xyz';
+		$config['smtp_user']='booking@snotevn.com:8888';
 		$config['smtp_pass']='Bpt052010';
 		*/
 		
@@ -2114,9 +2114,9 @@ function flight_to_destination($des_id) {
 		// send to customer
 		$CI->email->initialize($config);
 		
-		$CI->email->from('booking@Bestviettravel.xyz', BRANCH_NAME);
+		$CI->email->from('booking@snotevn.com:8888', BRANCH_NAME);
 		
-		$CI->email->reply_to('booking@Bestviettravel.xyz');
+		$CI->email->reply_to('booking@snotevn.com:8888');
 		
 		$CI->email->to($customer['email']);
 		
@@ -2208,7 +2208,7 @@ function flight_to_destination($des_id) {
 		
 		$vnisc_booking_id = $this->input->get('id');
 		
-		echo '<center><br><br>VNISC booking saved! <br><br> <a href="http://www.Bestviettravel.xyz" target="blank_">www.Bestviettravel.xyz</a><center>';
+		echo '<center><br><br>VNISC booking saved! <br><br> <a href="http://www.snotevn.com:8888" target="blank_">www.snotevn.com:8888</a><center>';
 		
 	}
 	
@@ -2252,7 +2252,7 @@ function flight_to_destination($des_id) {
 					'<tr><td>Status:</td><td>'.$status.'</td></tr>'.
 					'<tr><td>Hash:</td><td>'.$hash.'</td></tr>'.
 				'</table>'.
-				'<br><br> <a href="http://www.Bestviettravel.xyz" target="blank_">www.Bestviettravel.xyz</a>'.
+				'<br><br> <a href="http://www.snotevn.com:8888" target="blank_">www.snotevn.com:8888</a>'.
 			'</center>';
 	}
 }

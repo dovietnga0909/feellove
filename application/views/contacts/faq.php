@@ -13,7 +13,7 @@
 				<p>
 					<ul>
 						<li>Cách 1: Quý khách gọi đến số điện thoại văn phòng hoặc Hotline của Best Price để đặt phòng và được tư vấn một cách dễ dàng: <b>(04) 3978 1425</b>/ <b>0936 179 428</b></li>
-						<li>Cách 2: Quý khách lên trang website <a href="www.Bestviettravel.xyz,">www.Bestviettravel.xyz,</a> và làm theo các bước sau: </li>
+						<li>Cách 2: Quý khách lên trang website <a href="www.snotevn.com:8888,">www.snotevn.com:8888,</a> và làm theo các bước sau: </li>
 					</ul>
 				</p>
 				<p>
@@ -32,7 +32,7 @@
 					Sau khi hoàn tất bước 4, Best Price sẽ  chủ động liên hệ quý khách trong vòng 8 tiếng giờ hành chính để hồi đáp yêu cầu của bạn.
 				</p>
 				<p>
-					Ngoài ra, trong trường hợp quý khách ở nước ngoài, hoặc không thể liên hệ qua điện thoại hay đặt phòng thông qua website, quý khách có thể gởi email với yêu cầu đặt phòng chi tiết về địa chỉ sales@Bestviettravel.xyz
+					Ngoài ra, trong trường hợp quý khách ở nước ngoài, hoặc không thể liên hệ qua điện thoại hay đặt phòng thông qua website, quý khách có thể gởi email với yêu cầu đặt phòng chi tiết về địa chỉ sales@snotevn.com:8888
 				</p>
 				
 				<p><b>2. Giá phòng của Best Price đã bao gồm thuế và phí dịch vụ hay chưa?</b></p>
@@ -55,7 +55,7 @@
 				
 				<p><b>4. Nếu tôi muốn hủy hoặc thay đổi phòng mình đã đặt thì làm thế nào ?</b></p>
 				<p>
-					Bạn liên hệ với Best Price qua email <a href="mailto:sales@Bestviettravel.xyz">sales@Bestviettravel.xyz</a> hoặc điện thoại : <b>(04) 3978 1425</b>/ <b>0936 179 428</b> để thực hiện việc hủy hoặc thay đổi đặt phòng.
+					Bạn liên hệ với Best Price qua email <a href="mailto:sales@snotevn.com:8888">sales@snotevn.com:8888</a> hoặc điện thoại : <b>(04) 3978 1425</b>/ <b>0936 179 428</b> để thực hiện việc hủy hoặc thay đổi đặt phòng.
 				</p>
 				<p>
 					Trường hợp bạn muốn hủy phòng sau khi thanh toán việc hoàn tiền sẽ tùy thuộc vào chính sách hủy phòng của từng khách sạn hay điều kiện các chương trình khuyến mại. Bạn cần kiểm tra kỹ chính sách này trước khi đặt phòng.
@@ -66,21 +66,21 @@
 				
 				<p><b>5. Chúng tôi có được giảm giá nếu đặt số lượng phòng nhiều không?</b></p>
 				<p>
-					Giá đăng trên Bestviettravel.xyz là giá đã được niêm yết và là giá ưu đãi Bestviettravel.xyz  dành cho khách hàng. Tuy nhiên nếu bạn muốn đặt phòng với số lượng lớn Bestviettravel.xyz sẽ cố gắng thương lượng với phía khách sạn và đưa ra giá hợp lí.
+					Giá đăng trên snotevn.com:8888 là giá đã được niêm yết và là giá ưu đãi snotevn.com:8888  dành cho khách hàng. Tuy nhiên nếu bạn muốn đặt phòng với số lượng lớn snotevn.com:8888 sẽ cố gắng thương lượng với phía khách sạn và đưa ra giá hợp lí.
 				</p>
 				
 				<p><b>6. Thông tin cá nhân của tôi có được giữ kín không?</b></p>
 				<p>Tất nhiên. Chúng tôi không tiết lộ bất kỳ thông tin của bạn ngoại trừ một số thông tin cần thiết cho các đối tác khách sạn để họ thực hiện việc đặt phòng. Để biết thêm chi tiết, vui lòng tham khảo chính sách riêng tư của chúng tôi.</p>
 				
-				<p><b>7. Đặt phòng thông qua Bestviettravel.xyz và đặt trực tiếp tại khách sạn thì khác nhau thế nào?</b></p>
-				<p>Khi đặt phòng qua Bestviettravel.xyz bạn được mức giá thấp hơn khi đặt trực tiếp tại khách sạn. Ngoài ra bạn được đảm bảo chắc chắn là phòng bạn đã thanh toán sẽ được giữ cho bạn. Hơn thế nữa, Bestviettravel.xyz luôn đưa ra rất nhiều khuyến mại và ưu đãi hấp dẫn cho quý khách hàng.</p>
+				<p><b>7. Đặt phòng thông qua snotevn.com:8888 và đặt trực tiếp tại khách sạn thì khác nhau thế nào?</b></p>
+				<p>Khi đặt phòng qua snotevn.com:8888 bạn được mức giá thấp hơn khi đặt trực tiếp tại khách sạn. Ngoài ra bạn được đảm bảo chắc chắn là phòng bạn đã thanh toán sẽ được giữ cho bạn. Hơn thế nữa, snotevn.com:8888 luôn đưa ra rất nhiều khuyến mại và ưu đãi hấp dẫn cho quý khách hàng.</p>
 				
 				<p><b>8. Tôi có thể nêu rõ yêu cầu đặc biệt như đặt phòng thông nhau, kê thêm giường phụ, phòng có ban công, v.v.v không?</b></p>
-				<p>Tiện nghi và đặc điểm của khách sạn và phòng khách sạn được liệt kê trên trang chi tiết của khách sạn và trang chi tiết đặt phòng. Để biết thêm các tùy chọn phòng đặc biệt, hoặc dễ dàng tìm được loại phòng phù hợp với nhu cầu của mình, quý khách hàng có thể tự mình chọn và đặt phòng trên Bestviettravel.xyz hoặc thực hiện một trong hai cách đơn giản sau:</p>
+				<p>Tiện nghi và đặc điểm của khách sạn và phòng khách sạn được liệt kê trên trang chi tiết của khách sạn và trang chi tiết đặt phòng. Để biết thêm các tùy chọn phòng đặc biệt, hoặc dễ dàng tìm được loại phòng phù hợp với nhu cầu của mình, quý khách hàng có thể tự mình chọn và đặt phòng trên snotevn.com:8888 hoặc thực hiện một trong hai cách đơn giản sau:</p>
 				<p>
 					<ul>
-						<li>Cách 1: Quý khách điền thông tin và yêu cầu khách sạn hoặc phòng khách sạn phù hợp vào form “Thông tin liên lạc” ở link <a href="http://www.Bestviettravel.xyz/lien-he.html">http://www.Bestviettravel.xyz/lien-he.html</a> và ấn nút “Gửi yêu cầu”. Sau khi nhận được yêu cầu từ quý khách, chuyên viên tư vấn của Bestviettravel.xyz sẽ chủ động liên lạc với quý khách để gợi ý phòng khách sạn phù hợp cũng như tư vấn thêm về các thông tin du lịch hữu ích khác.</li>
-						<li>Cách 2: Quý khách có thể gọi trực tiếp cho Bestviettravel.xyz theo sô điện thoại <b>(04) 3978 1425</b>/ <b>0936 179 428</b> để được tư vấn tận tình và nhanh chóng. </li>
+						<li>Cách 1: Quý khách điền thông tin và yêu cầu khách sạn hoặc phòng khách sạn phù hợp vào form “Thông tin liên lạc” ở link <a href="http://www.snotevn.com:8888/lien-he.html">http://www.snotevn.com:8888/lien-he.html</a> và ấn nút “Gửi yêu cầu”. Sau khi nhận được yêu cầu từ quý khách, chuyên viên tư vấn của snotevn.com:8888 sẽ chủ động liên lạc với quý khách để gợi ý phòng khách sạn phù hợp cũng như tư vấn thêm về các thông tin du lịch hữu ích khác.</li>
+						<li>Cách 2: Quý khách có thể gọi trực tiếp cho snotevn.com:8888 theo sô điện thoại <b>(04) 3978 1425</b>/ <b>0936 179 428</b> để được tư vấn tận tình và nhanh chóng. </li>
 					</ul>
 				</p>
 				
@@ -92,7 +92,7 @@
 				<p>
 					<ul>
 						<li>Cách 1: Quý khách gọi đến số điện thoại văn phòng hoặc Hotline của Best Price để đặt phòng và được tư vấn một cách dễ dàng: <b>(04) 3978 1425</b>/ <b>0936 179 428</b></li>
-						<li>Cách 2: Quý khách lên trang website <a href="www.Bestviettravel.xyz,">www.Bestviettravel.xyz,</a> vào mục “Vé máy bay” và làm theo các bước sau: </li>
+						<li>Cách 2: Quý khách lên trang website <a href="www.snotevn.com:8888,">www.snotevn.com:8888,</a> vào mục “Vé máy bay” và làm theo các bước sau: </li>
 					</ul>
 				</p>
 				<p>
@@ -111,7 +111,7 @@
 					Sau khi hoàn tất bước 4, Best Price sẽ chủ động liên hệ quý khách trong vòng 8 tiếng giờ hành chính để hồi đáp yêu cầu của bạn.
 				</p>
 				<p>
-					Ngoài ra, trong trường hợp quý khách ở nước ngoài, hoặc không thể liên hệ qua điện thoại hay đặt phòng thông qua website, quý khách có thể gởi email với yêu cầu đặt phòng chi tiết về địa chỉ sales@Bestviettravel.xyz
+					Ngoài ra, trong trường hợp quý khách ở nước ngoài, hoặc không thể liên hệ qua điện thoại hay đặt phòng thông qua website, quý khách có thể gởi email với yêu cầu đặt phòng chi tiết về địa chỉ sales@snotevn.com:8888
 				</p>
 				
 				<p><b>2. Giá vé của Best Price có chuẩn không? Giá vé đã bao gồm thuế và các phụ phí chưa? Có phải trả thêm phí gì nữa không?</b></p>
@@ -186,7 +186,7 @@ Trẻ em dưới 14 tuổi phải xuất trình 1 trong các loại giấy tờ 
 				<p>Bước 3: Kiểm tra kết quả</p>
 				<p>Xin vui lòng đợi trong giây lát để OnePay thông báo kết quả thanh toán. Nếu kết quả thanh toán là không thành công, xin Quý khách vui lòng thử thanh toán lại.</p>
 				<p><img src="<?=get_static_resources('/media/pages/thanh_toan_3.jpg')?>"></p>
-				<p>Mọi thắc mắc hoặc nhu cầu hỗ trợ, xin liên hệ hotline <b>(04) 3978 1425</b>/ <b>0936 179 428</b> hoặc <a href="mailto:sales@Bestviettravel.xyz">sales@Bestviettravel.xyz</a></p>
+				<p>Mọi thắc mắc hoặc nhu cầu hỗ trợ, xin liên hệ hotline <b>(04) 3978 1425</b>/ <b>0936 179 428</b> hoặc <a href="mailto:sales@snotevn.com:8888">sales@snotevn.com:8888</a></p>
 			</div>
 		</div>
 	</div>

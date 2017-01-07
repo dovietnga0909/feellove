@@ -99,7 +99,7 @@
 				<td align="right" width="50%">
 					<ul style="list-style: none; line-height: 18px">
 						<li style="font-size: 14px"><?=lang('company_name')?></li>
-						<li>Email: sales@Bestviettravel.xyz</li>
+						<li>Email: sales@snotevn.com:8888</li>
 						<li>Tel: (04) 3978 1425 - Fax: +84 4 3624-9007</li>
 					</ul>
 				</td>
@@ -345,7 +345,7 @@
 			<tr>
 				<td align="left" style="padding-bottom: 10px; font-size: 12px">
 					<ul style="list-style: none; margin: 0; padding: 0">
-						<li>Email: sales@Bestviettravel.xyz</li>
+						<li>Email: sales@snotevn.com:8888</li>
 						<li>Tel: (04) 3978 1425 - Fax: +84 4 3624-9007</li>
 					</ul>
 				</td>

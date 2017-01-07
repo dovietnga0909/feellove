@@ -553,7 +553,7 @@ define('LETTER_TO_SIGN', 3);
 define('SYSTEM', 0);
 
 define('EMAIL_VALIDATE_CODE', 'Bpv@Email');
-define('SITE_NAME',	'Bestviettravel.xyz');
+define('SITE_NAME',	'snotevn.com:8888');
 define('BRANCH_NAME',	'Best Price Vietnam');
 
 
@@ -570,8 +570,8 @@ define('RESEND_EMAIL_LIMITED', 500);
 // email send limit of account on day
 define('EMAIL_LIMITED_ACCOUNT', 50);
 
-// email of Bestviettravel.xyz
-define('EMAIL_BESTPRICE', 'Bestviettravel.xyz');
+// email of snotevn.com:8888
+define('EMAIL_BESTPRICE', 'snotevn.com:8888');
 
 // session newsletter
 define('NEWSLETTER_TEMP', 'newsletter_temp');

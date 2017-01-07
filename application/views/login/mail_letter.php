@@ -1,15 +1,15 @@
 <div>
-	<h2 class="bpv-color-title" style="color:#005597;">Chào mừng quí khách đến với Bestviettravel.xyz!</h2>
+	<h2 class="bpv-color-title" style="color:#005597;">Chào mừng quí khách đến với snotevn.com:8888!</h2>
 </div>
 <div>
 	<p>
-		Cảm ơn quý khách đã đăng ký nhận thông tin khuyến mãi từ Bestviettravel.xyz. Chúng tôi sẽ gửi đến quý khách những chương trình giảm giá du lịch hấp dẫn, những khuyến mãi nổi bật và nhiều thông tin chăm sóc khách hàng khác.
+		Cảm ơn quý khách đã đăng ký nhận thông tin khuyến mãi từ snotevn.com:8888. Chúng tôi sẽ gửi đến quý khách những chương trình giảm giá du lịch hấp dẫn, những khuyến mãi nổi bật và nhiều thông tin chăm sóc khách hàng khác.
 	</p>
 </div>
 
 <div class="bpv-unbox bpv-why-us">
 	<h2 class="bpv-color-title" style="color:#005597;">
-			Vì sao chọn Bestviettravel.xyz?				
+			Vì sao chọn snotevn.com:8888?
 	</h2>
 	<div class="col-xs-6">
 		<ul class="list-unstyled">

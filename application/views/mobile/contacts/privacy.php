@@ -8,7 +8,7 @@
 				
 				<h2 class="bpv-color-title">Chính sách riêng tư</h2>
 				<p>
-					Chúng tôi đánh giá cao sự tin tưởng của bạn trong việc chọn www.Bestviettravel.xyz cho dịch vụ đặt phòng trực tuyến của bạn. Vì lẽ đó, chúng tôi sẽ giữ gìn và bảo vệ sự riêng tư và kín đáo của các chi tiết cá nhân cho bạn một cách kịp thời và cẩn trọng (bao gồm cả các chi tiết thẻ tín dụng của bạn).
+					Chúng tôi đánh giá cao sự tin tưởng của bạn trong việc chọn www.snotevn.com:8888 cho dịch vụ đặt phòng trực tuyến của bạn. Vì lẽ đó, chúng tôi sẽ giữ gìn và bảo vệ sự riêng tư và kín đáo của các chi tiết cá nhân cho bạn một cách kịp thời và cẩn trọng (bao gồm cả các chi tiết thẻ tín dụng của bạn).
 				</p>
 				
 				<p>

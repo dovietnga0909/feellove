@@ -21,7 +21,7 @@
 			</p>
 			<p>
 				<b>Cổng thanh toán điện tử:</b>  thanh toán trực tuyến bằng thẻ ATM nội địa / visa master qua cổng Onepay và thực hiện giao
-				dịch trực tiếp trên hệ thống của Bestviettravel.xyz thông qua trang đặt phòng.
+				dịch trực tiếp trên hệ thống của snotevn.com:8888 thông qua trang đặt phòng.
 			</p>
 		</li>
 		<li>
@@ -29,7 +29,7 @@
 			<p>Những thông tin đặt dịch vụ sẽ được xác nhận lần cuối cùng khi chúng tôi gửi mail cho quý khách để xác nhận thông tin đặt
 				dịch vụ. Thông tin xác nhận lần cuối cùng chính xác là lúc quý khách đã thực hiện thanh toán tiền đặt phòng. Ngược lại,
 				việc đặt phòng của quý khách có thể bị hủy bỏ nếu quý khách không thực hiện thanh toán trong vòng 24 giờ tính từ lúc đặt
-				phòng trên Bestviettravel.xyz. Chúng tôi không thể chắc chắn bất kỳ thông tin đặt phòng nào cho đến khi chúng tôi gửi email xác
+				phòng trên snotevn.com:8888. Chúng tôi không thể chắc chắn bất kỳ thông tin đặt phòng nào cho đến khi chúng tôi gửi email xác
 				nhận lần cuối.</p>
 		</li>
 		<li>
@@ -65,7 +65,7 @@
 		</li>
 		<li>
 			<h5>Bản quyền:</h5>
-			<p>Những hình ảnh và nội dung trên Bestviettravel.xyz là không được phép sao chép hoặc được sử dụng lại với bất kỳ phiên bản nào
+			<p>Những hình ảnh và nội dung trên snotevn.com:8888 là không được phép sao chép hoặc được sử dụng lại với bất kỳ phiên bản nào
 				khác mà chỉ được sử dụng trên trang web của chúng tôi.</p>
 		</li>
 		<li>
@@ -86,25 +86,25 @@
 			<p>
 			
 			<ul>
-				<li>Chấp nhận Điều khoản sử dụng Bestviettravel.xyz là điều kiện cần thiết để sử dụng các dịch vụ của Bestviettravel.xyz và trung tâm
-					hỗ trợ Bestviettravel.xyz. Điều khoản sử dụng Bestviettravel.xyz được đăng tải trên trang web của Bestviettravel.xyz. Người sử dụng cần tuân
-					theo các điều khoản này từ thời điểm bắt đầu sử dụng trang web của Bestviettravel.xyz và các dịch vụ của trung tâm hỗ trợ
-					Bestviettravel.xyz.</li>
-				<li>ĐẶT CHỖ: là việc người sử dụng vào trang web của Bestviettravel.xyz hoặc gọi điện thoại hoặc đến văn phòng công ty Best Price để mua vé máy bay theo các tiêu chí (ví dụ: đường bay, ngày bay) do người sử dụng lựa chọn.</li>
-				<li>YÊU CẦU ĐẶT VÉ: là việc người sử dụng vào trang web của Bestviettravel.xyz hoặc thông qua Trung tâm hỗ trợ Bestviettravel.xyz để mua vé máy bay.</li>
-				<li>Người dùng cần đọc và chấp nhận các điều kiện liên quan tới ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ vé máy bay và các dịch vụ khác trên trang web của Bestviettravel.xyz.</li>
-				<li>Nội dung của các trang web www.Bestviettravel.xyz được bảo vệ bởi pháp luật.</li>
-				<li>Để thực hiện việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ cho các dịch vụ và vé máy bay, người sử dụng cần có một địa chỉ thư điện tử (e-mail) hoặc một số điện thoại đang hoạt động. Người sử dụng đồng ý rằng tất cả các giao dịch của Bestviettravel.xyz với người sử dụng sẽ được thực hiện thông qua thư điện tử và số điện thoại mà người sử dụng đã đăng ký với Bestviettravel.xyz.</li>
-				<li>Người sử dụng đồng ý để Bestviettravel.xyz sử dụng các thông tin cá nhân mà người sử dụng đã cung cấp cho Bestviettravel.xyztrong phạm vi cho phép để thực hiện việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ, bao gồm cả việc khiếu nại về việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ trong phạm vi kinh doanh của Bestviettravel.xyz.</li>
-				<li>Tên thương mại, tên, thiết kế và thương hiệu được đăng tải tại www.Bestviettravel.xyzđược pháp luật bảo vệ. Người sử dụng không được thực hiện bất kỳ hành động nào vi phạm đến quyền sở hữu trí tuệ của các tên thương mại, tên, thiết kế và thương hiệu trên trang web của Bestviettravel.xyz.</li>
-				<li>Người dùng chấp nhận rằng Bestviettravel.xyzcó thể cung cấp đến các cơ quan có thẩm quyền về các hoạt động trái phép để xâm nhập vào trang web của Bestviettravel.xyz.</li>
+				<li>Chấp nhận Điều khoản sử dụng snotevn.com:8888 là điều kiện cần thiết để sử dụng các dịch vụ của snotevn.com:8888 và trung tâm
+					hỗ trợ snotevn.com:8888. Điều khoản sử dụng snotevn.com:8888 được đăng tải trên trang web của snotevn.com:8888. Người sử dụng cần tuân
+					theo các điều khoản này từ thời điểm bắt đầu sử dụng trang web của snotevn.com:8888 và các dịch vụ của trung tâm hỗ trợ
+					snotevn.com:8888.</li>
+				<li>ĐẶT CHỖ: là việc người sử dụng vào trang web của snotevn.com:8888 hoặc gọi điện thoại hoặc đến văn phòng công ty Best Price để mua vé máy bay theo các tiêu chí (ví dụ: đường bay, ngày bay) do người sử dụng lựa chọn.</li>
+				<li>YÊU CẦU ĐẶT VÉ: là việc người sử dụng vào trang web của snotevn.com:8888 hoặc thông qua Trung tâm hỗ trợ snotevn.com:8888 để mua vé máy bay.</li>
+				<li>Người dùng cần đọc và chấp nhận các điều kiện liên quan tới ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ vé máy bay và các dịch vụ khác trên trang web của snotevn.com:8888.</li>
+				<li>Nội dung của các trang web www.snotevn.com:8888 được bảo vệ bởi pháp luật.</li>
+				<li>Để thực hiện việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ cho các dịch vụ và vé máy bay, người sử dụng cần có một địa chỉ thư điện tử (e-mail) hoặc một số điện thoại đang hoạt động. Người sử dụng đồng ý rằng tất cả các giao dịch của snotevn.com:8888 với người sử dụng sẽ được thực hiện thông qua thư điện tử và số điện thoại mà người sử dụng đã đăng ký với snotevn.com:8888.</li>
+				<li>Người sử dụng đồng ý để snotevn.com:8888 sử dụng các thông tin cá nhân mà người sử dụng đã cung cấp cho snotevn.com:8888trong phạm vi cho phép để thực hiện việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ, bao gồm cả việc khiếu nại về việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ trong phạm vi kinh doanh của snotevn.com:8888.</li>
+				<li>Tên thương mại, tên, thiết kế và thương hiệu được đăng tải tại www.snotevn.com:8888được pháp luật bảo vệ. Người sử dụng không được thực hiện bất kỳ hành động nào vi phạm đến quyền sở hữu trí tuệ của các tên thương mại, tên, thiết kế và thương hiệu trên trang web của snotevn.com:8888.</li>
+				<li>Người dùng chấp nhận rằng snotevn.com:8888có thể cung cấp đến các cơ quan có thẩm quyền về các hoạt động trái phép để xâm nhập vào trang web của snotevn.com:8888.</li>
 				<li>
 				<b>Quyền miễn trừ trách nhiệm</b>
 				<p>Người sử dụng hoặc người có tên trên vé máy bay cần có đầy đủ các giấy tờ hợp lệ phục vụ cho việc đi lại bằng đường hàng không như: Chứng minh nhân dân, hộ chiếu, visa ngay tại thời điểm ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ. Trong trường hợp ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ các loại vé dành cho sinh viên, người sử dụng hoặc người có tên trên vé cần có thẻ sinh viên còn giá trị.</li>
 				<li>Người sử dụng tự chịu trách nhiệm nếu không có visa nhập cảnh và quá cảnh theo quy định. Người sử dụng chịu trách nhiệm tìm hiểu các thông tin về yêu cầu visa trước khi thực hiện việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ.</li>
-				<li>Bestviettravel.xyzkhông chịu trách nhiệm trong trường hợp việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ không thể thực hiện được vì các lý do kỹ thuật (lỗi của các hệ thống GDS) hoặc các trường hợp bất khả kháng.</li>
+				<li>snotevn.com:8888không chịu trách nhiệm trong trường hợp việc ĐẶT CHỖ, YÊU CẦU ĐẶT VÉ không thể thực hiện được vì các lý do kỹ thuật (lỗi của các hệ thống GDS) hoặc các trường hợp bất khả kháng.</li>
 				<li>
-					Bestviettravel.xyzkhông chịu trách nhiệm trong các trường hợp cụ thể dưới đây:
+					snotevn.com:8888không chịu trách nhiệm trong các trường hợp cụ thể dưới đây:
 					<ul>
 						<li>Bất kỳ sự chậm trễ hoặc thay đổi nào về chuyến bay của hãng hàng không truyền thống hoặc hãng hàng không giá rẻ;</li>
 						<li>Chất lượng của các dịch vụ hàng không và các dịch vụ có liên quan (ví dụ như việc thất lạc hành lý);</li>
@@ -113,8 +113,8 @@
 						<li>Khách hàng đã mua vé nhưng không sử dụng toàn bộ hành trình đã mua trên vé (ví dụ như đi một chiều đối với vé khứ hồi);</li>
 						<li>Khách hàng bị từ chối chuyên chở do không có đầy đủ các giấy tờ cá nhân theo quy định (ví dụ: không có visa, visa giả, không có hộ chiếu, giấy chứng minh nhân dân, thiếu các tài liệu cần thiết khi đi du lịch với trẻ vị thành niên);</li>
 						<li>Tất cả các khiếu nại liên quan đến việc thực hiện hợp đồng chuyên chở sẽ do người sử dụng làm việc trực tiếp với các các Hãng hàng không. Việc khiếu nại cần phù hợp với quy định của các Hãng hàng không.</li>
-						<li>Bestviettravel.xyz không chịu trách nhiệm bồi thường cho người sử dụng nếu nguyên nhân được xác định là do các trường hợp bất khả kháng.</li>
-						<li>Bestviettravel.xyz không chịu trách nhiệm về sự lựa chọn các chuyến bay của người sử dụng hoặc người có tên trên vé máy bay.</li>
+						<li>snotevn.com:8888 không chịu trách nhiệm bồi thường cho người sử dụng nếu nguyên nhân được xác định là do các trường hợp bất khả kháng.</li>
+						<li>snotevn.com:8888 không chịu trách nhiệm về sự lựa chọn các chuyến bay của người sử dụng hoặc người có tên trên vé máy bay.</li>
 					</ul>
 				</li>
 			</ul>
@@ -131,16 +131,16 @@
 						<li>Người sử dụng sử dụng thẻ tín dụng mà bản thân Người sử dụng là chủ sở hữu hoặc được sự cho phép của chủ sở hữu để thực hiện việc thanh toán vé máy bay. Người sử dụng hiểu rằng, việc sử dụng thẻ tín dụng giả hoặc lấy trộm là hành vi vi phạm Bộ Luật Hình sự;</li>
 					</ul>
 				</li>
-				<li>Bestviettravel.xyz  thực hiện việc xuất vé máy bay sau khi đã nhận được đầy đủ các khoản thanh toán từ Người sử dụng trong giờ làm việc của Bestviettravel.xyz  và phù hợp với các quy định trong Điều khoản sử dụng. Phụ thuộc vào hình thức thanh toán và trong một số trường hợp nhất định, Bestviettravel.xyz  có thể thực hiện việc xuất vé ngoài giờ làm việc. Với những vé có thời hạn xuất vé trùng với những ngày nghỉ, Bestviettravel.xyz  có thể sẽ thực hiện việc xuất vé cho Người sử dụng kịp thời nhất có thể.</li>
-				<li>Bestviettravel.xyz  sẽ gửi vé máy bay điện tử tới Người sử dụng qua email. Bestviettravel.xyz  không chịu trách nhiệm về việc Người sử dụng không nhận được vé điện tử do Người sử dụng cung cấp địa chỉ email sai. Trong trường hợp không nhận được vé máy bay, Người sử dụng nên kiểm tra lại các chương trình chống virus, chống spam xem các chương trình đó có ngăn cản việc nhận vé máy bay không hoặc liên hệ với Bestviettravel.xyz</li>
+				<li>snotevn.com:8888  thực hiện việc xuất vé máy bay sau khi đã nhận được đầy đủ các khoản thanh toán từ Người sử dụng trong giờ làm việc của snotevn.com:8888  và phù hợp với các quy định trong Điều khoản sử dụng. Phụ thuộc vào hình thức thanh toán và trong một số trường hợp nhất định, snotevn.com:8888  có thể thực hiện việc xuất vé ngoài giờ làm việc. Với những vé có thời hạn xuất vé trùng với những ngày nghỉ, snotevn.com:8888  có thể sẽ thực hiện việc xuất vé cho Người sử dụng kịp thời nhất có thể.</li>
+				<li>snotevn.com:8888  sẽ gửi vé máy bay điện tử tới Người sử dụng qua email. snotevn.com:8888  không chịu trách nhiệm về việc Người sử dụng không nhận được vé điện tử do Người sử dụng cung cấp địa chỉ email sai. Trong trường hợp không nhận được vé máy bay, Người sử dụng nên kiểm tra lại các chương trình chống virus, chống spam xem các chương trình đó có ngăn cản việc nhận vé máy bay không hoặc liên hệ với snotevn.com:8888</li>
 			</ul>
 		</li>
 		<li>
 			<h5>Đổi vé máy bay và các dịch vụ khác</h5>
 			
 			<ul>
-				<li>Người sử dụng chấp thuận rằng các Hãng hàng không có thể thay đổi các thông số của vé máy bay (ví dụ như: Thay đổi giờ khởi hành) sau khi vé máy bay đã được xuất vì một số lý do chủ quan từ Hãng hàng không hoặc vì các lý do bất khả kháng. Hãng hàng không chịu trách nhiệm về thay đổi này. Trong trường hợp nhận được thông tin về việc thay đổi từ các Hãng hàng không từ trước, Bestviettravel.xyz sẽ thông báo ngay cho Người sử dụng cũng như giải pháp đề nghị của các Hãng hàng không.</li>
-				<li>Thông thường các Hãng hàng không không cho phép việc đổi tên hành khách. Trong một số đặc biệt, nếu Hãng hàng không cho phép đổi tên hành khách thì Bestviettravel.xyz sẽ thực hiện việc đổi tên theo yêu cầu của Người sử dụng. Người sử dụng đồng ý trả Phí dịch vụ cho Bestviettravel.xyz để thực hiện việc đổi tên hành khách.</li>
+				<li>Người sử dụng chấp thuận rằng các Hãng hàng không có thể thay đổi các thông số của vé máy bay (ví dụ như: Thay đổi giờ khởi hành) sau khi vé máy bay đã được xuất vì một số lý do chủ quan từ Hãng hàng không hoặc vì các lý do bất khả kháng. Hãng hàng không chịu trách nhiệm về thay đổi này. Trong trường hợp nhận được thông tin về việc thay đổi từ các Hãng hàng không từ trước, snotevn.com:8888 sẽ thông báo ngay cho Người sử dụng cũng như giải pháp đề nghị của các Hãng hàng không.</li>
+				<li>Thông thường các Hãng hàng không không cho phép việc đổi tên hành khách. Trong một số đặc biệt, nếu Hãng hàng không cho phép đổi tên hành khách thì snotevn.com:8888 sẽ thực hiện việc đổi tên theo yêu cầu của Người sử dụng. Người sử dụng đồng ý trả Phí dịch vụ cho snotevn.com:8888 để thực hiện việc đổi tên hành khách.</li>
 			</ul>
 		</li>
 	</ul>

@@ -32,7 +32,7 @@
             		
             		<h4 class="bpv-color-title margin-top-20 pd-left-20">3. Quy mô công ty</h4>
             		<div class="pd-left-20">
-                        <img class="img-responsive" alt="Quy mô công ty Bestviettravel.xyz" src="<?=get_static_resources('/media/about/quy_mo_cong_ty_bestpricevn.png')?>">
+                        <img class="img-responsive" alt="Quy mô công ty snotevn.com:8888" src="<?=get_static_resources('/media/about/quy_mo_cong_ty_bestpricevn.png')?>">
             		</div>
             		
             		<h4 class="bpv-color-title margin-top-20 pd-left-20">4. Dịch vụ cung cấp</h4>
@@ -248,9 +248,9 @@
                 		<p><b><?=lang('company_japan_address_label')?></b> <?=lang('company_japan_address')?>
                 		<br>Điện thoại: <a href="tel:815033882933">(81) 50 3388 2933</a>
                 		
-                		<p>Địa chỉ email: <a href="mailto:sales@Bestviettravel.xyz">sales@Bestviettravel.xyz</a></p>
+                		<p>Địa chỉ email: <a href="mailto:sales@snotevn.com:8888">sales@snotevn.com:8888</a></p>
                 		
-                		<p>Website: <a href="http://www.Bestviettravel.xyz">http://www.Bestviettravel.xyz</a></p>
+                		<p>Website: <a href="http://www.snotevn.com:8888">http://www.snotevn.com:8888</a></p>
             		</div>
             </div>
     	</div>	

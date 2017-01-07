@@ -27,8 +27,8 @@ $config['booking_status'] = array(
 );
 
 $config['booking_sites'] = array(
-		1 => 'Bestviettravel.xyz',
-		2 => 'Mobile m.Bestviettravel.xyz',
+		1 => 'snotevn.com:8888',
+		2 => 'Mobile m.snotevn.com:8888',
 );
 
 $config['customer_types'] = array(
@@ -561,9 +561,9 @@ $config['passenger_gender'] = array(
  */
 $config['invalid_customer_emails'] = array(
 	'khuyenpv@gmail.com',
-	'khuyenpv@Bestviettravel.xyz',
+	'khuyenpv@snotevn.com:8888',
 	'khanhtoan1187@gmail.com',
-	'toanlk@Bestviettravel.xyz',
+	'toanlk@snotevn.com:8888',
 	'111@gmail.com',
 	'abc2@abc.com',
 	'aa@gmail.com',

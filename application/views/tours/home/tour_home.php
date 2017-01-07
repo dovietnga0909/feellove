@@ -217,7 +217,7 @@
                     </a>
                 </div>
                 <div class="col-xs-4" style="padding: 0 10px">
-                    <a target="_blank" class="pull-right" rel="nofollow" href="http://www.Bestviettravel.xyz/tin-tuc/bestprice-duoc-cap-giay-phep-kinh-doanh-lu-hanh-quoc-te-43.html">
+                    <a target="_blank" class="pull-right" rel="nofollow" href="http://www.snotevn.com:8888/tin-tuc/bestprice-duoc-cap-giay-phep-kinh-doanh-lu-hanh-quoc-te-43.html">
                         <img class="img-responsive" src="<?=get_static_resources('/media/tour/international_licence.jpg')?>">
                     </a>
                 </div>

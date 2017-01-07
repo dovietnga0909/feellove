@@ -1632,7 +1632,7 @@ class Bookings extends BP_Controller {
 		$config['smtp_host']='ssl://smtp.googlemail.com';
 		$config['smtp_port']='465';
 		$config['smtp_timeout']='30';
-		$config['smtp_user']='booking@Bestviettravel.xyz';
+		$config['smtp_user']='booking@snotevn.com:8888';
 		$config['smtp_pass']='Bpt052010';
 		
 		$config['charset']='utf-8';

@@ -1992,18 +1992,18 @@ function send_email_flight_error_notify($message, $error_type = 1){
 	}
 	
 	$from_sbj = "Data Exception";
-	$subject = 'Flight Data Exception (Bestviettravel.xyz) '. date('d-m-Y H:i:s');
+	$subject = 'Flight Data Exception (snotevn.com:8888) '. date('d-m-Y H:i:s');
 	
 	if($error_type == 2){
-		$subject = 'Flight Session Cookie Lost (Bestviettravel.xyz) '. date('d-m-Y H:i:s');
+		$subject = 'Flight Session Cookie Lost (snotevn.com:8888) '. date('d-m-Y H:i:s');
 		$from_sbj = "Session Cookie Lost";
 	} elseif ($error_type == 3){
-		$subject = 'VNISC Connection Error (Bestviettravel.xyz) '. date('d-m-Y H:i:s');
+		$subject = 'VNISC Connection Error (snotevn.com:8888) '. date('d-m-Y H:i:s');
 		$from_sbj = "VNISC Connection Error";
 	}
 	
 	
-	$content = "<b>Website:</b> Bestviettravel.xyz".'<br>';
+	$content = "<b>Website:</b> snotevn.com:8888".'<br>';
 
 	$content .= "<b>Time:</b> ".date('d-m-Y H:i:s').'<br>';
 

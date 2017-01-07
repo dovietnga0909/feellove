@@ -839,7 +839,7 @@ function get_page_meta($meta) {
 	
 	$title = !empty($meta['title']) ? $meta['title'] : lang('default_title');
 	
-	$title .=' - Bestviettravel.xyz';
+	$title .=' - snotevn.com:8888';
 	
 	$content .= '<title>'.$title.'</title>'."\n\t\t";
 	

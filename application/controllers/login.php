@@ -33,10 +33,10 @@ class Login extends CI_Controller {
 				);
 				$this->Account_Model->add_account($data);
 				$request = 1;
-				$this->sendMail($subject, $content ,$email, 'sales@Bestviettravel.xyz');
+				$this->sendMail($subject, $content ,$email, 'sales@snotevn.com:8888');
 			}else{
 				$request =2;
-				$this->sendMail($subject, $content ,$email, 'sales@Bestviettravel.xyz');
+				$this->sendMail($subject, $content ,$email, 'sales@snotevn.com:8888');
 			}
 		}else{
 			$request = 3;
@@ -87,7 +87,7 @@ class Login extends CI_Controller {
 				$data['register']		= SIGN_IN;
 				$data['date_modified']	= date(DB_DATE_TIME_FORMAT);
 				$data['date_created']	= date(DB_DATE_TIME_FORMAT);
-				$this->sendMail($subject, $content, $email, 'sales@Bestviettravel.xyz');
+				$this->sendMail($subject, $content, $email, 'sales@snotevn.com:8888');
 				$this->Account_Model->add_account($data);
 				$request = 1;
 				
@@ -98,7 +98,7 @@ class Login extends CI_Controller {
 					$data['date_modified']	= date(DB_DATE_TIME_FORMAT);
 					$data['date_created']	= date(DB_DATE_TIME_FORMAT);
 					
-					$this->sendMail($subject, $content, $email, 'sales@Bestviettravel.xyz');
+					$this->sendMail($subject, $content, $email, 'sales@snotevn.com:8888');
 					$this->Account_Model->update_account($email,$data);
 					$request = 2;
 				}else{

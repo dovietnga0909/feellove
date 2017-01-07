@@ -198,7 +198,7 @@
                 <td style="vertical-align: top;"><img src="<?=get_static_resources('media/news/go_out_together/Camera-Icon.png')?>"></td>
                 <td>
                     <p><span class="step">Bước 1</span>: Gửi anh du lịch của bạn cùng người thân hoặc ảnh vẽ ngón tay du lịch ngộ nghĩnh. Sau đó gửi ảnh dự thi vào email: 
-                    <a href="mailto:marketing@Bestviettravel.xyz">marketing@Bestviettravel.xyz</a> hoặc gửi qua message 
+                    <a href="mailto:marketing@snotevn.com:8888">marketing@snotevn.com:8888</a> hoặc gửi qua message
                     <a href="https://www.facebook.com/BestPricevn">Fanpage Best Price</a> cùng thông tin cá nhân gồm: Tên, Năm sinh, Sđt, Email, Link trang facebook của bạn.</p>
                 </td>
             </tr>
@@ -240,7 +240,7 @@
         <p>Thời gian thực hiện. Từ ngày 1/12 đến hết 21/12/2014</p>
         
         <p>Bước 1: Gửi anh du lịch của bạn cùng người thân hoặc ảnh vẽ ngón tay du lịch ngộ nghĩnh. Sau đó gửi ảnh dự thi vào email: 
-        <a href="mailto:marketing@Bestviettravel.xyz">marketing@Bestviettravel.xyz</a> hoặc gửi qua message 
+        <a href="mailto:marketing@snotevn.com:8888">marketing@snotevn.com:8888</a> hoặc gửi qua message
         <a href="https://www.facebook.com/BestPricevn">Fanpage Best Price</a> cùng thông tin cá nhân gồm: Tên, Sđt, Email, Link trang facebook của bạn.
         </p>
         

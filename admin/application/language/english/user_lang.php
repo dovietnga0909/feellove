@@ -32,7 +32,7 @@ $lang['account_field_active']		= "Active";
 $lang['date_create']				= "Date Create";
 
 $lang['create_account_title']		= "Create Account";
-$lang['subject_account_create']		= "Chào bạn %1 đã tham gia thành viên Bestviettravel.xyz";
+$lang['subject_account_create']		= "Chào bạn %1 đã tham gia thành viên snotevn.com:8888";
 $lang['fail_to_create_account']		= "Fail to save data! Email have existed";
 $lang['reset_password']				= "RESET PASSWORD";
 $lang['confirm_reset_password']		= "Do you want reset password this account ?";

@@ -116,7 +116,7 @@ $config['template_type']	= array(
 $config['gmail_account']	= array(
 	
 	0	=> array(
-    			'gmail'	=> 'tour@Bestviettravel.xyz',
+    			'gmail'	=> 'tour@snotevn.com:8888',
     			'pass'	=>	'a@123456$',
     		),
     1	=> array(
@@ -124,11 +124,11 @@ $config['gmail_account']	= array(
     			'pass'	=>	'antigod2004',
     		),
     2	=> array(
-    			'gmail'	=> 'cruise@Bestviettravel.xyz',
+    			'gmail'	=> 'cruise@snotevn.com:8888',
     			'pass'	=>	'a@123456$',
     		),
     3	=> array(
-    			'gmail'	=> 'newsletter@Bestviettravel.xyz',
+    			'gmail'	=> 'newsletter@snotevn.com:8888',
     			'pass'	=>	'a@123456$',
     		),
     4	=> array(

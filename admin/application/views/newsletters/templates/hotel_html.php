@@ -39,7 +39,7 @@
 					<table style="cell-padding: 0; border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; height: 100%; width: 100%; font-family: Arial,Helvetica,sans-serif; color: #000000; font-size: 12px; margin: 0; padding: 0;">
 						<tr>
 							<td>
-								<img src="http://www.Bestviettravel.xyz/media/bestpricevn-logo.31052014.png" height="54"/>
+								<img src="http://www.snotevn.com:8888/media/bestpricevn-logo.31052014.png" height="54"/>
 							</td>
 							<td>
 								<b>DATE: <?=date(DB_DATE_FORMAT)?></b>
@@ -54,7 +54,7 @@
 						</tr>
 						<tr>
 							<td>
-								<img id="nguyenson-1"  width="100%" height="250" start-photo-1 src="http://www.Bestviettravel.xyz/images/hotels/uploads/terrace-resort-5337e0fed453d.JPG" end-photo-1 />
+								<img id="nguyenson-1"  width="100%" height="250" start-photo-1 src="http://www.snotevn.com:8888/images/hotels/uploads/terrace-resort-5337e0fed453d.JPG" end-photo-1 />
 							</td>
 						</tr>
 					</table>
@@ -95,7 +95,7 @@
 					</table>
 					<table style="cell-padding: 0; border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; height: 100%; width: 100%; font-family: Arial,Helvetica,sans-serif; color: #000000; font-size: 12px; margin: 5px 0; padding: 0;">
 						<tr>
-							<td><img id="nguyenson-2" width="100%" height="250" start-photo-2 src="http://www.Bestviettravel.xyz/images/hotels/uploads/terrace-resort-5337e0fed453d.JPG" end-photo-2 /></td>
+							<td><img id="nguyenson-2" width="100%" height="250" start-photo-2 src="http://www.snotevn.com:8888/images/hotels/uploads/terrace-resort-5337e0fed453d.JPG" end-photo-2 /></td>
 						</tr>
 					</table>
 					<table style="cell-padding: 0; border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; height: 100%; width: 100%; font-family: Arial,Helvetica,sans-serif; color: #000000; font-size: 12px; margin: 5px 0; padding: 0;">
@@ -118,8 +118,8 @@
 								<b>Văn phòng Hồ Chí Minh:</b> <span>Phòng 102, Tòa nhà DMC, 223 Điện Biên Phủ, Quận Bình Thạnh, Hồ Chí Minh.</span><br/>
 								<span style="color: rgb(51, 51, 51); font-family: Arial; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.7142858505249px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">
 									Điện thoại:  (04) 3978 1425 / 0936.129.428 <br/>
-									Website: <a href="http://www.Bestviettravel.xyz"> http://www.Bestviettravel.xyz</a> <br>
-									Email: <a href="mailto:sale@Bestviettravel.xyz">sale@Bestviettravel.xyz</a>
+									Website: <a href="http://www.snotevn.com:8888"> http://www.snotevn.com:8888</a> <br>
+									Email: <a href="mailto:sale@snotevn.com:8888">sale@snotevn.com:8888</a>
 								</span>
 							</p>
 							</td>

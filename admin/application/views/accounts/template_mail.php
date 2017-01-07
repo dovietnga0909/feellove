@@ -1,6 +1,6 @@
-<p class="company-name"><b>Bestviettravel.xyz xin chào <?=$email?></b></p>
+<p class="company-name"><b>snotevn.com:8888 xin chào <?=$email?></b></p>
 <div class="row">
-	<p>Chúc mừng bạn <?=$email?> đã tham gia thành viên của Bestviettravel.xyz</p>
+	<p>Chúc mừng bạn <?=$email?> đã tham gia thành viên của snotevn.com:8888</p>
 	<p>Tên đăng nhập : <?=$email?></p>
 	<p>Mật khẩu : <?=$password?></p>
 	<p>Chỉ còn 1 bước nữa để trở thành thành viên là xác nhận địa chỉ email  <?=$email?> là của bạn. <br/>

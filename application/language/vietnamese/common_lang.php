@@ -51,7 +51,7 @@ $lang['offline_time'] = "Hiện tại chúng tôi không có nhân viên nào đ
 $lang['hotel_support'] 				= "Hỗ trợ đặt phòng";
 $lang['flight_support'] 			= "Hỗ trợ đặt vé";
 
-$lang['why_choose_us'] 				= "Vì sao chọn Bestviettravel.xyz?";
+$lang['why_choose_us'] 				= "Vì sao chọn snotevn.com:8888?";
 $lang['why_choose_us_1'] 			= "Đảm bảo giá tốt nhất";
 $lang['why_choose_us_2'] 			= "Khuyến mãi hấp dẫn và linh hoạt";
 $lang['why_choose_us_3'] 			= "Lợi ích tối đa cho thành viên";
@@ -59,7 +59,7 @@ $lang['why_choose_us_4'] 			= "Dịch vụ tin cậy - giá trị đích thực"
 $lang['why_choose_us_5'] 			= "Hỗ trợ tận tình - chu đáo";
 $lang['why_choose_us_6'] 			= "Thanh toán an toàn - tiện lợi";
 
-$lang['why_choose_us_flight'] 		= "Vì sao đặt vé tại Bestviettravel.xyz?";
+$lang['why_choose_us_flight'] 		= "Vì sao đặt vé tại snotevn.com:8888?";
 $lang['why_choose_us_1_flight'] 	= "Đặt vé tiện lợi - Giữ chỗ trực tuyến";
 $lang['why_choose_us_2_flight'] 	= "Luôn có vé giá rẻ";
 $lang['why_choose_us_3_flight'] 	= "Ưu đãi cho thành viên";
@@ -106,12 +106,12 @@ $lang['newsletter_placeholder']	 	= "Nhập thông tin email của bạn";
 $lang['btn_newsletter'] 			= "Đăng ký ngay";
 $lang['newsletter_invalid_email'] 	= "Xin vui lòng nhập đúng email của bạn!";
 $lang['newsletter_success'] 		= "Đã đăng ký thành công.";
-$lang['subject_news_letter']		= "Chào mừng quý khách đến với Bestviettravel.xyz ";
+$lang['subject_news_letter']		= "Chào mừng quý khách đến với snotevn.com:8888 ";
 
 // Sign/in-up
 $lang['sign_in_password'] = "Mật khẩu";
 $lang['sign_false']	=	"Thông tin đăng nhập chưa chính xác.";
-$lang['subject_sign_up']	=	"Chào bạn %1 đã tham gia thành viên Bestviettravel.xyz";
+$lang['subject_sign_up']	=	"Chào bạn %1 đã tham gia thành viên snotevn.com:8888";
 
 // Flights
 $lang['international_flights'] 	= "Vé máy bay Quốc tế";
@@ -166,11 +166,11 @@ $lang['credit_debit_cards']			= "Thanh toán bằng thẻ Visa, Master";
 $lang['credit_debit_cards_desc']	= "Đối với thẻ tín dụng, dựa trên loại tiền tệ và quốc gia phát hành thẻ của quý khách, nhà cung cấp thẻ sẽ tính thêm chi phí tỉ giá và các mức phí khác với sự đồng ý của quý khách và nhà cung cấp thẻ.<br>Mức phí 3.3% (POS) tổng giá trị thanh toán.";
 $lang['domestic_cards']				= "Thanh toán trực tuyến qua Onepay bằng thẻ ATM";
 $lang['domestic_cards_sub_title']	= "Thanh toán bằng các loại thẻ ATM đã kích hoạt dịch vụ internet banking. Best Price sẽ miễn phí giao dịch cho quý khách.";
-$lang['domestic_cards_desc']		= "<ul class='pd-left-10'><li>Đối với đặt phòng khách sạn, nhân viên của Bestviettravel.xyz sẽ gửi link thanh toán trực tuyến cho quý khách ngay sau khi hoàn tất đơn hàng.</li> <li>Đối với vé máy bay, sau khi chọn hình thức thanh toán trực tuyến qua Onepay trên website, hệ thống sẽ tự động chuyển tới giao diện thanh toán bằng Onepay</li></ul>";
+$lang['domestic_cards_desc']		= "<ul class='pd-left-10'><li>Đối với đặt phòng khách sạn, nhân viên của snotevn.com:8888 sẽ gửi link thanh toán trực tuyến cho quý khách ngay sau khi hoàn tất đơn hàng.</li> <li>Đối với vé máy bay, sau khi chọn hình thức thanh toán trực tuyến qua Onepay trên website, hệ thống sẽ tự động chuyển tới giao diện thanh toán bằng Onepay</li></ul>";
 $lang['bank_transfer']				= "Thanh toán bằng chuyển khoản ngân hàng";
 $lang['account_number']				= "Số TK:";
 $lang['account_name']				= "Chủ TK:";
-$lang['bank_transfer_desc']			= "Bestviettravel.xyz có tài khoản tại Ngân hàng Vietcombank với thông tin thoài khoản như sau:";
+$lang['bank_transfer_desc']			= "snotevn.com:8888 có tài khoản tại Ngân hàng Vietcombank với thông tin thoài khoản như sau:";
 $lang['payment_at_office']			= "Thanh toán tại văn phòng BestPrice";
 $lang['payment_working_times']		= "<b>Giờ làm việc</b>: 8.00- 17.30 (thứ 2- thứ 6), 8.00- 11.30 (thứ 7)";
 $lang['please_select_payment_method']	= "(Click vào để chọn)";
@@ -211,7 +211,7 @@ $lang['company_korea_address_label']= "Văn phòng Hàn Quốc:";
 $lang['company_korea_address']		= "4th floor, 384-19 Bukgajwa-dong, Seodaemun-gu, Seoul, Korea.";
 $lang['company_japan_address_label']= "Văn phòng Nhật Bản:";
 $lang['company_japan_address']		= "8F, ATT New Tower, Akasaka 2-11-7, Akasaka Minakotu, Tokyo, 107-0052 Japan.";
-$lang['copyright'] 				= "Copyright &copy; 2010-2013 Bestviettravel.xyz. All right reserved.";
+$lang['copyright'] 				= "Copyright &copy; 2010-2013 snotevn.com:8888. All right reserved.";
 $lang['view_map'] 				= "Xem bản đồ";
 $lang['bestprice_with_newspaper'] 	= "Bestprice với báo chí";
 $lang['lbl_phone'] = 'Điện thoại:';
@@ -447,7 +447,7 @@ $lang['c_year'] = "Năm";
 
 $lang['c_choose'] = "Chọn";
 
-$lang['c_term_agreement'] = 'Khi Quý khách nhấn nút "%1" cũng đồng nghĩa là Quý khách đã đồng ý với các <a href="http://www.Bestviettravel.xyz/dieu-khoan.html" target="_blank">điều khoản và điều kiện</a> về đặt dịch vụ trên website Bestviettravel.xyz.';
+$lang['c_term_agreement'] = 'Khi Quý khách nhấn nút "%1" cũng đồng nghĩa là Quý khách đã đồng ý với các <a href="http://www.snotevn.com:8888/dieu-khoan.html" target="_blank">điều khoản và điều kiện</a> về đặt dịch vụ trên website snotevn.com:8888.';
 
 $lang['mnu_contact'] = "Liên hệ với BestPrice";
 $lang['mnu_term_cond'] = "Quy chế hoạt động";
@@ -478,7 +478,7 @@ $lang['cf_contact_success'] = "Yêu cầu gửi thành công";
 $lang['cf_hotel_success'] = "Đặt phòng thành công";
 $lang['cf_flight_success'] = "Đặt vé máy bay thành công";
 $lang['cf_tour_success'] = "Đặt tour thành công";
-$lang['cf_thank_you'] = "Cảm ơn quý khách đã sử dụng dịch vụ tại <a href='http://www.Bestviettravel.xyz'>Bestviettravel.xyz</a>.";
+$lang['cf_thank_you'] = "Cảm ơn quý khách đã sử dụng dịch vụ tại <a href='http://www.snotevn.com:8888'>snotevn.com:8888</a>.";
 $lang['cf_contact_check'] = "Chúng tôi đã nhận được thông tin của quý khách và sẽ liên hệ sớm nhất trong vòng 8h làm việc!";
 $lang['cf_hotel_check'] = "Chúng tôi đang đặt phòng cho quý khách và liên hệ với quý khách sớm nhất trong vòng 8h làm việc. Nếu <b>đặt thêm vé máy bay</b>, quý khách sẽ được <b>nhận ưu đãi giảm giá vé</b>!";
 $lang['cf_flight_check'] = "Chúng tôi đã đặt vé cho quý khách và liên hệ với quý khách sớm nhất trong vòng 8h làm việc. Nếu <b>đặt thêm khách sạn</b>, quý khách sẽ được <b>nhận ưu đãi giảm giá phòng</b>!";
@@ -507,13 +507,13 @@ $lang['common_paging_previous'] = "Trang trước";
 $lang['default_title'] = "Đặt phòng khách sạn, vé máy bay, tour du lịch giá tốt nhất";
 
 $lang['home_title'] 		= "Đặt phòng khách sạn, vé máy bay, tour du lịch giá tốt nhất";
-$lang['home_description'] 	= "Bestviettravel.xyz -  Đại lý đặt phòng khách sạn, vé máy bay, tour du lịch trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
+$lang['home_description'] 	= "snotevn.com:8888 -  Đại lý đặt phòng khách sạn, vé máy bay, tour du lịch trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
 
 $lang['hotel_title'] 		= "Đặt phòng khách sạn trực tuyến giá tốt nhất";
-$lang['hotel_description'] 	= "Bestviettravel.xyz -  Đặt phòng khách sạn trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
+$lang['hotel_description'] 	= "snotevn.com:8888 -  Đặt phòng khách sạn trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
 
 $lang['flight_title'] 		= "Đặt vé máy bay trực tuyến giá tốt nhất";
-$lang['flight_description'] = "Bestviettravel.xyz -  Đặt vé máy bay trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
+$lang['flight_description'] = "snotevn.com:8888 -  Đặt vé máy bay trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
 
 $lang['flight_destination_title'] 		= "Vé máy bay đi %1";
 $lang['flight_destination_description'] = "Đặt vé máy bay giá rẻ đi %1";
@@ -544,10 +544,10 @@ $lang['hotel_search_title'] 		= "Tìm kiếm khách sạn";
 $lang['hotel_search_description'] 	= "";
 
 $lang['deals_title'] 				= "Khuyến mại khách sạn";
-$lang['deals_description'] 			= "Đặt phòng khách sạn giá tốt nhất. Khuyến mãi khách sạn chỉ có tại Bestviettravel.xyz";
+$lang['deals_description'] 			= "Đặt phòng khách sạn giá tốt nhất. Khuyến mãi khách sạn chỉ có tại snotevn.com:8888";
 
 $lang['cruise_hl_title'] 			= "Du thuyền Hạ Long: Đặt trực tuyến giá tốt nhất";
-$lang['cruise_hl_description'] 		= "Bestviettravel.xyz -  Đặt phòng du thuyền Hạ Long trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
+$lang['cruise_hl_description'] 		= "snotevn.com:8888 -  Đặt phòng du thuyền Hạ Long trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
 
 $lang['cruise_hl_detail_title'] 		= "%1 Hạ Long: Đặt trực tuyến giá tốt nhất";
 $lang['cruise_hl_detail_description'] 	= "%1 Hạ Long: Đặt trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
@@ -559,7 +559,7 @@ $lang['cruise_hl_search_title'] 		= "Tìm kiếm du thuyền";
 $lang['cruise_hl_search_description'] 	= "";
 
 $lang['tour_home_title'] 			= "Đặt tour du lịch đi trong nước và tour du lịch đi nước ngoài trực tuyến giá tốt nhất";
-$lang['tour_home_description'] 		= "Bestviettravel.xyz -  Đặt tour du lịch đi trong nước và tour du lịch đi nước ngoài trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
+$lang['tour_home_description'] 		= "snotevn.com:8888 -  Đặt tour du lịch đi trong nước và tour du lịch đi nước ngoài trực tuyến giá tốt nhất.  Khuyến mại, ưu đãi lớn - Dịch vụ tin cậy, hỗ trợ 24/7.";
 
 $lang['tour_search_page_title'] 		= "Tìm kiếm tour du lịch đi trong nước và tour du lịch đi nước ngoài";
 $lang['tour_search_page_description'] 	= "";

@@ -119,7 +119,7 @@
 				<table style="cell-padding: 0; border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; height: 100%; width: 100%; font-family: Arial,Helvetica,sans-serif; color: #000000; font-size: 12px; margin: 0; padding: 0;">
 					<tr>
 						<td>
-							<img src="http://www.Bestviettravel.xyz/media/bestpricevn-logo.31052014.png" height="54"/>
+							<img src="http://www.snotevn.com:8888/media/bestpricevn-logo.31052014.png" height="54"/>
 						</td>
 						<td style="vertical-align: middle;">
 							<ul style="list-style: none; float: right; padding: 0; margin: 0">
@@ -233,8 +233,8 @@
 				<b>Văn phòng Hà Nội:</b> <span>12A, Ngõ Bà Triệu, Phố Bà Triệu, Quận Hai Bà Trưng, Hà Nội.</span><br/>
 				<b>Văn phòng Hồ Chí Minh:</b> <span>Phòng 102, Tòa nhà DMC, 223 Điện Biên Phủ, Quận Bình Thạnh, Hồ Chí Minh.</span><br/>
 				Điện thoại:  (04) 3978 1425 / 0936.129.428 <br/>
-				Website: <a href="http://www.Bestviettravel.xyz">http://www.Bestviettravel.xyz</a><br>
-				Email: <a href="mailto:sale@Bestviettravel.xyz">sale@Bestviettravel.xyz</a><br>
+				Website: <a href="http://www.snotevn.com:8888">http://www.snotevn.com:8888</a><br>
+				Email: <a href="mailto:sale@snotevn.com:8888">sale@snotevn.com:8888</a><br>
 			</td>
 		</tr>
 	</table>

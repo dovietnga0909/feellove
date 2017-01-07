@@ -128,7 +128,7 @@
                     <span class="clearfix"></span>
                     </form>
                 </div>
-                <a href="http://www.Bestviettravel.xyz/gioi-thieu.html" target="_blank" class="text-center new-account">About Best Price Vietnam</a>
+                <a href="http://www.snotevn.com:8888/gioi-thieu.html" target="_blank" class="text-center new-account">About Best Price Vietnam</a>
             </div>
         </div>
     </div>

@@ -1668,7 +1668,7 @@ class Hotel_Details extends CI_Controller {
 		$config['smtp_host']='host140.hostmonster.com';//'74.220.207.140';
 		$config['smtp_port']='25';
 		$config['smtp_timeout']='30';
-		$config['smtp_user']='booking@Bestviettravel.xyz';
+		$config['smtp_user']='booking@snotevn.com:8888';
 		$config['smtp_pass']='Bpt052010';
 		*/
 		

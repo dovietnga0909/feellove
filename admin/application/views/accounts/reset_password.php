@@ -1,4 +1,4 @@
-<p class="company-name"><b>Bestviettravel.xyz xin chào <?=$email?></b></p>
+<p class="company-name"><b>snotevn.com:8888 xin chào <?=$email?></b></p>
 <p>Tài khoản của bạn đã được thay đổi lại mật khẩu</p>
 <div class="row">
 	<p>Tên đăng nhập : <?=$email?></p>

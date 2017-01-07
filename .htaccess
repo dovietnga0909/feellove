@@ -4,11 +4,11 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !\..+$
 RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ http://bestviettravel.xyz/$1/ [R=301,L]
+RewriteRule ^(.*)$ http://snotevn.com:8888/$1/ [R=301,L]
 
 # REDIRECT .html/ to .html/
 RewriteCond %{REQUEST_URI} \.html(\/)+$
-RewriteRule ^(.*html)(\/)+$ http://bestviettravel.xyz/$1 [r=301,nc,L]
+RewriteRule ^(.*html)(\/)+$ http://snotevn.com:8888/$1 [r=301,nc,L]
 
 # REMOVE index.php in URL
 RewriteCond $1 !^(index\.php|images|robots\.txt|css)
@@ -19,7 +19,7 @@ RewriteRule ^(.*)$ ./index.php?$1 [L]
 
 # REDIRECT /folder/index.php to /folder/
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.php\ HTTP/
-RewriteRule ^(([^/]+/)*)index\.php$ http://bestviettravel.xyz/$1 [R=301,L]
+RewriteRule ^(([^/]+/)*)index\.php$ http://snotevn.com:8888/$1 [R=301,L]
 
 
 #Compress files

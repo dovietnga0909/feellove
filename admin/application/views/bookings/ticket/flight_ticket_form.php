@@ -41,7 +41,7 @@
 					<div style="<?=$line_text?>;font-size: 14px;font-weight:bold;"><?=lang('tf_company_name')?></div>
 					<div style="<?=$line_text?>"><b>VP Hà Nội:</b> 12A, Ngõ Bà Triệu, Phố Bà Triệu, Hai Bà Trưng, HN</div>
 					<div style="<?=$line_text?>"><b>VP Sài Gòn:</b> P.102, Nhà DMC, 223 Điện Biên Phủ, Quận Bình Thạnh, HCM</div>
-					<div style="<?=$line_text?>">Website: www.Bestviettravel.xyz - Tel: (04) 3978 1425</div>
+					<div style="<?=$line_text?>">Website: www.snotevn.com:8888 - Tel: (04) 3978 1425</div>
 					<div style="<?=$line_text?>"><b>Hotline:</b> <?=$cb['hotline_number']?> (<?=$cb['hotline_name']?>)</div>
 				</td>
 			</tr>

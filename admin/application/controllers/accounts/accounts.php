@@ -106,7 +106,7 @@ class Accounts extends BP_Controller {
 			$save_status = false;
 			if($check_email == 0 ){
 				
-				$this->sendMail($subject, $content, $email, 'sales@Bestviettravel.xyz');
+				$this->sendMail($subject, $content, $email, 'sales@snotevn.com:8888');
 				$save_status = $this->Account_model->create_account($account);
 			}
 			
@@ -230,7 +230,7 @@ class Accounts extends BP_Controller {
 			
 			$content = $this->load->view("accounts/reset_password",$data_email, TRUE); 
 			
-			$this->sendMail($subject, $content, $email, 'sales@Bestviettravel.xyz');
+			$this->sendMail($subject, $content, $email, 'sales@snotevn.com:8888');
 			$save_status = $this->Account_model->update_account($account);
 			
 			if ($save_status){

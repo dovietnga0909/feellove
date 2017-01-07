@@ -234,7 +234,7 @@ class System extends BP_Controller
             '@yahoo.com.au',
             '@hotmail.com', */
             
-            '@Bestviettravel.xyz',
+            '@snotevn.com:8888',
             '@bestpricevn.com',
             'noemail@gmail.com',
             'flightbestprice@gmail.com',

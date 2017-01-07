@@ -48,21 +48,21 @@ function bpv_format_currency($rate, $small_end = true){
 
 function hotel_build_url($promotion){
 
-	$url = 'http://www.Bestviettravel.xyz/khach-san/'.$promotion['url_title'].'-'.$promotion['hotel_id'].'.html';
+	$url = 'http://www.snotevn.com:8888/khach-san/'.$promotion['url_title'].'-'.$promotion['hotel_id'].'.html';
 	
 	return $url;
 }
 
 function cruise_build_url($promotion){
 	
-    $url = 'http://www.Bestviettravel.xyz/'. CRUISE_HL_HOME_PAGE . '/' . $promotion['url_title'] . '-' . $promotion['cruise_id'] . '.html';
+    $url = 'http://www.snotevn.com:8888/'. CRUISE_HL_HOME_PAGE . '/' . $promotion['url_title'] . '-' . $promotion['cruise_id'] . '.html';
     
     return $url;
 }
 
 function tour_build_url($promotion){
 	
-    $url = 'http://www.Bestviettravel.xyz/'. TOUR_DETAIL_PAGE . '/' . $promotion['url_title'] . '-' . $promotion['tour_id'] . '.html';
+    $url = 'http://www.snotevn.com:8888/'. TOUR_DETAIL_PAGE . '/' . $promotion['url_title'] . '-' . $promotion['tour_id'] . '.html';
     
     return $url;
 }
@@ -134,7 +134,7 @@ function get_image_path($type, $image_name, $size = ''){
     
     // Resource path
     //$resource_path = $CI->config->item('resource_path');
-    $resource_path = "http://www.Bestviettravel.xyz/";
+    $resource_path = "http://www.snotevn.com:8888/";
     
     // Photo directory
     $origin_path = 'images/'.$directory.'/uploads/';

@@ -60,7 +60,7 @@
     <h2 class="bpv-color-title" style="margin-top: 20px">Cách chơi</h2>
     <p>
     <b class="step">Bước 1</b>: Gửi anh du lịch của bạn cùng người thân hoặc ảnh vẽ ngón tay du lịch ngộ nghĩnh. Sau đó gửi ảnh dự thi vào email: 
-    <a href="mailto:marketing@Bestviettravel.xyz">marketing@Bestviettravel.xyz</a> hoặc gửi qua message 
+    <a href="mailto:marketing@snotevn.com:8888">marketing@snotevn.com:8888</a> hoặc gửi qua message
     <a href="https://www.facebook.com/BestPricevn">Fanpage Best Price</a> cùng thông tin cá nhân gồm: Tên, Sđt, Email, Link trang facebook của bạn.
     </p>
     <p><b class="step">Bước 2</b>: Sau khi ảnh dự thi của bạn được đăng trên album "<b><a href="https://www.facebook.com/media/set/?set=a.1583242931896922.1073741834.1477389845815565&type=1">Mình đi chơi nhé</a></b>" tại <a href="https://www.facebook.com/BestPricevn">Fanpage Best Price</a>, Best Price sẽ thông báo cho bạn qua email hoặc nhắn tin Facebook
@@ -76,7 +76,7 @@
     <p>Thời gian thực hiện. Từ ngày 1/12 đến hết 21/12/2014</p>
     
     <p>Bước 1: Gửi anh du lịch của bạn cùng người thân hoặc ảnh vẽ ngón tay du lịch ngộ nghĩnh. Sau đó gửi ảnh dự thi vào email: 
-    <a href="mailto:marketing@Bestviettravel.xyz">marketing@Bestviettravel.xyz</a> hoặc gửi qua message 
+    <a href="mailto:marketing@snotevn.com:8888">marketing@snotevn.com:8888</a> hoặc gửi qua message
     <a href="https://www.facebook.com/BestPricevn">Fanpage Best Price</a> cùng thông tin cá nhân gồm: Tên, Năm sinh, Sđt, Email, Link trang facebook của bạn.
     </p>
     

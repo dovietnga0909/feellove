@@ -10,7 +10,7 @@
 $config['max_nights']	= 15;
 $config['max_rooms']	= 10;
 
-$config['resource_path'] = 'http://bestviettravel.xyz';
+$config['resource_path'] = 'http://snotevn.com:8888';
 
 
 $config['paging_config'] = array(
@@ -214,31 +214,31 @@ $config['ad_utm_content'] = array(
 $config['golden-week-pop'] = array(
 	'start_date' => '31-07-2014',
 	'end_date'	 => '08-08-2014',
-	'link'		 => 'http://www.Bestviettravel.xyz/khuyen-mai/tuan-le-vang.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=tuan-le-vang'
+	'link'		 => 'http://www.snotevn.com:8888/khuyen-mai/tuan-le-vang.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=tuan-le-vang'
 );
 
 $config['marketing-more-people-more-save'] = array(
 	'start_date' => '13-08-2014',
 	'end_date'	 => '31-08-2014',
-	'link'		 => 'http://www.Bestviettravel.xyz/khuyen-mai/cang-dong-cang-vui.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=cang-dong-cang-vui'
+	'link'		 => 'http://www.snotevn.com:8888/khuyen-mai/cang-dong-cang-vui.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=cang-dong-cang-vui'
 );
 
 $config['tri-an-khach-hang'] = array(
 	'start_date' => '16-10-2014',
 	'end_date'	 => '31-10-2014',
-	'link'		 => 'http://www.Bestviettravel.xyz/tin-tuc/tri-an-khach-hang.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=tri-an-khach-hang'
+	'link'		 => 'http://www.snotevn.com:8888/tin-tuc/tri-an-khach-hang.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=tri-an-khach-hang'
 );
 
 $config['mua-chung-doi'] = array(
     'start_date' => '01-11-2014',
     'end_date'	 => '30-11-2014',
-    'link'		 => 'http://www.Bestviettravel.xyz/tin-tuc/mua-chung-doi.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=mua-chung-doi'
+    'link'		 => 'http://www.snotevn.com:8888/tin-tuc/mua-chung-doi.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=mua-chung-doi'
 );
 
 $config['minh-di-choi-nhe'] = array(
     'start_date' => '29-11-2014',
     'end_date'	 => '21-12-2014',
-    'link'		 => 'http://www.Bestviettravel.xyz/tin-tuc/minh-di-choi-nhe.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=minh-di-choi-nhe'
+    'link'		 => 'http://www.snotevn.com:8888/tin-tuc/minh-di-choi-nhe.html?utm_source=bestprice&utm_medium=banner&utm_content=popup_image&utm_campaign=minh-di-choi-nhe'
 );
 
 $config['pro-codes-more-people-more-save'] = array(

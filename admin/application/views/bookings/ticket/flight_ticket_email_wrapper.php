@@ -11,7 +11,7 @@
     	<?=$tform_content?>
     </div>
     
-<p style="font-weight:bold">Nếu quý khách có nhu cầu <a href="http://www.Bestviettravel.xyz/khach-san/">phòng khách sạn</a>, <a href="http://www.Bestviettravel.xyz/tour/">tour du lịch</a>, <a href="http://www.Bestviettravel.xyz/du-thuyen-ha-long/">du thuyền Hạ Long</a>, xin quý khách vui lòng liên hệ lại với chúng tôi để nhận được những ưu đãi tốt nhất!</p>
+<p style="font-weight:bold">Nếu quý khách có nhu cầu <a href="http://www.snotevn.com:8888/khach-san/">phòng khách sạn</a>, <a href="http://www.snotevn.com:8888/tour/">tour du lịch</a>, <a href="http://www.snotevn.com:8888/du-thuyen-ha-long/">du thuyền Hạ Long</a>, xin quý khách vui lòng liên hệ lại với chúng tôi để nhận được những ưu đãi tốt nhất!</p>
 
 <p>Trân trọng cảm ơn quý khách đã sử dụng dịch vụ của Best Price.</p>
 
@@ -25,7 +25,7 @@ $line_text = 'clear:both;margin-bottom:3px;'.$font_family;
 <div style="<?=$line_text?>;font-size:14px;font-weight:bold;"><?=lang('tf_company_name')?></div>
 <div style="<?=$line_text?>"><b>VP Hà Nội:</b> 12A, Ngõ Bà Triệu, Phố Bà Triệu, Quận Hai Bà Trưng, Hà Nội</div>
 <div style="<?=$line_text?>"><b>VP Sài Gòn:</b> P.102, Nhà DMC, 223 Điện Biên Phủ, Quận Bình Thạnh, Tp.Hồ Chí Minh</div>
-<div style="<?=$line_text?>">Website: http://www.Bestviettravel.xyz</div>
+<div style="<?=$line_text?>">Website: http://www.snotevn.com:8888</div>
 <div style="<?=$line_text?>">Tel: (04) 3978 1425 - Fax: +84 4 3624-9007</div>
 <div style="<?=$line_text?>"><b>Hotline:</b> <?=$cb['hotline_number']?> (<?=$cb['hotline_name']?>)</div>
 
