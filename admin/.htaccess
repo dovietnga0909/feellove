@@ -1,0 +1,68 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    # REDIRECT /folder to /folder/
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteCond %{REQUEST_URI} !\..+$
+    #RewriteCond %{REQUEST_URI} !/$
+    #RewriteRule ^(.*)$ http://bptvietnam.dev/admin/$1/ [R=301,L]
+
+    # REDIRECT .html/ to .html/
+    RewriteCond %{REQUEST_URI} \.html(\/)+$
+    RewriteRule ^(.*html)(\/)+$ http://bptvietnam.dev/admin/$1 [r=301,nc,L]
+
+    # REMOVE index.php in URL
+    RewriteCond $1 !^(index\.php|images|robots\.txt|css)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ ./index.php?$1 [L]
+
+
+    # REDIRECT /folder/index.php to /folder/
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.php\ HTTP/
+    RewriteRule ^(([^/]+/)*)index\.php$ http://bptvietnam.dev/admin/$1 [R=301,L]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+  # If we don't have mod_rewrite installed, all 404's
+  # can be sent to index.php, and everything works as normal.
+  # Submitted by: ElliotHaughin
+
+  ErrorDocument 404 /index.php
+</IfModule>
+
+php_flag display_errors on
+
+#Compress files
+
+#AddOutputFilterByType DEFLATE text/plain
+#AddOutputFilterByType DEFLATE text/html
+#AddOutputFilterByType DEFLATE text/xml
+#AddOutputFilterByType DEFLATE text/css
+#AddOutputFilterByType DEFLATE application/xml
+#AddOutputFilterByType DEFLATE application/xhtml+xml
+#AddOutputFilterByType DEFLATE application/rss+xml
+#AddOutputFilterByType DEFLATE application/javascript
+#AddOutputFilterByType DEFLATE application/x-javascript
+
+
+# This enables caching
+
+<ifModule mod_headers.c>
+
+<filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|JPG|PNG|GIF|js|css)$">
+
+Header set Cache-Control "max-age=2592000, public"
+
+</filesMatch>
+
+<filesMatch "\\.(xml|txt)$">
+
+Header set Cache-Control "max-age=2592000, public, must-revalidate"
+
+</filesMatch>
+
+</ifModule>
+
+# End Compression Script
