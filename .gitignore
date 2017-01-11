@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+application/config/config.php
+application/config/database.php
+admin/application/config/config.php
+admin/application/config/database.php
