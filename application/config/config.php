@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://snotevn.com:8888/';
+$config['base_url']	= 'http://10.10.10.20/';
 
 /*
 |--------------------------------------------------------------------------

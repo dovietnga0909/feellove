@@ -9,7 +9,7 @@
 $config['per_page'] = 30;
 $config['num_links'] = 5;
 
-$config['resource_path'] = "http://snotevn.com:8888/";
+$config['resource_path'] = "http://10.10.10.20/";
 
 
 /*
