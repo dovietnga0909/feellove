@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!--PAGE TITLE-->
+    <title>FEEDLOVE -  Kết nối yêu thương </title>
+
+    <!--GOOGLE FONT CSS-->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Six+Caps' type='text/css' media='all' />
+
+    <!--BOOTSTRAP-->
+    <link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap-theme.min.css' type='text/css' media='all' />
+
+    <!--Multiple Step CSS-->
+    <link rel='stylesheet' href='css/multipleStep.css' type='text/css' media='all' />
+
+    <!-- SM2 demo/homepage-specific stuff -->
+    <script type="text/javascript">var is_home = true;</script>
+
+    <!--LOCAL CSS-->
+    <link rel='stylesheet' href='zoom_box/zoom_box.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/respond.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='font-awesome-4.3.0/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/background.css' type='text/css' media='all' />
+
+    <!-- the SoundManager 2 API -->
+    <script type="text/javascript" src="script/soundmanager2.js"></script>
+
+    <script src="script/bar-ui.js"></script>
+    <link rel="stylesheet" href="css/bar-ui.css" />
+
+    <!-- demo for this page only, you don't need this stuff -->
+    <script src="script/demo.js"></script>
+    <link rel="stylesheet" href="css/demo.css" />
+
+    <!--SITE URL SETTING FOR AJAX REQUESTS-->
+    <script> var siteUrl = 'http://themolitor.com/vysual_html_video'; </script>
+    <style>
+        #loginForm input[type="text"],#loginForm  input[type="password"] {
+            border: 1px solid rgba(0,0,0,.5);
+            border-radius: 2px;
+            color: #af9453;
+            margin: 20px;
+            height: 16px;
+            width: 170px;
+        }
+        #loginForm input[type="text"]:focus,#loginForm  input[type="password"]:focus {
+            outline: none;
+            background: none;
+        }
+        #loginForm .login--login-submit {
+            float: right;
+        }
+        #loginForm {
+            width: 572px;
+            position: relative;
+            float: right;
+            text-align: left;
+        }
+        #loginForm .login--form{
+            display: inline-flex;
+            width: 100%;
+        }
+        #loginForm .login--form .buttonLink{
+            margin: 17px 0 17px auto;
+        }
+        #loginForm .login--form .login--username-container, #loginForm .login--form .login--password-container {
+            width: 200px;
+            float: left;
+        }
+        #loginForm .login--form .login--username-container{
+            padding-left: 0;
+            margin-left: 0;
+        }
+    </style>
+
+</head>
+
+<body class="home page page-template-page-reviews ajax-on">
+
+<div id="contentContainer">
+    <div id="blockHeaderFeedlove">
+        <div class="container">
+            <a id="logo " class="mainLogo" href="index.html"><img src="images/logo-feedlove-without-text@2x.png" alt="Feedlove - Feed the spirit Feed the love" /></a><!--end logo-->
+            <a class="buttonLink letStartLink" href="services.html">Kết nối yêu thương </a>
+            <!--REGISTER BUTTON-->
+            <a class="loginLink" id="130" href="register.html"><i class="fa fa-unlock-alt"></i> Đăng nhập/ Đăng ký</a>
+        </div>
+
+    </div>
+    <!--REGISTER / LOGIN FORM-->
+    <div class="blockServicesFeedlove">
+        <div class="container">
+            <form id="msform" style="z-index: 999;">
+                <ul id="progressbar">
+                    <li class="active">THÔNG TIN CÁ NHÂN</li>
+                    <li>THÔNG TIN NGƯỜI NHẬN</li>
+                    <li>THÔNG ĐIỆP MUỐN TRUYỀN TẢI</li>
+                    <li>THÀNH CÔNG</li>
+                </ul>
+                <fieldset>
+                    <h2 class="fs-title">Thông tin cá nhân</h2>
+                    <h3 class="fs-subtitle">Chúng tôi sẽ bảo mật thông tin này</h3>
+                    <input type="text" name="fname" placeholder="Tên của bạn" />
+                    <input type="text" name="phone" placeholder="Số điện thoại" />
+                    <textarea name="address" placeholder="Địa chỉ"></textarea>
+                    <h2 class="fs-title">HOẶC</h2>
+                    <h3 class="fs-subtitle">Đồng bộ với tài khoản có sẵn</h3>
+                    <button type="button" class="btn btn-success" style="width: 100% ; margin-bottom: 10px">
+                        <i class="fa fa-twitter"></i> Twitter
+                    </button>
+                    <button type="button" class="btn btn-primary" style="width: 100% ; margin-bottom: 10px">
+                        <i class="fa fa-facebook"></i> Facebook
+                    </button>
+                    <button type="button" class="btn btn-danger" style="width: 100% ; margin-bottom: 10px">
+                        <i class="fa fa-google-plus"></i> Google+
+                    </button>
+                    <input type="button" name="next" class="next action-button" value="Tiếp tục" />
+
+                </fieldset>
+
+                <fieldset>
+                    <h2 class="fs-title">Thông tin người nhân</h2>
+                    <h3 class="fs-subtitle">Chúng tôi sẽ bảo mật thông tin này</h3>
+                    <input type="text" name="fname" placeholder="Tên của người nhận" />
+                    <input type="text" name="phone" placeholder="Số điện thoại người nhận" />
+                    <input type="text" name="phone" placeholder="Email người nhận" />
+                    <textarea name="address" placeholder="Địa chỉ người nhận"></textarea>
+                    <input type="button" name="previous" class="previous action-button" value="Quay lại" />
+                    <input type="button" name="next" class="next action-button" value="Tiếp tục" />
+                </fieldset>
+
+                <fieldset>
+                    <h2 class="fs-title">Thông điệp muốn truyền tải</h2>
+                    <h3 class="fs-subtitle">Chúng tôi giúp bạn</h3>
+                    <textarea name="address" placeholder="Gửi người ấy"></textarea>
+                    <h2 class="fs-title">BẠN CÓ BIẾT ?!</h2>
+                    <h3 class="fs-subtitle">Chúng tôi có rất nhiều dịch vụ với đội ngủ chuyên nghiêp .<a href="#shop">Xem các gợi ý</ý></a>  </h3>
+                    <input type="button" name="previous" class="previous action-button" value="Quay lại" />
+                    <input type="button" name="next" class="next action-button" value="Tiếp tục" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Hoàn thành !</h2>
+                    <h3 class="fs-subtitle">Thông điệp của bạn đang được xử lý , tư vấn viên sẽ liên hệ với bạn trong thời gian sớm nhất.</h3>
+                    <input type="submit" name="submit" class="submit action-button" value="Hoàn thành" />
+                </fieldset>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <!--IMAGE SLIDESHOW-->
+    <div id="headerImages">
+        <div class="header-image step1" ></div>
+        <div class="header-image step2" style="display: none"></div>
+        <div class="header-image step3" style="display: none"></div>
+        <div class="header-image step4" style="display: none"></div>
+    </div><!--end headerImages-->
+
+    <!--LOADING ANIMATION-->
+    <div id="loading-page"></div>
+
+    <!--CONTENT COVER-->
+    <div id="contentCover"></div>
+
+</div>
+
+<div id="footerContainer">
+    <iframe id="shop"  src="shop.html" style="display: none"></iframe>
+    <div id="footer">
+
+        <!--FOOTER MENU-->
+        <div id="footerMenuContainer" class="menu-footer-container">
+            <ul id="footerMenu" >
+                <li><a target="_blank" href="javascript:void(0)">Chính sách bảo mật</a></li>
+                <li><a target="_blank" href="javascript:void(0)">Điều khoản sử dụng</a></li>
+            </ul>
+        </div>
+
+        <!--COPYRIGHT NOTICE-->
+        <div id="copyright">&copy; 2017 FEEDLOVE. Handcrafted by <a target="_blank" href="javascript:void(0)">Feed the love</a></div>
+
+    </div><!--end footer-->
+</div><!--end footerContainer-->
+
+<style scoped>
+    .sm2-bar-ui {
+        font-size: 16px;
+    }
+    .sm2-bar-ui .sm2-main-controls,
+    .sm2-bar-ui .sm2-playlist-drawer {
+        background-color: #cc693c;
+    }
+    .sm2-bar-ui .sm2-inline-texture {
+        background: transparent;
+    }
+</style>
+
+<!--JavaScript-->
+<script type='text/javascript' src='scripts/jquery.js'></script>
+<script type='text/javascript' src='scripts/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='zoom_box/zoom_box.js'></script>
+<script type='text/javascript' src='scripts/core.js'></script>
+<script type='text/javascript' src='scripts/transition.js'></script>
+<script type='text/javascript' src='scripts/background.js'></script>
+<script type='text/javascript' src='scripts/spin.js'></script>
+<script type='text/javascript' src='scripts/custom.js'></script>
+<script type='text/javascript' src='scripts/retina.js'></script>
+<script type='text/javascript' src='bootstrap-3.3.7/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script type='text/javascript' src='scripts/multipleStep.js'></script>
+</body>
+</html>

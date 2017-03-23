@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<!--PAGE TITLE-->
+<title>FEEDLOVE - Kết nối yêu thương </title>
+
+<!--GOOGLE FONT CSS-->
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600' type='text/css' media='all' />
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Six+Caps' type='text/css' media='all' />
+
+<!--BOOTSTRAP-->
+<link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap-theme.min.css' type='text/css' media='all' />
+
+<!--Multiple Step CSS-->
+<link rel='stylesheet' href='css/multipleStep.css' type='text/css' media='all' />
+
+<!-- SM2 demo/homepage-specific stuff -->
+<script type="text/javascript">var is_home = true;</script>
+
+<!--LOCAL CSS-->
+<link rel='stylesheet' href='zoom_box/zoom_box.css' type='text/css' media='all' />
+<link rel='stylesheet' href='style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='css/respond.css' type='text/css' media='all' />
+<link rel='stylesheet' href='font-awesome-4.3.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='css/background.css' type='text/css' media='all' />
+
+<!-- the SoundManager 2 API -->
+<script type="text/javascript" src="script/soundmanager2.js"></script>
+
+<script src="script/bar-ui.js"></script>
+<link rel="stylesheet" href="css/bar-ui.css" />
+
+<!-- demo for this page only, you don't need this stuff -->
+<script src="script/demo.js"></script>
+<link rel="stylesheet" href="css/demo.css" />
+
+<!--SITE URL SETTING FOR AJAX REQUESTS-->
+<script> var siteUrl = 'http://themolitor.com/vysual_html_video'; </script>
+	<style>
+		#loginForm input[type="text"],#loginForm  input[type="password"] {
+			border: 1px solid rgba(0,0,0,.5);
+			border-radius: 2px;
+			color: #af9453;
+			margin: 20px;
+			height: 16px;
+			width: 170px;
+		}
+		#loginForm input[type="text"]:focus,#loginForm  input[type="password"]:focus {
+			outline: none;
+			background: none;
+		}
+		#loginForm .login--login-submit {
+			float: right;
+		}
+		#loginForm {
+			width: 572px;
+			position: relative;
+			float: right;
+			text-align: left;
+		}
+		#loginForm .login--form{
+			display: inline-flex;
+			width: 100%;
+		}
+		#loginForm .login--form .buttonLink{
+			margin: 17px 0 17px auto;
+		}
+		#loginForm .login--form .login--username-container, #loginForm .login--form .login--password-container {
+			width: 200px;
+			float: left;
+		}
+		#loginForm .login--form .login--username-container{
+			padding-left: 0;
+			margin-left: 0;
+		}
+
+
+	</style>
+</head>
+
+<body class="home page page-template-page-reviews ajax-on">
+
+<div id="contentContainer">
+	<div id="blockHeaderFeedlove">
+		<div class="container">
+			<a id="logo " class="mainLogo" href="index.html"><img src="images/logo-feedlove-without-text@2x.png" alt="Feedlove - Feed the spirit Feed the love" /></a><!--end logo-->
+			<a class="buttonLink letStartLink" href="services.html">Kết nối yêu thương </a>
+			<!--REGISTER BUTTON-->
+			<a class="loginLink" id="130" href="register.html"><i class="fa fa-unlock-alt"></i> Đăng nhập/ Đăng ký</a>
+		</div>
+
+	</div>
+	<!--AJAX CONTAINER-->
+	<div id="ajax-content">
+
+		<!--PAGE INFO FOR UPDATING BODY CLASS AND DOC TITLE-->
+		<div id="page-info" data-page-title="" class="home page page-template-page-reviews ajax-on"></div>
+
+
+
+
+
+		<!--VIDEO CONTAINER-->
+		<div class="videoContainer self-video" id="video130" data-vidid="videos/drama_trailer.mp4" >
+			<div class="closeVideo">&times;</div>
+		</div>
+
+	</div><!--END AJAX CONTAINER-->
+
+	<!--FULL SEARCH BAR-->
+	<form role="search" method="get" id="full-search" action="http://themes.themolitor.com/vysual/">
+		<input type="text" value="Search Site..." onfocus="this.value='';" name="s" id="big-input" />
+	</form>
+
+	<!--AUDIO PLAYER-->
+	<div id="audioControl" class="paused">
+		<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+	</div>
+	<audio id="audioPlayer">
+		<source src="audio/Everything-I-Do-It-For-You-Bryan-Adams.mp3" type="audio/mpeg">
+	</audio>
+
+	<!--SOCIAL ICONS-->
+	<div id="socialIcons">
+		<a id="link-search" rel="search" data-title="Search" href="#"><i class="fa fa-search"></i></a>
+		<a target="_blank" id="link-rss" data-title="RSS" href="#"><i class="fa fa-rss"></i></a>
+		<a target="_blank" id="link-facebook" data-title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+		<a target="_blank" id="link-twitter" data-title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+		<a target="_blank" id="link-youtube" data-title="YouTube" href="#"><i class="fa fa-youtube-play"></i></a>
+		<a target="_blank" id="link-vimeo" data-title="Vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
+		<a target="_blank" id="link-instagram" data-title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
+		<a target="_blank" id="link-google-plus" data-title="Google+" href="#"><i class="fa fa-google-plus"></i></a>
+		<a target="_blank" id="link-tumblr" data-title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
+		<a target="_blank" id="link-flickr" data-title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
+	</div>
+
+	<!--IMAGE SLIDESHOW-->
+	<div id="headerImages"></div>
+
+	<!--LOADING ANIMATION-->
+	<div id="loading-page"></div>
+
+	<!--CONTENT COVER-->
+	<div id="contentCover"></div>
+
+</div><!--end contentContainer-->
+
+<div id="footerContainer">
+	<div id="footer">
+
+		<!--CREDITS-->
+		<div id="vys-credits" >
+			<div class="aboutBlock">
+				<h4>Chúng tôi là ai ? </h4>
+				<div class="image-container">
+					<img src="images/heart-hand.png" alt="" />
+				</div>
+				<div class="content">
+					<small>feedlove.net được lập ra mục đích giúp những trái tim đang yêu có thể thổ lộ tình cảm của mình với người mà họ thương nhớ.  Bằng những cách chuyên nghiệp và hoàn hảo nhất, chúng  tôi sẽ thay lời bạn gửi tới người mà bạn yêu để họ có thể hiểu được tấm tình yêu chân thành nơi bạn. Niềm hạnh phúc và một cái kết có hậu cũng chính là những gì feedlove mong muốn và hướng đến.</small>
+					<b>NẾU BẠN THÍCH MỘT AI NHƯNG CHƯA DÁM THỔ LỘ - HÃY ĐỂ CHÚNG TÔI GIÚP BẠN.</b>
+					<a class="buttonLink letGoLink" href="services.html"><i class="fa fa-paper-plane-o" style="color: firebrick"></i> Bắt đầu trải nghiệm </a>
+				</div>
+			</div>
+
+			<div class="scroll-wrapper">
+				<h4>Audio về tình yêu</h4>
+				<div class="scroll-this">
+
+					<div class="post">
+						<div class="image-container">
+							
+							<img src="images/video-list/Mountains-700x450.jpg" alt="" />
+						</div>
+						<div class="postInfo">
+							<h4 class="posttitle">Blog radio 1</h4>
+						</div><!--end postInfo-->
+					</div><!--end post-->
+
+					<div class="post">
+						<div class="image-container">
+
+							<img src="images/video-list/Wave-Crash-700x450.jpg" alt="" />
+						</div>
+						<div class="postInfo">
+							<h4 class="posttitle">Blog radio 2</h4>
+						</div><!--end postInfo-->
+					</div><!--end post-->
+
+					<div class="post">
+						<div class="image-container">
+
+							<img src="images/video-list/Foggy-Woods-700x450.jpg" alt="" />
+						</div>
+						<div class="postInfo">
+							<h4 class="posttitle">Blog radio 3</h4>
+						</div><!--end postInfo-->
+					</div><!--end post-->
+
+					<div class="post">
+						<div class="image-container">
+							
+							<img src="images/video-list/Mountain-Mist-700x450.jpg" alt="" />
+						</div>
+						<div class="postInfo">
+							<h4 class="posttitle">Blog radio 1</h4>
+						</div><!--end postInfo-->
+					</div><!--end post-->
+
+
+				</div><!--end scroll-this-->
+			</div><!--end scroll-wrapper-->
+			<!--FOOTER LOGO-->
+			<!--<a id="footer-logo" href="index.html"><img src="images/logo-feedlove.png" alt="FEEDLOVE - ♥ Hãy nói những lời yêu thương ♥" /></a>-->
+
+
+
+			<!--PRIVACY-->
+			<!--<div id="note-privacy" claschữs="pg13-note-privacy">
+				<div id="note-privacy-letter">Chú Ý</div>
+				<div id="note-privacy-title">Thành viên cân nhắc</div>
+				<div id="note-privacy-info">Bằng cách sử dụng dịch vụ của chúng tôi, các bạn đã đồng ý và buộc tuân thủ mọi Điều khoản sử dụng và Chính sách bảo mật.</div>
+			</div>-->
+
+		</div><!--end vys-credits-->
+
+
+
+		<!--FOOTER MENU-->
+		<div id="footerMenuContainer" class="menu-footer-container">
+			<ul id="footerMenu" >
+				<li><a target="_blank" href="javascript:void(0)">Chính sách bảo mật</a></li>
+				<li><a target="_blank" href="javascript:void(0)">Điều khoản sử dụng</a></li>
+			</ul>
+		</div>
+
+		<!--COPYRIGHT NOTICE-->
+		<div id="copyright">&copy; 2017 FEEDLOVE. Handcrafted by <a target="_blank" href="javascript:void(0)">Feed the love</a></div>
+
+	</div><!--end footer-->
+</div><!--end footerContainer-->
+
+<style scoped>
+	.sm2-bar-ui {
+		font-size: 16px;
+	}
+	.sm2-bar-ui .sm2-main-controls,
+	.sm2-bar-ui .sm2-playlist-drawer {
+		background-color: #cc693c;
+	}
+	.sm2-bar-ui .sm2-inline-texture {
+		background: transparent;
+	}
+</style>
+<div id="sidebar">
+	<!--SIDEBAR LOGO-->
+	<a id="sidebar-logo" href="index.html"><img src="images/logo-feedlove.png" alt="FEEDLOVE - ♥ Hãy nói những lời yêu thương ♥" /></a>
+
+	<!--MAIN MENU-->
+	<nav id="navigation" class="hasLogo">
+		<ul id="dropmenu" class="menu">
+			<li class="current-menu-item"><a href="index.html">Trang chủ</a></li>
+			<li><a href="videos_list.html">Video của tôi</a></li>
+			<li><a href="post_category.html">Tâm sự</a></li>
+			<li><a href="page.html">Về chúng tôi</a></li>
+		</ul>
+	</nav>
+
+	<!--WIDGET-->
+	<ul id="sidebar-widgets">
+		<li class="widget">
+			<h2 class="widget-title"></h2>
+			<div class="textwidget"></div>
+		</li>
+	</ul>
+
+</div><!--end sidebar-->
+
+<!--JavaScript-->
+<script type='text/javascript' src='scripts/jquery.js'></script>
+<script type='text/javascript' src='scripts/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='zoom_box/zoom_box.js'></script>
+<script type='text/javascript' src='scripts/core.js'></script>
+<script type='text/javascript' src='scripts/transition.js'></script>
+<script type='text/javascript' src='scripts/background.js'></script>
+<script type='text/javascript' src='scripts/spin.js'></script>
+<script type='text/javascript' src='scripts/custom.js'></script>
+<script type='text/javascript' src='scripts/retina.js'></script>
+<script type='text/javascript' src='bootstrap-3.3.7/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script type='text/javascript' src='scripts/multipleStep.js'></script>
+</body>
+</html>

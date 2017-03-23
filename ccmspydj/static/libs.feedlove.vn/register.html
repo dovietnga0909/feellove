@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!--PAGE TITLE-->
+    <title>FEEDLOVE -  Kết nối yêu thương </title>
+
+    <!--GOOGLE FONT CSS-->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Six+Caps' type='text/css' media='all' />
+
+    <!--BOOTSTRAP-->
+    <link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='bootstrap-3.3.7/css/bootstrap-theme.min.css' type='text/css' media='all' />
+
+    <!--Multiple Step CSS-->
+    <link rel='stylesheet' href='css/multipleStep.css' type='text/css' media='all' />
+
+    <!-- SM2 demo/homepage-specific stuff -->
+    <script type="text/javascript">var is_home = true;</script>
+
+    <!--LOCAL CSS-->
+    <link rel='stylesheet' href='zoom_box/zoom_box.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/respond.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='font-awesome-4.3.0/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/background.css' type='text/css' media='all' />
+
+    <!-- the SoundManager 2 API -->
+    <script type="text/javascript" src="script/soundmanager2.js"></script>
+
+    <script src="script/bar-ui.js"></script>
+    <link rel="stylesheet" href="css/bar-ui.css" />
+
+    <!-- demo for this page only, you don't need this stuff -->
+    <script src="script/demo.js"></script>
+    <link rel="stylesheet" href="css/demo.css" />
+
+    <!--SITE URL SETTING FOR AJAX REQUESTS-->
+    <script> var siteUrl = 'http://themolitor.com/vysual_html_video'; </script>
+    <style>
+        #loginForm input[type="text"],#loginForm  input[type="password"] {
+            border: 1px solid rgba(0,0,0,.5);
+            border-radius: 2px;
+            color: #af9453;
+            margin: 20px;
+            height: 16px;
+            width: 170px;
+        }
+        #loginForm input[type="text"]:focus,#loginForm  input[type="password"]:focus {
+            outline: none;
+            background: none;
+        }
+        #loginForm .login--login-submit {
+            float: right;
+        }
+        #loginForm {
+            width: 572px;
+            position: relative;
+            float: right;
+            text-align: left;
+        }
+        #loginForm .login--form{
+            display: inline-flex;
+            width: 100%;
+        }
+        #loginForm .login--form .buttonLink{
+            margin: 17px 0 17px auto;
+        }
+        #loginForm .login--form .login--username-container, #loginForm .login--form .login--password-container {
+            width: 200px;
+            float: left;
+        }
+        #loginForm .login--form .login--username-container{
+            padding-left: 0;
+            margin-left: 0;
+        }
+    </style>
+
+</head>
+
+<body class="home page page-template-page-reviews ajax-on">
+
+<div id="contentContainer">
+    <div id="blockHeaderFeedlove">
+        <div class="container">
+            <a id="logo " class="mainLogo" href="index.html"><img src="images/logo-feedlove-without-text@2x.png" alt="Feedlove - Feed the spirit Feed the love" /></a><!--end logo-->
+            <a class="buttonLink letStartLink" href="services.html">Kết nối yêu thương </a>
+            <!--REGISTER BUTTON-->
+            <a class="loginLink" id="130" href="javascript:void(0)"><i class="fa fa-unlock-alt"></i> Đăng nhập/ Đăng ký</a>
+        </div>
+
+    </div>
+    <!--REGISTER / LOGIN FORM-->
+    <div class="blockServicesFeedlove">
+        <div class="container">
+            <div class="jumbotron" id="blockNewUser" >
+                <h4>Chào mừng đến với feedlove.</h4>
+                <div class="col-md-5 col-lg-5" style="border-right: 1px solid #ddb658;padding: 0;">
+                    <form class="form-signin" style="width: 80%">
+                        <h2 class="form-signin-heading">Đăng nhập</h2>
+                        <label for="inputEmail" class="sr-only">Địa chỉ thư điện tử</label>
+                        <input id="inputEmail" class="form-control" placeholder="Địa chỉ thư điện tử" required="" autofocus="" type="email">
+                        <label for="inputPassword" class="sr-only">Mật khẩu</label>
+                        <input id="inputPassword" class="form-control" placeholder="Mật khẩu" required="" type="password">
+                        <div class="checkbox">
+                            <label>
+                                <input value="remember-me" type="checkbox" style="width: 100%"> Ghi nhớ đăng nhập
+                            </label>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng nhập</button>
+                    </form>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <form class="form-signin" style="width: 80%">
+                        <h2 class="form-signin-heading">Đăng ký</h2>
+                        <label for="fullname" class="sr-only">Tên đầy đủ</label>
+                        <input id="fullname" class="form-control" placeholder="Tên đầy đủ (Bắt buộc)" required="" autofocus="" type="email">
+                        <label for="inputEmail" class="sr-only">Địa chỉ thư điện tử</label>
+                        <input id="inputEmail" class="form-control" placeholder="Địa chỉ thư điện tử (Bắt buộc)" required="" autofocus="" type="email">
+                        <label for="inputPassword" class="sr-only">Mật khẩu</label>
+                        <input id="inputPassword" class="form-control" placeholder="Mật khẩu" required="" type="password">
+                        <label for="inputRePassword" class="sr-only">Nhắc lại Mật khẩu</label>
+                        <input id="inputRePassword" class="form-control" placeholder="Nhắc lại Mật khẩu" required="" type="password">
+
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--IMAGE SLIDESHOW-->
+    <div id="headerImages">
+        <div class="header-image" style="background-image:url(images/writing.jpg)"></div>
+
+    </div><!--end headerImages-->
+
+    <!--LOADING ANIMATION-->
+    <div id="loading-page"></div>
+
+    <!--CONTENT COVER-->
+    <div id="contentCover"></div>
+</div>
+
+<div id="footerContainer">
+    <div id="footer">
+
+        <!--FOOTER MENU-->
+        <div id="footerMenuContainer" class="menu-footer-container">
+            <ul id="footerMenu" >
+                <li><a target="_blank" href="javascript:void(0)">Chính sách bảo mật</a></li>
+                <li><a target="_blank" href="javascript:void(0)">Điều khoản sử dụng</a></li>
+            </ul>
+        </div>
+
+        <!--COPYRIGHT NOTICE-->
+        <div id="copyright">&copy; 2017 FEEDLOVE. Handcrafted by <a target="_blank" href="javascript:void(0)">Feed the love</a></div>
+
+    </div><!--end footer-->
+</div><!--end footerContainer-->
+
+<style scoped>
+    .sm2-bar-ui {
+        font-size: 16px;
+    }
+    .sm2-bar-ui .sm2-main-controls,
+    .sm2-bar-ui .sm2-playlist-drawer {
+        background-color: #cc693c;
+    }
+    .sm2-bar-ui .sm2-inline-texture {
+        background: transparent;
+    }
+</style>
+
+<!--JavaScript-->
+<script type='text/javascript' src='scripts/jquery.js'></script>
+<script type='text/javascript' src='scripts/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='zoom_box/zoom_box.js'></script>
+<script type='text/javascript' src='scripts/core.js'></script>
+<script type='text/javascript' src='scripts/transition.js'></script>
+<script type='text/javascript' src='scripts/background.js'></script>
+<script type='text/javascript' src='scripts/spin.js'></script>
+<script type='text/javascript' src='scripts/custom.js'></script>
+<script type='text/javascript' src='scripts/retina.js'></script>
+<script type='text/javascript' src='bootstrap-3.3.7/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script type='text/javascript' src='scripts/multipleStep.js'></script>
+</body>
+</html>
