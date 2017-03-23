@@ -1,0 +1,16 @@
+# robots.txt for http://www.bestpricevn.com/
+
+User-agent: *
+Disallow: /resources/
+Disallow: /admin/
+Disallow: /home/
+Disallow: /tours/
+Disallow: /hotels/
+Disallow: /halongbaycruises/
+Disallow: /mekongrivercruises/
+Disallow: /cruise_detail/
+Disallow: /tour-booking/
+Disallow: /tour_detail/
+Disallow: /tour-detail/
+
+Allow: /
