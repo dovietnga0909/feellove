@@ -1,1 +1,0 @@
-Help file available at http://themolitor.com/help/vysual_html

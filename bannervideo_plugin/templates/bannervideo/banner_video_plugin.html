@@ -1,47 +1,200 @@
+{% load static %}
+<style scoped>
+/*------------------------------------*/
+/*---------CONTAINER STUFF-----------*/
+/*----------------------------------*/
+#contentContainer {
+	width:100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	background-color: #191919;
+}
+body.full-screen-video #contentContainer {
+	box-shadow: none;
+}
+
+#contentCover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.35);
+	display: none;
+	cursor: pointer;
+	z-index: 100;
+}
+
+
+/*-------------------------*/
+/*--HEADER IMAGE STUFF----*/
+/*-----------------------*/
+#headerImages {
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+#headerImages:after {
+	content: '';
+	display: block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:2;
+	background-color: #000;
+	opacity: .35;
+}
+body.page-template-page-reviews #headerImages:after {
+	opacity: .35;
+}
+body.single #headerImages:after,
+body.page-template-default #headerImages:after,
+body.page-template-page-center #headerImages:after,
+body.category #headerImages:after,
+body.blog #headerImages:after,
+body.archive #headerImages:after,
+body.search #headerImages:after,
+.page-image-container:after {
+    opacity: .8;
+}
+
+
+.header-image {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header-image:first-child {
+	display: block;
+}
+.header-image.activeBg {
+	z-index: 2;
+}
+.header-image img {
+	display: none;
+}
+/*--VIDEO BACKGROUND--*/
+.wallpaper-container {
+	display: block !important;
+	z-index: 2 !important;
+}
+
+/*----------------------------------*/
+/*---------LOADING STUFF-----------*/
+/*--------------------------------*/
+#loading-page {
+    background-size: cover;
+    background-position: center;
+    background-color: #555;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+#loading-page::after {
+    background: rgba(0, 0, 0, 0.65);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    display: block;
+}
+.fs-background {
+  overflow: hidden;
+  position: relative;
+}
+.fs-background,
+.fs-background-container,
+.fs-background-media {
+  -webkit-transition: none;
+          transition: none;
+}
+.fs-background-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.fs-background-media {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.fs-background-media.fs-background-animated {
+  -webkit-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
+}
+.fs-background-media img,
+.fs-background-media video,
+.fs-background-media iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-user-drag: none;
+}
+.fs-background-media.fs-background-native,
+.fs-background-media.fs-background-fixed {
+  width: 100%;
+  height: 100%;
+}
+.fs-background-media.fs-background-native img,
+.fs-background-media.fs-background-fixed img {
+  display: none;
+}
+.fs-background-media.fs-background-native {
+  background-position: center;
+  background-size: cover;
+}
+.fs-background-media.fs-background-fixed {
+  background-position: center;
+  background-attachment: fixed;
+}
+.fs-background-embed.fs-background-ready:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: '';
+}
+.fs-background-embed.fs-background-ready iframe {
+  z-index: 0;
+}
+</style>
+
 <div id="contentContainer">
-	<!--AJAX CONTAINER-->
-	<div id="ajax-content">
 
-		<!--PAGE INFO FOR UPDATING BODY CLASS AND DOC TITLE-->
-		<div id="page-info" data-page-title="" class="home page page-template-page-reviews ajax-on"></div>
-
-
-
-
-
-		<!--VIDEO CONTAINER-->
-		<div class="videoContainer self-video" id="video130" data-vidid="videos/drama_trailer.mp4" >
-			<div class="closeVideo">&times;</div>
-		</div>
-
-	</div><!--END AJAX CONTAINER-->
-
-	<!--FULL SEARCH BAR-->
-	<form role="search" method="get" id="full-search" action="http://themes.themolitor.com/vysual/">
-		<input type="text" value="Search Site..." onfocus="this.value='';" name="s" id="big-input" />
-	</form>
-
-	<!--AUDIO PLAYER-->
-	<div id="audioControl" class="paused">
-		<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-	</div>
 	<audio id="audioPlayer">
-		<source src="audio/Everything-I-Do-It-For-You-Bryan-Adams.mp3" type="audio/mpeg">
+	  <source src="audio/secrets-demo.mp3" type="audio/mpeg">
 	</audio>
 
-	<!--SOCIAL ICONS-->
-	<div id="socialIcons">
-		<a id="link-search" rel="search" data-title="Search" href="#"><i class="fa fa-search"></i></a>
-		<a target="_blank" id="link-rss" data-title="RSS" href="#"><i class="fa fa-rss"></i></a>
-		<a target="_blank" id="link-facebook" data-title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
-		<a target="_blank" id="link-twitter" data-title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
-		<a target="_blank" id="link-youtube" data-title="YouTube" href="#"><i class="fa fa-youtube-play"></i></a>
-		<a target="_blank" id="link-vimeo" data-title="Vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-		<a target="_blank" id="link-instagram" data-title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-		<a target="_blank" id="link-google-plus" data-title="Google+" href="#"><i class="fa fa-google-plus"></i></a>
-		<a target="_blank" id="link-tumblr" data-title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-		<a target="_blank" id="link-flickr" data-title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-	</div>
 
 	<!--IMAGE SLIDESHOW-->
 	<div id="headerImages"></div>
@@ -52,4 +205,13 @@
 	<!--CONTENT COVER-->
 	<div id="contentCover"></div>
 
-</div><
+</div><!--end contentContainer-->
+
+<!--JavaScript-->
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/jquery.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/core.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/transition.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/background.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/spin.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/custom.js' %}"></script>
+<script type='text/javascript' src="{% static 'vysual_html_video/scripts/retina.js' %}"></script>

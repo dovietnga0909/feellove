@@ -174,16 +174,10 @@ INSTALLED_APPS = (
     'sortedm2m',
     'taggit',
     'reversion',
-    ##custom
-    'polls',
-    'polls_cms_integration',
-
     'bannervideo',
     'bannervideo_plugin',
-
     'cards',
     'cards_plugin',
-
     'chat',
     'chat_plugin'
 )

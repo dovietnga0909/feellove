@@ -42,43 +42,6 @@
 
 <!--SITE URL SETTING FOR AJAX REQUESTS-->
 	<style>
-		#loginForm input[type="text"],#loginForm  input[type="password"] {
-			border: 1px solid rgba(0,0,0,.5);
-			border-radius: 2px;
-			color: #af9453;
-			margin: 20px;
-			height: 16px;
-			width: 170px;
-		}
-		#loginForm input[type="text"]:focus,#loginForm  input[type="password"]:focus {
-			outline: none;
-			background: none;
-		}
-		#loginForm .login--login-submit {
-			float: right;
-		}
-		#loginForm {
-			width: 572px;
-			position: relative;
-			float: right;
-			text-align: left;
-		}
-		#loginForm .login--form{
-			display: inline-flex;
-			width: 100%;
-		}
-		#loginForm .login--form .buttonLink{
-			margin: 17px 0 17px auto;
-		}
-		#loginForm .login--form .login--username-container, #loginForm .login--form .login--password-container {
-			width: 200px;
-			float: left;
-		}
-		#loginForm .login--form .login--username-container{
-			padding-left: 0;
-			margin-left: 0;
-		}
-
 		div.cms .cms-toolbar-item-logo a:before {
 			display: none;
 		}
@@ -96,37 +59,10 @@
 		{% show_menu 0 100 100 100 %}
 	</ul>
 </nav>
+{% static_placeholder "LogoAndMenu" %}
 {% static_placeholder "Banner" %}
 {% block content %}{% endblock content %}
 {% static_placeholder "Footer" %}
-
-<style scoped>
-	.sm2-bar-ui {
-		font-size: 16px;
-	}
-	.sm2-bar-ui .sm2-main-controls,
-	.sm2-bar-ui .sm2-playlist-drawer {
-		background-color: #cc693c;
-	}
-	.sm2-bar-ui .sm2-inline-texture {
-		background: transparent;
-	}
-</style>
-
-
-<!--JavaScript-->
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/jquery.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/jquery-migrate.min.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/zoom_box/zoom_box.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/core.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/transition.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/background.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/spin.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/custom.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/retina.js' %}"></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/bootstrap-3.3.7/js/bootstrap.min.js' %}"></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
-<script type='text/javascript' src=" {% static 'libs.feedlove.vn/scripts/multipleStep.js' %}"></script>
 {% render_block "js" %}
 </body>
 </html>
