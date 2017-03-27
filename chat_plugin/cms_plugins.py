@@ -5,7 +5,7 @@ from django.utils.translation import ugettext as _
 
 
 class ChatPluginPublisher(CMSPluginBase):
-    model = RoomPluginModel  # model where plugin data are saved
+    model = RoomPluginModel # model where plugin data are saved
     module = _("Chat")
     name = _("Chat Plugin")  # name of the plugin in the interface
     render_template = "chat/chat_room.html"

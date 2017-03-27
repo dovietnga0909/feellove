@@ -179,7 +179,9 @@ INSTALLED_APPS = (
     'cards',
     'cards_plugin',
     'chat',
-    'chat_plugin'
+    'chat_plugin',
+    'aboutus',
+    'one_page_plugin'
 )
 
 LANGUAGES = (
