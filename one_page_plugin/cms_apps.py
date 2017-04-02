@@ -9,4 +9,22 @@ class OnePageApphook(CMSApp):
     def get_urls(self, page=None, language=None, **kwargs):
         return ["aboutus.urls"]
 
+
+class ContactApphook(CMSApp):
+    app_name = "contact"
+    name = _("Contact Application")
+    def get_urls(self, page=None, language=None, **kwargs):
+        return ["contact.urls"]
+
+
+class PartnerApphook(CMSApp):
+    app_name = "partner"
+    name = _("Partner Application")
+
+    def get_urls(self, page=None, language=None, **kwargs):
+        return ["partner.urls"]
+
+
+apphook_pool.register(PartnerApphook)
 apphook_pool.register(OnePageApphook)
+apphook_pool.register(ContactApphook)

@@ -178,10 +178,13 @@ INSTALLED_APPS = (
     'bannervideo_plugin',
     'cards',
     'cards_plugin',
-    'chat',
-    'chat_plugin',
     'aboutus',
-    'one_page_plugin'
+    'partner',
+    'service',
+    'contact',
+    'one_page_plugin',
+    #'chat',
+    #'chat_plugin',
 )
 
 LANGUAGES = (

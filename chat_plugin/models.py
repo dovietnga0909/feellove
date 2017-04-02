@@ -4,7 +4,8 @@ from chat.models import Room
 # Create your models here.
 
 class RoomPluginModel(CMSPlugin):
-  rooms = models.ForeignKey(Room)
+  room = models.ForeignKey(Room)
+
   def __unicode__(self):
-    return self.rooms.name
+    return self.room.name
 
