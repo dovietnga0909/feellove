@@ -51,9 +51,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'PORT':'3306',
         'HOST': 'localhost',
-	'NAME': 'feedlove',
+	'NAME': 'feedlove_django_cms',
         'USER': 'root',
-        'PASSWORD': 'TungL@m20!6',
+        'PASSWORD': '',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },

@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('service', '0001_initial'),
-        ('cms', '0019_auto_20170404_2142'),
+        ('cms', '0030_auto_20170405_2109'),
         ('contact', '0002_contact_link_google_map'),
         ('partner', '0001_initial'),
         ('aboutus', '0003_counter'),

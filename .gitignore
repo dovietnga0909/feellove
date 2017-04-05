@@ -2,4 +2,9 @@ requirements.txt
 .idea
 __*
 */__*
-
+*/migrations/*
+*.pyc
+/*.pyc
+*/__pycache__
+*/__*
+*/settings.py
