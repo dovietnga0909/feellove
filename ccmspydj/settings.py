@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^_v3i&&+o@5i1d!ck790fw1(=t=ih3$cbtmybn$9i8bf23v!im'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -51,7 +51,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'PORT':'3306',
         'HOST': 'localhost',
-	'NAME': 'feedlove_django_cms',
+	      'NAME': 'feedlove_django_cms',
         'USER': 'root',
         'PASSWORD': '',
         'OPTIONS': {
@@ -224,6 +224,7 @@ CMS_LANGUAGES = {
 CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Feedlove'),
+    ('blog_templates/blog_fullwidth.html', 'Blog medium image'),
 )
 
 CMS_PERMISSION = True
