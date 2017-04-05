@@ -7,16 +7,52 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('cms', '0019_auto_20170324_1817'),
-        ('aboutus', '0001_initial'),
+        ('service', '0001_initial'),
+        ('cms', '0019_auto_20170404_2142'),
+        ('contact', '0002_contact_link_google_map'),
+        ('partner', '0001_initial'),
+        ('aboutus', '0003_counter'),
     ]
 
     operations = [
+        migrations.CreateModel(
+            name='ContactPluginModel',
+            fields=[
+                ('cmsplugin_ptr', models.OneToOneField(parent_link=True, related_name='one_page_plugin_contactpluginmodel', auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
+                ('contact', models.ForeignKey(to='contact.Contact')),
+            ],
+            options={
+                'abstract': False,
+            },
+            bases=('cms.cmsplugin',),
+        ),
         migrations.CreateModel(
             name='OnePagePluginModel',
             fields=[
                 ('cmsplugin_ptr', models.OneToOneField(parent_link=True, related_name='one_page_plugin_onepagepluginmodel', auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
                 ('aboutus', models.ForeignKey(to='aboutus.Aboutus')),
+            ],
+            options={
+                'abstract': False,
+            },
+            bases=('cms.cmsplugin',),
+        ),
+        migrations.CreateModel(
+            name='PartnerPluginModel',
+            fields=[
+                ('cmsplugin_ptr', models.OneToOneField(parent_link=True, related_name='one_page_plugin_partnerpluginmodel', auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
+                ('partner', models.ForeignKey(to='partner.Partner')),
+            ],
+            options={
+                'abstract': False,
+            },
+            bases=('cms.cmsplugin',),
+        ),
+        migrations.CreateModel(
+            name='ServicePluginModel',
+            fields=[
+                ('cmsplugin_ptr', models.OneToOneField(parent_link=True, related_name='one_page_plugin_servicepluginmodel', auto_created=True, primary_key=True, serialize=False, to='cms.CMSPlugin')),
+                ('service', models.ForeignKey(to='service.Service')),
             ],
             options={
                 'abstract': False,

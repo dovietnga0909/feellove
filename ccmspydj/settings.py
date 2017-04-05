@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '^_v3i&&+o@5i1d!ck790fw1(=t=ih3$cbtmybn$9i8bf23v!im'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -49,9 +49,11 @@ WSGI_APPLICATION = 'ccmspydj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bootstrap_feedlove',
+        'PORT':'3306',
+        'HOST': 'localhost',
+	'NAME': 'feedlove',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'TungL@m20!6',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
@@ -228,16 +230,6 @@ CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
-        'NAME': 'feedlove_django_cms',
-        'PASSWORD': '',
-        'PORT': '',
-        'USER': 'root'
-    }
-}
 
 MIGRATION_MODULES = {
     

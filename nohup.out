@@ -1,0 +1,23 @@
+System check identified some issues:
+
+WARNINGS:
+cards.Cards.created_by: (fields.W342) Setting unique=True on a ForeignKey has the same effect as using a OneToOneField.
+	HINT: ForeignKey(unique=True) is usually better served by a OneToOneField.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+April 04, 2017 - 22:03:52
+Django version 1.8, using settings 'ccmspydj.settings'
+Starting development server at http://127.0.0.1:9292/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+cards.Cards.created_by: (fields.W342) Setting unique=True on a ForeignKey has the same effect as using a OneToOneField.
+	HINT: ForeignKey(unique=True) is usually better served by a OneToOneField.
+
+System check identified 1 issue (0 silenced).
