@@ -82,9 +82,9 @@ var PanManager = BaseObject.extend({
         var nav = $('<div class="editor-pan-nav border-box"></div>').appendTo(pan);
 
         if (tabs.length > 1) {
-            var nav = $('<ul></ul>').appendTo(nav);
+            var nav = $('<ul class="mg-tags"></ul>').appendTo(nav);
             $.each(tabs, function (index, item) {
-                $('<li class="border-box"><a href="#' + item.id + '">' + item.title + '</a></li>').appendTo(nav);
+                $('<li ><a href="#' + item.id + '">' + item.title + '</a></li>').appendTo(nav);
             });
         }
 

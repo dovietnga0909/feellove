@@ -225,6 +225,7 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Feedlove'),
     ('blog_templates/blog_fullwidth.html', 'Blog medium image'),
+    ('card_templates/fullwidth.html', 'Card'),
 )
 
 CMS_PERMISSION = True
