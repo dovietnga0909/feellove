@@ -1,4 +1,5 @@
 requirements.txt
+.idea/*
 .idea
 __*
 */__*
