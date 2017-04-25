@@ -53,7 +53,7 @@ DATABASES = {
         'HOST': 'localhost',
 	      'NAME': 'feedlove_django_cms',
         'USER': 'root',
-        'PASSWORD': 'TungL@m20!6',
+        'PASSWORD': '',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },

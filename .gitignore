@@ -2,10 +2,11 @@ requirements.txt
 .idea/*
 .idea
 __*
-*/__*
-*/migrations/*
+!/__*
+!/migrations/*
+!/__pycache__
+!/__*
+!/settings.py
+ccmspydy/setings.py
 *.pyc
-/*.pyc
-*/__pycache__
-*/__*
-*/settings.py
+!/*.pyc
