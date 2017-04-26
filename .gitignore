@@ -7,6 +7,6 @@ __*
 !/__pycache__
 !/__*
 !/settings.py
-ccmspydy/setings.py
+ccmspydj/settings.py
 *.pyc
 !/*.pyc
