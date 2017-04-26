@@ -23,7 +23,6 @@
         this.items = [];
     },
     setWidth: function (width) {
-        if (width > 600) { width = width/2; }
         this.scale = 1;
         this.width = width;
         this.height = width *210/297;

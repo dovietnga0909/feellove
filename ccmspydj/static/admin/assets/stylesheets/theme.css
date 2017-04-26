@@ -16760,7 +16760,7 @@ html.dark .thumbnail {
 }
 .sidebar-scoll-y{
     height:400px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .widget-content .widget-item-image img{
     width:76px;

@@ -174,7 +174,7 @@ var PanManager = BaseObject.extend({
         this.drawPropertyCarousel(ul, parent, colorList.length);
 
         parent.find('.color-item').on('tap', function () {
-            if (parent.data('scroller').moved) { return false; }
+            //if (parent.data('scroller').moved) { return false; }
             $this.applyProperty(type, $(this).attr('data-val'));
         });
     },
