@@ -5,12 +5,12 @@ $(function () {
         $('.editor').hide();
         return;
     }
-    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
     var card = new Card({
         container: "editor-canvas-container",
-        width: w/2,
-        height: w*210/297,
-        scale: 1,
+        width: 600,
+        height: 450,
+        scale: 0.75,
         progress: ".editor-progress"
     });
 	

@@ -4,18 +4,19 @@
         this.scroller = new IScroll(this.container, { scrollX: true, scrollY: false, tap: true, mouseWheel: true, mouseWheelSpeed: 40 });
 
         var that = this;
-        $(this)
+
         $(this.container + ' li').on('tap', function () {
             that._clicked($(this));
         });
     },
     _clicked: function (item) {        
         if (this.scroller.moved) { return false; }
+
         if (item.hasClass('disabled'))
             return false;
 
         if (item.hasClass('active')) {
-            //this.panManager.close();
+            this.panManager.close();
             item.removeClass('active');
             return;
         }
@@ -23,6 +24,7 @@
         var method = item.attr('data-ecc-method')
         , id = item.attr('data-ecc-id')
         , selected = this.card.getSelected();
+        
 
         this.panManager.close();
         $('.editor-tools li').removeClass('active');
@@ -85,7 +87,7 @@
     _updateScroller: function () {
         var tb = $(this.container);
         var items = tb.find('li').filter(':visible');
-        //tb.find('ul').width(items.length * items.first().width());
+        tb.find('ul').width(items.length * items.first().width());
         this.scroller.refresh();
     }
 });

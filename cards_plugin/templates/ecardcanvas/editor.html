@@ -1,7 +1,7 @@
 {% load static %}
 <div class="inner-wrapper">
 	<!-- start: sidebar -->
-	<aside id="sidebar-left" class="sidebar-left">
+	<aside id="sidebar-left" class="sidebar-left editor">
 
 		<div class="sidebar-header">
 			<div class="sidebar-title">
@@ -12,75 +12,80 @@
 			</div>
 		</div>
 		<div class="nano has-scrollbar">
-						<div class="nano-content" tabindex="0" style="right: -17px;">
-							<nav id="menu" class="nav-main" role="navigation">
-								<ul class="nav nav-main">
-									<li>
-										<a href="index.html">
-											<i class="fa fa-home" aria-hidden="true"></i>
-											<span>Trang chủ</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-delicious" aria-hidden="true"></i>
-											<span>Nền</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-text-width" aria-hidden="true"></i>
-											<span>Chữ</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-smiley" aria-hidden="true"></i>
-											<span>Sticker</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-check-empty" aria-hidden="true"></i>
-											<span>Khung</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-adjust-alt" aria-hidden="true"></i>
-											<span>Hiệu ứng</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-idea" aria-hidden="true"></i>
-											<span>Độ Sáng</span>
-										</a>
-									</li>
-									<li>
-										<a>
-											<i class="el el-adjust" aria-hidden="true"></i>
-											<span>Độ Tương phản</span>
-										</a>
-									</li>
+			<div class="nano-content editor-tools" tabindex="0" style="right: -17px;">
+				<nav id="menu" class="nav-main editor-toolbar" role="navigation">
+					<ul class="nav nav-main ">
+						<li>
+							<a href="index.html">
+								<i class="fa fa-home" aria-hidden="true"></i>
+								<span>Trang chủ</span>
+							</a>
+						</li>
+						<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="photoGroup" title="Change Photo" >
+							<a>
+								<i class="el el-delicious" aria-hidden="true"></i>
+								<span>Nền</span>
+							</a>
+						</li>
+						<li data-ecc-id="text">
+							<a>
+								<i class="el el-text-width" aria-hidden="true"></i>
+								<span>Chữ</span>
+							</a>
+						</li>
+						<li data-ecc-id="clipart">
+							<a>
+								<i class="el el-smiley" aria-hidden="true"></i>
+								<span>Sticker</span>
+							</a>
+						</li>
+						<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="frameGroup" >
+							<a>
+								<i class="el el-check-empty" aria-hidden="true"></i>
+								<span>Khung</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<i class="el el-adjust-alt" aria-hidden="true"></i>
+								<span>Hiệu ứng</span>
+							</a>
+						</li>
+						<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Brightness" >
+							<a>
+								<i class="el el-idea" aria-hidden="true"></i>
+								<span>Độ Sáng</span>
+							</a>
+						</li>
+						<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Contrast" >
+							<a>
+								<i class="el el-adjust" aria-hidden="true"></i>
+								<span>Độ Tương phản</span>
+							</a>
+						</li>
+						<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Filter" >
+							<a>
+								<i class="el el-adjust" aria-hidden="true"></i>
+								<span>Bộ lọc</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
-								</ul>
-							</nav>
-						</div>
+			<script>
+				// Maintain Scroll Position
+				if (typeof localStorage !== 'undefined') {
+					if (localStorage.getItem('sidebar-left-position') !== null) {
+						var initialPosition = localStorage.getItem('sidebar-left-position'),
+							sidebarLeft = document.querySelector('#sidebar-left .nano-content');
 
-						<script>
-							// Maintain Scroll Position
-							if (typeof localStorage !== 'undefined') {
-								if (localStorage.getItem('sidebar-left-position') !== null) {
-									var initialPosition = localStorage.getItem('sidebar-left-position'),
-										sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+						sidebarLeft.scrollTop = initialPosition;
+					}
+				}
+			</script>
 
-									sidebarLeft.scrollTop = initialPosition;
-								}
-							}
-						</script>
-
-					<div class="nano-pane" style="opacity: 1; visibility: visible;"><div class="nano-slider" style="height: 437px; transform: translate(0px, 0px);"></div></div></div>
+		<div class="nano-pane" style="opacity: 1; visibility: visible;"><div class="nano-slider" style="height: 437px; transform: translate(0px, 0px);"></div></div></div>
 	</aside>
 	<!-- end: sidebar -->
 
@@ -126,75 +131,20 @@
 
 							<div class="inner-menu-content">
 
-								<a class="btn btn-block btn-primary btn-md pt-sm pb-sm text-md">
+								<a class="btn btn-block btn-primary btn-md pt-sm pb-sm text-md"  data-ecc-id="Upload">
 									<i class="fa fa-upload mr-xs"></i>
 									Tải ảnh của bạn
 								</a>
 
-								<hr class="separator  pull-left" style="width:100%;display:block"/>
+								<hr class="separator  pull-left through-line"/>
 
-								<div class="sidebar-widget m-none pull-left" style="height:400px;overflow: scroll;">
-									<div class="widget-content">
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-6 ">
-											<img src="{% static 'vysual_html_video/images/sunshine.jpg' %}" width="100%" style="margin-bottom: 10px;">
-										</div>
-									</div>
+								<div class="sidebar-widget m-none pull-left sidebar-scoll-y editor-tools">
+									<div class="widget-content editor-pans "></div>
 								</div>
 
-								<hr class="separator  pull-left"  style="width:100%;display:block"/>
+								<hr class="separator  pull-left through-line" />
 
-								<div class="sidebar-widget m-none " style="position: fixed;bottom: 0;max-width: 288px;">
+								<div class="sidebar-widget m-none nav-fix-bottom" >
 									<div class="widget-header">
 										<h6 class="title">Gợi ý</h6>
 										<span class="widget-toggle">
@@ -247,6 +197,14 @@
 						</ul>
 					</div>
 					<div class="row mg-files" data-sort-destination data-sort-id="media-gallery">
+						<div class="container-ecards">
+							<div class="editor border-box">
+								<div class="editor-body" tabindex="0">
+									<div id="editor-canvas-container"></div>
+									<div class="editor-progress"><span>Loading</span></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

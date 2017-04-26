@@ -16749,3 +16749,24 @@ html.dark .thumbnail {
 	background-color: #21262d;
 	border-color: #282d36;
 }
+.through-line {
+    width:100%;
+    display:block
+}
+.nav-fix-bottom{
+    position: fixed;
+    bottom: 0;
+    max-width: 288px;
+}
+.sidebar-scoll-y{
+    height:400px;
+    overflow-y: scroll;
+}
+.widget-content .widget-item-image img{
+    width:76px;
+    height:76px;
+    margin-bottom:10px;
+}
+.nav-main ul li:hover{
+    cursor: pointer
+}

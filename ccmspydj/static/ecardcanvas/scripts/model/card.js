@@ -23,10 +23,10 @@
         this.items = [];
     },
     setWidth: function (width) {
-        if (width > 600) { width = 600; }
-        this.scale = width / 800;
+        if (width > 600) { width = width/2; }
+        this.scale = 1;
         this.width = width;
-        this.height = (width * 600) / 800;
+        this.height = width *210/297;
         this.stage.setSize(this.width, this.height);
         this.stage.setScale(this.scale);
         this.stage.getContainer().style.height = this.height + 'px';

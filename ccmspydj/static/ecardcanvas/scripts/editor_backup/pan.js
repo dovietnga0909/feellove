@@ -116,20 +116,21 @@ var PanManager = BaseObject.extend({
     },
 
     drawPropertyListSelector: function (propSetting, parent) {
+        var ul = $('<ul></ul>').appendTo(parent);
         for (var i = 0; i < propSetting.data.length; ++i) {
             var data = propSetting.data[i];
-            var elem = $('<div class="col-lg-6 col-md-6 col-sm-6 widget-item-image thumb thumb-{1}-{2}"><img class="lazy" data-original="{3}" src="{3}" alt="{0}" /></div>'
-            .format(data.title, propSetting.type.toLowerCase(), data.title.toLowerCase().replace(" ", "-"), environment.assetThumbPath.format(data.value)))
-            .data('val', data.value)
-            .appendTo(parent);
+            var elem = $('<li class="property-item border-box"><div class="thumb thumb-{1}-{2}">&nbsp;</div><div class="label border-box"><span>{0}</span></div></li>'.format(data.title, propSetting.type.toLowerCase(), data.title.toLowerCase().replace(" ", "-"))).data('val', data.value).appendTo(ul);
+
+            if (propSetting.thumb)
+                elem.addClass('property-item-image').find('.thumb').html('').append('<img class="lazy" data-original="' + environment.assetThumbPath.format(data.value) + '" src="' + environment.contentPath + 'misc/grey.gif" alt="' + data.title + '" />');
         }
 
-        this.drawPropertyCarousel(parent, data.length);
+        this.drawPropertyCarousel(ul, parent, data.length);
         
         var $this = this;
-        parent.find('.thumb').on('tap', function (elem) {
+        ul.find('li').on('tap', function (elem) {
             if (parent.data('scroller').moved) { return false; }
-            $(this).parents().find('div').removeClass('selected');
+            $(this).parents('.editor-prop-pan').find('.editor-pan-content-' + propSetting.type.toLowerCase() + ' li').removeClass('selected');
             $(this).addClass('selected');
             $this.applyProperty(propSetting.type, $(this).data('val'));
         });
@@ -178,9 +179,15 @@ var PanManager = BaseObject.extend({
             $this.applyProperty(type, $(this).attr('data-val'));
         });
     },
-    drawPropertyCarousel: function ( parent, length) {
+    drawPropertyCarousel: function (ul, parent, length) {
 
         var scroller = new IScroll(parent.get(0), { scrollX: true, scrollY: false, tap: true, mouseWheel: true, mouseWheelSpeed: 40, scrollbars: 'custom', interactiveScrollbars: true });
+
+        var width = 0;
+        ul.find('li').each(function () {
+            width += $(this).outerWidth();
+        });
+        ul.width(width + 30);
 
         parent.data('scroller', scroller);
         
