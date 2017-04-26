@@ -8,7 +8,7 @@ var PanManager = BaseObject.extend({
 
         $(document).on('click', '.editor-pan-nav a', function (e) {
             e.preventDefault();
-            var pan = $(this).parents('.editor-pan');
+            var pan = $('.editor-pan');
             var content = pan.find('.editor-pan-content').removeClass('active').filter($(this).attr('href')).addClass('active');
             pan.find('.editor-pan-nav li').removeClass('active')
             $(this).parents('li').addClass('active');            
@@ -78,8 +78,8 @@ var PanManager = BaseObject.extend({
         } else {
             this.drawPropertyContent('editor_pan_content_' + propSetting.type, propSetting, body);
         }
-
-        var nav = $('<div class="editor-pan-nav border-box"></div>').appendTo(pan);
+        var tagsDiv = $('#editor-tags');
+        var nav = $('<div class="editor-pan-nav border-box"></div>').appendTo(tagsDiv);
 
         if (tabs.length > 1) {
             var nav = $('<ul class="mg-tags"></ul>').appendTo(nav);
