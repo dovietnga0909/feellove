@@ -227,6 +227,7 @@ var PanManager = BaseObject.extend({
 
             var that = this;
             var processLocalFiles = function (files) {
+                console.log(files);
                 for (var i = 0, f; f = files[i]; i++) {
 
                     if (!f.type.match('image.*')) { continue; }
