@@ -36,6 +36,7 @@ var WinManager = BaseObject.extend({
 	},
 	_show: function (win) {
 	    win.css('z-index', 22).addClass('editor-win-active');
+	    $('.editor-body').css('display', 'none');
 	    win.find('.editor-win-contents').outerHeight($(this.container).innerHeight() - win.find('.editor-win-head').outerHeight() - win.find('.editor-win-nav').outerHeight() - win.find('.editor-win-footer').outerHeight() - 2);
 	},
 	close: function () {
@@ -54,7 +55,7 @@ var WinManager = BaseObject.extend({
 	        if (that.jcrop.api) { that.jcrop.api.destroy(); }
 	        var contents = win.find('.editor-win-contents');
 	        contents.html('');
-	        var img = $('<img alt="" />').appendTo(contents).get(0);
+	        var img = $('<img alt=""/>').appendTo(contents).get(0);
 
 	        img.onload = function () {	            
                 var cw = contents.width()
