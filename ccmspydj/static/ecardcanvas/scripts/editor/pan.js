@@ -221,13 +221,12 @@ var PanManager = BaseObject.extend({
     drawPropertyUserPhotoSelector: function (type, data, parent) {
         var wrap = $('<div class="user-photo-selector"></div>').appendTo(parent);
         if (window.File && window.FileReader && window.FileList && window.Blob && isFileInputSupported) {
-            wrap.append('<p>Select your photo:</p>');
+            wrap.append('<p>Chọn ảnh của bạn:</p>');
 
             var fileInput = $('<input type="file" size="30" id="photo_custom_input" />').appendTo(wrap);
-
             var that = this;
             var processLocalFiles = function (files) {
-                console.log(files);
+
                 for (var i = 0, f; f = files[i]; i++) {
 
                     if (!f.type.match('image.*')) { continue; }

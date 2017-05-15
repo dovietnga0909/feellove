@@ -61,20 +61,14 @@ var WinManager = BaseObject.extend({
                 var cw = contents.width()
                 , ch = contents.height()
                 , size = getImageSize(getImage());
-
-	            var scale = cw / size.width;
-
-	            if (scale * size.height > ch)
-	                scale = ch / size.height;
-
-	            that.jcrop.scale = scale;
-
-	            var nw = Math.floor(scale * size.width);
-	            var nh = Math.floor(scale * size.height);
-
+                var ww = $('.container-ecards').width();
+                that.jcrop.scale = parseFloat(size.width) / parseFloat(ww);
+                if(cw >= ww ) cw = ww/2;
+	            var nw = cw;
+	            var nh =  cw*210/297;
 	            img.style.width = nw + 'px';
 	            img.style.height = nh + 'px';
-	            
+
 	            $(img).Jcrop({
 	                setSelect: [0, 0, nw, nh],
 	                aspectRatio: 4 / 3,
@@ -93,40 +87,47 @@ var WinManager = BaseObject.extend({
 	    };
 
 	    if (win.length == 0) {
-	        win = this._create(id, 'Crop your image');
+	        win = this._create(id, 'Cắt ảnh của bạn');
 	        var nav = win.find('.editor-win-nav');
 	        nav.addClass('editor-win-toolbar');
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-right"></i> Rotate right 90&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-right"></i> Xoay phải 90&deg;</span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), 90));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-left"></i> Rotate left 90&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-left"></i> Xoay trái 90&deg;</span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), -90));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-180"></i> Rotate 180&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-180"></i> Xoay 180&deg;</span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), 180));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-vertical"></i> Flip vertical</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-vertical"></i> Lật dọc</span>').appendTo(nav).click(function () {
 	            displayImage(flipVertical(getImage()));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-horizontal"></i> Flip horizontal</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-horizontal"></i> Lật ngang</span>').appendTo(nav).click(function () {
 	            displayImage(flipHorizontal(getImage()));
 	        });
 
 	        var footer = win.find('.editor-win-footer').addClass('visible');
-	        $('<button class="button">Done</button>').appendTo(footer).click(function () {
+	        footer.css('marginTop','-100px')
+	        $('<button class="button">Xong</button>').appendTo(footer).click(function () {
+	            var contents = win.find('.editor-win-contents');
+
+                var cw = contents.width();
+                var ww = $('.container-ecards').width();
+                if(cw >= ww ) cw = ww/2;
+
 	            var canvas = document.createElement('canvas');
-	            canvas.width = 800;
-	            canvas.height = 600;
-	            var scale = that.jcrop.scale;
+	            canvas.width = cw;
+	            canvas.height = cw*210/297;
 	            var crop = that.jcrop.crop;
+	            var scale = that.jcrop.scale;
 	            var context = canvas.getContext('2d');
-	            context.drawImage(getImage(), Math.floor(crop.x / scale), Math.floor(crop.y / scale), Math.floor(crop.w / scale), Math.floor(crop.h / scale), 0, 0, 800, 600);
-	            var dataUrl = canvas.toDataURL('image/jpeg', 0.84);
+	            context.drawImage(getImage(), Math.floor(crop.x/scale ), Math.floor(crop.y/scale ), Math.floor(crop.w/scale ), Math.floor(crop.h/scale ), 0, 0, 891, 630);
+	            var dataUrl = canvas.toDataURL('image/jpeg', 1);
 	            this.card.getSelected().setPhoto(dataUrl);
 
 	            this.close();
