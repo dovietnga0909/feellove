@@ -264,7 +264,7 @@ var PanManager = BaseObject.extend({
         if (pan.length === 0) {
             pan = $('<div class="editor-pan editor-prop-pan editor-pan-edit-text"></div>').appendTo(this.container).hide();
             var b = $('<div class="editor-pan-body"></div>').appendTo(pan);
-            var content = $('<div class="editor-pan-content border-box active"><textarea rows="4" cols="50"></textarea></div>').appendTo(b);
+            var content = $('<div class="editor-pan-content border-box active"><textarea id="text_custom_input" rows="4"></textarea></div>').appendTo(b);
         }
 
         $('.editor-pan-edit-text textarea').val(item.title);
@@ -272,6 +272,16 @@ var PanManager = BaseObject.extend({
         $('.editor-pan-edit-text textarea').bind("input paste", function () {
             item.setText($(this).val())
         });
+        if($('#buttonEditText').length === 0){
+            $('<button id="buttonEditText">Chèn chữ</button>').appendTo(pan).click(function () {
+	        var txt = $('#text_custom_input').val();
+                if (txt !== null && txt !== '') {
+                    var cfg = { type: 'text', title: txt, x: 300, y: 250, width: 450, scale: 1 };
+                    this.card.drawItem(cfg);
+                }
+                this.close();
+            }.bind(this));
+        }
 
         pan.show();
     }

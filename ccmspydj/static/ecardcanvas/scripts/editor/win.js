@@ -70,7 +70,7 @@ var WinManager = BaseObject.extend({
 	            img.style.height = nh + 'px';
 
 	            $(img).Jcrop({
-	                setSelect: [0, 0, nw, nh],
+	                setSelect: [0, 0, 297, 210],
 	                aspectRatio: 4 / 3,
 	                onSelect: function (c) {	                    
 	                    that.jcrop.crop = c;
@@ -131,11 +131,13 @@ var WinManager = BaseObject.extend({
 	            this.card.getSelected().setPhoto(dataUrl);
 
 	            this.close();
+	            window.location.reload();
 	        }.bind(this));
 	    }
 	    
 	    this._show(win);
 	    displayImage(src);
+
 	},
 	saveCard: function () {
 	    this.shapeSelector('save', 'Save Your Creation');

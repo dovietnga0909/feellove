@@ -824,43 +824,43 @@ var propertySettings = [{
     }]
 }, {
     type: 'Filter', data: [{
-        id: 1, title: 'None', value: { name: 'none' },
+        id: 1, title: 'None', value: 'background/none.jpg',
     }, {
-        id: 2, title: 'Vintage', value: { name: 'vintage' },
+        id: 2, title: 'Vintage', value:'background/vintage.jpg',
     }, {
-        id: 3, title: 'Lomo', value: { name: 'lomo' }
+        id: 3, title: 'Lomo', value:'background/lomo.jpg',
     }, {
-        id: 4, title: 'Clarity', value: { name: 'clarity' }
+        id: 4, title: 'Clarity', value:'background/clarity.jpg',
     }, {
-        id: 5, title: 'Sin City', value: { name: 'sinCity' }
+        id: 5, title: 'Sin City', value:'background/sinCity.jpg',
     }, {
-        id: 6, title: 'Sunrise', value: { name: 'sunrise' }
+        id: 6, title: 'Sunrise', value:'background/sunrise.jpg',
     }, {
-        id: 7, title: 'Cross Process', value: { name: 'crossProcess' }
+        id: 7, title: 'Cross Process', value:'background/crossProcess.jpg',
     }, {
-        id: 8, title: 'Orange Peel', value: { name: 'orangePeel' }
+        id: 8, title: 'Orange Peel', value:'background/orangePeel.jpg',
     }, {
-        id: 9, title: 'Love', value: { name: 'love' }
+        id: 9, title: 'Love', value:'background/love.jpg',
     }, {
-        id: 10, title: 'Grungy', value: { name: 'grungy' }
+        id: 10, title: 'Grungy', value:'background/grungy.jpg',
     }, {
-        id: 11, title: 'Jarques', value: { name: 'jarques' }
+        id: 11, title: 'Jarques', value:'background/jarques.jpg',
     }, {
-        id: 12, title: 'Pinhole', value: { name: 'pinhole' }
+        id: 12, title: 'Pinhole', value:'background/pinhole.jpg',
     }, {
-        id: 13, title: 'Old Boot', value: { name: 'oldBoot' }
+        id: 13, title: 'Old Boot', value:'background/oldBoot.jpg',
     }, {
-        id: 14, title: 'Glowing Sun', value: { name: 'glowingSun' }
+        id: 14, title: 'Glowing Sun', value:'background/glowingSun.jpg',
     }, {
-        id: 15, title: 'Hazy Days', value: { name: 'hazyDays' }
+        id: 15, title: 'Hazy Days', value:'background/hazyDays.jpg',
     }, {
-        id: 16, title: 'Her Majesty', value: { name: 'herMajesty' }
+        id: 16, title: 'Her Majesty', value:'background/herMajesty.jpg',
     }, {
-        id: 17, title: 'Nostalgia', value: { name: 'nostalgia' }
+        id: 17, title: 'Nostalgia', value:'background/nostalgia.jpg',
     }, {
-        id: 18, title: 'Hemingway', value: { name: 'hemingway' }
+        id: 18, title: 'Hemingway', value:'background/hemingway.jpg',
     }, {
-        id: 19, title: 'Concentrate', value: { name: 'concentrate' }
+        id: 19, title: 'Concentrate', value:'background/concentrate.jpg',
     }]
 }, {
     type: 'frameGroup', items: [{

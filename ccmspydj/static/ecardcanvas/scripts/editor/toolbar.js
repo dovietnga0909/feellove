@@ -73,7 +73,7 @@
                 $(this).hide();
             }
         });
-        if (environment.verySlow) {            
+        if (environment.verySlow) {
             $('.editor-toolbar li[data-ecc-id="Brightness"]').hide();
             $('.editor-toolbar li[data-ecc-id="Contrast"]').hide();
         }
@@ -88,4 +88,5 @@
         //tb.find('ul').width(items.length * items.first().width());
         this.scroller.refresh();
     }
+
 });
