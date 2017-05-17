@@ -1,11 +1,8 @@
 requirements.txt
 .idea/*
 .idea
-__*
-!/__*
 !/migrations/*
 !/__pycache__
-!/__*
 !/settings.py
 ccmspydj/settings.py
 *.pyc
