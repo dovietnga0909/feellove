@@ -71,7 +71,6 @@ function handleWAV(blob) {
   downloadAnchor.className = 'btn btn-primary';
 
   editButton.onclick = function(e) {
-    $('.recorder.container').addClass('hide');
     $('.editor.container').removeClass('invisible');
 
     currentEditedSoundIndex = $(e.target).closest('tr').index();

@@ -1,50 +1,52 @@
 {% load cms_tags menu_tags sekizai_tags %}
 <!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
 {% load static %}
-  <head>
-    <meta charset="utf-8">
-    <title>HTML5 Audio Editor</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<html class="fixed sidebar-left-collapsed sidebar-left-with-menu">
+	<head>
 
-    <!-- Le styles -->
-    <link href="{% static 'JSSoundRecorder/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-      .soundBite input {
-        margin-right: 4px;
-      }
-    </style>
-    <link href="{% static 'JSSoundRecorder/bootstrap/css/bootstrap-responsive.css' %}" rel="stylesheet">
+		<!-- Basic -->
+		<meta charset="UTF-8">
 
-  {% render_block "css" %}
+		<title>Ghi âm</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/bootstrap/css/bootstrap.css' %}" />
+
+		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/font-awesome/css/font-awesome.css' %}" />
+		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/magnific-popup/magnific-popup.css' %}" />
+		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css' %}" />
+
+		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/elusive-icons/css/elusive-icons.css' %}" />
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme.css' %}" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/skins/default.css' %}" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme-custom.css' %}">
+
+		<!-- Head Libs -->
+		<script src=" {% static 'ecardcanvas/scripts/vendor/modernizr-2.6.2.js' %}"></script>
+		{% render_block "css" %}
   </head>
   <body>
   {% cms_toolbar %}
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="#">Sound collector + music maker</a>
-        </div>
-      </div>
-    </div>
     <div class="recorder container">
       <h2>Record</h2>
       <p>Record monitor volume: <input type="range" max="1" step="0.1" value="0" onchange="changeVolume(this.value)"/></p>
       <p>
         <button class="btn btn-primary" onclick="startRecording(this);">Record</button>
         <button class="btn btn-warning" onclick="stopRecording(this);" disabled>Stop</button>
-      </p>
-      
-      <h2>Sounds</h2>
-      <p>
-        Sequencer
-        <button class="btn btn-primary" onclick="startSequencer(this);">Play</button>
-        <button class="btn btn-warning" onclick="stopSequencer(this);" disabled>Stop</button>
       </p>
       <table id="recordingslist">
         <tr>
@@ -73,10 +75,12 @@
             <label for='NumOsc'>Number of Generators: <span class='controlVal'></span></label>
             <input class='control' id='NumOsc' type='range' min='1' max='40' value='40'>
           </th>
-          <th>
-            <!-- <input type="checkbox" id="droneToggle" checked/> -->
-          </th>
         </tr>
+        <tr class="soundBite">
+          <td>
+            <audio class="hide" id='rainSound' controls="" src="{% static 'vysual_html_video/audio/Am-thanh-thien-nhien-Mua.wav' %}"></audio>
+          </td>
+          <td>
       </table>
     </div>
     <div class="editor container">
@@ -95,19 +99,22 @@
               <a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomIntoSelection();"><i class="icon-plus-sign icon-white"></i> Zoom To Selection</a>
               <a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomToFit();"><i class="icon-fullscreen icon-white"></i> Zoom To Fit</a>
             </div>
+               <div class="btn-group">
+              <a class="btn btn-success" onclick="playAudio('rainSound')"><i class="icon-resize-horizontal icon-white"></i>Tiếng mưa</a>
+            </div>
           </div>
         </center>
         </div>
       </div>
       <hr />
       <div class="row">
-        <div class="span4">
+        <div class="col-md-4">
           <h6>Spectrum</h6>
           <div class="well">
             <div id="spectrum"></div>
           </div>
         </div>
-        <div class="span8">
+        <div class="col-md-8">
           <h6>Editor</h6>
           <div class="well">
              <audioLayerControl id="audioLayerControl" title="CloudCompany.mp3" />
@@ -121,126 +128,100 @@
       </div>
       <hr>
       <div class="row">
-        <div class="span12">
+        <div class="col-md-12">
           <center>
             <div class="btn-toolbar">
               <div class="btn-group">
-                <a id="btn_play" class="btn btn-success btn-large" onclick="$('#audioLayerControl')[0].play()" rel="tooltip" title="first tooltip"><i class="icon-play icon-white"></i></a>
+                <button id="btn_play" onclick="$('#audioLayerControl')[0].play()" type="button" class="mb-xs mt-xs mr-xs btn btn-success"><i class="fa fa-play"></i> Nghe</button>
+                <button id="btn_pause" onclick="$('#audioLayerControl')[0].play()" type="button" class="mb-xs mt-xs mr-xs btn btn-warning"><i class="fa fa-pause"></i> Tạm dừng</button>
+                <button id="btn_stop" onclick="$('#audioLayerControl')[0].stop()" type="button" class="mb-xs mt-xs mr-xs btn btn-error"><i class="fa fa-stop"></i> Dừng</button>
+                <button id="btn_loop" onclick="$('#audioLayerControl')[0].toggleLoop()" type="button" class="mb-xs mt-xs mr-xs btn btn-primary"><i class="fa fa-play-circle-o"></i> Lặp lại</button>
+                <!--<a id="btn_play" class="btn btn-success btn-large" onclick="$('#audioLayerControl')[0].play()" rel="tooltip" title="first tooltip"><i class="icon-play icon-white"></i></a>
                 <a id="btn_pause" class="btn btn-success btn-large disabled"><i class="icon-pause icon-white"></i></a>
                 <a id="btn_stop" class="btn btn-success btn-large" onclick="$('#audioLayerControl')[0].stop()"><i class="icon-stop icon-white"></i></a>
-                <a id="btn_loop" class="btn btn-warning btn-large" data-toggle="button" onclick="$('#audioLayerControl')[0].toggleLoop();"><i class="icon-repeat icon-white"></i></a>
-              </div>
-              <div class="btn-group">
-                <!-- <a class="btn btn-large btn-primary" onclick="$('#audioLayerControl')[0].save($('#savelink')[0]);"><i class="icon-fire"></i> Render</a> -->
-                <button class="btn btn-large btn-success" id="savelink" onclick="$('#audioLayerControl')[0].saveBack();"><i class="icon-download"></i> Save</button>
+                <a id="btn_loop" class="btn btn-warning btn-large" data-toggle="button" onclick="$('#audioLayerControl')[0].toggleLoop();"><i class="icon-repeat icon-white"></i></a>-->
               </div>
             </div>
           </center>
         </div>
       </div>
-      <div class="row">
+      <div class="row hidden">
         <div class="span4 offset4">
           <div class="progress progress-striped active">
             <div id="app-progress" class="bar" style="width: 0%;"></div>
           </div>
         </div>
-      </div>  
-      <br>
-      <div class="row">
-        <div class="span1"><br></div>
-        <div class="span2">
-          <h6>Gain</h6>
-          <div class="well" style="height: 130px; position:relative">
-            <p>Change the volume of the selected audio sequence with the given gain multiplicator.</p>
-            
-              <div class="pull-right" style=" position:absolute; bottom: 5px; width: 100%;" >
-                <div class="btn-group" >
-                  
-                    <button class="btn btn-success" onclick="decrease_db()"><i class="icon-minus"></i></button>
-                    <button id="gain-db" class="btn disabled" onclick="gain_btn_clicked()">0 db</button>
-                    <button class="btn btn-success" onclick="increase_db()"><i class="icon-plus"></i></button> 
-                </div>
-              </div>
-            <script type="text/javascript">
-                var db_gain = 0;
-
-                function decrease_db()
-                {
-                  --db_gain;
-                  update_db_gain_btn();
-                }
-
-                function increase_db()
-                {
-                  ++db_gain;
-                  update_db_gain_btn();
-                }
-
-                function update_db_gain_btn()
-                {
-                  var gain_btn = $('#gain-db')[0];
-
-                  gain_btn.innerHTML = db_gain + ' db'; 
-
-                  if (db_gain === 0)
-                  {
-                    gain_btn.className = 'btn disabled';
-                  }
-                  else
-                  {
-                    gain_btn.className = 'btn btn-primary';
-                  }
-                }
-
-                function gain_btn_clicked()
-                {
-                  $('#audioLayerControl')[0].filterGain(db_gain);
-                  db_gain = 0;
-                  update_db_gain_btn();
-                }
-                </script>
-          </div>
-        </div>
-        <div class="span2">
-          <h6>Normalize</h6>
-          <div class="well" style="height: 130px; position:relative">
-            <p>Adjust the volume to the maximum of the selected audio sequence.</p>
-            <a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterNormalize();">Apply</a>
-            <br>
-          </div>
-        </div>
-        <div class="span2">
-          <h6>Silence</h6>
-          <div class="well" style="height: 130px; position:relative">
-            <p>Silence the selected audio sequence</p>
-            <a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterSilence();">Apply</a>
-            <br>
-          </div>
-        </div>
-        <div class="span2">
-          <h6>Fade In</h6>
-          <div class="well" style="height: 130px; position:relative">
-            <p>Create a linear fade int of the selected audio sequence</p>
-            <a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeIn();">Apply</a>
-            <br>
-          </div>
-        </div>
-        <div class="span2">
-          <h6>Fade Out</h6>
-          <div class="well" style="height: 130px; position:relative">
-            <p>Create a linear fade out of the selected audio sequence</p>
-            <a style="position:absolute; bottom: 5px; right: 5px" class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeOut();">Apply</a>
-            <br>
-          </div>
-        </div>
-        <div class="span1">
-
-        </div>
       </div>
-
-
+      <br>
     <!-- Le javascript
     ================================================== -->
+    <script src=" {% static 'ecardcanvas/scripts/vendor/jquery-1.10.2.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/jquery.lazyload.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/magnific-popup.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/jquery.Jcrop.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/iscroll-5.0.5.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/waypoints.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/jquery.nouislider.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/spectrum.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/caman-4.1.1.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/kinetic-v4.7.2.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/jquery.joyride-2.1.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/vendor/jquery.cookie.js' %}"></script>
+
+      <script src=" {% static 'ecardcanvas/scripts/editor/helpers.js' %}"></script>
+
+      <script src=" {% static 'ecardcanvas/scripts/model/base.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/model/shape.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/model/bg.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/model/clipart.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/model/text.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/model/card.js' %}"></script>
+
+      <script src=" {% static 'ecardcanvas/scripts/editor/data.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/editor/progressbar.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/editor/win.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/editor/pan.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/editor/toolbar.js' %}"></script>
+      <script src=" {% static 'ecardcanvas/scripts/editor/editor.js' %}"></script>
+
+
+      <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js"></script>
+
+      <!-- Vendor -->
+      <!--<script src="{% static 'admin/assets/vendor/jquery/jquery.js' %}"></script>-->
+      <script src="{% static 'admin/assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js' %}"></script>
+      <script src="{% static 'admin/assets/vendor/bootstrap/js/bootstrap.js' %}"></script>
+      <script src="{% static 'admin/assets/vendor/nanoscroller/nanoscroller.js' %}"></script>
+      <script src="{% static 'admin/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js' %}"></script>
+      <script src="{% static 'admin/assets/vendor/magnific-popup/jquery.magnific-popup.js' %}"></script>
+      <script src="{% static 'admin/assets/vendor/jquery-placeholder/jquery-placeholder.js' %}"></script>
+
+      <!-- Specific Page Vendor -->
+      <script src="{% static 'admin/assets/vendor/isotope/isotope.js' %}"></script>
+
+      <!-- Theme Base, Components and Settings -->
+      <script src="{% static 'admin/assets/javascripts/theme.js' %}"></script>
+
+      <!-- Theme Custom -->
+      <script src="{% static 'admin/assets/javascripts/theme.custom.js' %}"></script>
+
+      <!-- Theme Initialization Files -->
+      <script src="{% static 'admin/assets/javascripts/theme.init.js' %}"></script>
+
+      <!-- Examples -->
+      <script src="{% static 'admin/assets/javascripts/pages/examples.mediagallery.js' %}"></script>
+
+      <script>
+          var environment = {
+              fileInputSupported: isFileInputSupported,
+              hasTouch: hasTouch,
+              saveUrl: "card/SaveCard",
+              cardConfig: [{src:"background/notebook.png",type:'background'}],
+              contentPath: "{% static 'ecardcanvas/content/' %}",
+              assetsPath:  "{% static 'ecardcanvas/content/assets/' %}",
+              assetThumbPath: "{% static 'ecardcanvas/content/thumbnails/{0}' %}"
+          };
+      </script>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{% static 'JSSoundRecorder/jquery/js/jquery-1.7.2.js' %}"></script>
     <script src="{% static 'JSSoundRecorder/bootstrap/js/bootstrap-transition.js' %}"></script>
@@ -283,10 +264,16 @@
     <script type="text/javascript">
       $(window).load(function()
       {
-        $('.editor.container').addClass('invisible');
+        //$('.editor.container').addClass('invisible');
         onDocumentLoaded();
       });
     </script>
+    <script>
+      function playAudio(id){
+           var audio = document.getElementById(id);
+           audio.play();
+     }
+ </script>
     {% render_block "js" %}
   </body>
 </html>
