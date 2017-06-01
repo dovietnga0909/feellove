@@ -69,8 +69,8 @@ jQuery(document).ajaxComplete(function() {
 if (!headerImage.length >= 1 ) {
 	headerImages.background({
 		source: {
-			poster: "images/bridge.jpg",
-			mp4: 	"http://127.0.0.1:8000/static/vysual_html_video/videos/magic-cloth-demo.mp4"
+			poster: "https://feedlove.vn/static/vysual_html_video/images/bridge.jpg",
+			mp4: 	"https://feedlove.vn/static/vysual_html_video/videos/magic-cloth-demo.mp4"
 		}
 	});
 }
