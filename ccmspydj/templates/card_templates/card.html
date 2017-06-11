@@ -2,131 +2,281 @@
 <!DOCTYPE html>
 <html lang="{{ LANGUAGE_CODE }}">
 {% load static %}
-<html class="fixed sidebar-left-collapsed sidebar-left-with-menu">
-	<head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi">
+    <meta name="description" content="" />
+    <title>Editor - eCardCanvas.com</title>
 
-		<!-- Basic -->
-		<meta charset="UTF-8">
+	<!-- Web Fonts  -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	
+	<link href=" {% static 'canvas/style/base.css' %}" rel="stylesheet" />
+	
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href=" {% static 'admin/assets/vendor/bootstrap/css/bootstrap.css' %}" />
 
-		<title>Tự tạo thiệp online </title>
-		<meta name="keywords" content="HTML5 Admin Template" />
-		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+	<link rel="stylesheet" href=" {% static 'admin/assets/vendor/font-awesome/css/font-awesome.css' %}" />
+	<link rel="stylesheet" href=" {% static 'admin/assets/vendor/magnific-popup/magnific-popup.css' %}" />
 
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href=" {% static 'admin/assets/vendor/elusive-icons/css/elusive-icons.css' %}" />
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme.css' %}" />
 
-		<!-- Web Fonts  -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+	<!-- Skin CSS -->
+	<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/skins/default.css' %}" />
 
-		<!-- Vendor CSS -->
-		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/bootstrap/css/bootstrap.css' %}" />
+	<!-- Theme Custom CSS -->
+	<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme-custom.css' %}">
 
-		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/font-awesome/css/font-awesome.css' %}" />
-		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/magnific-popup/magnific-popup.css' %}" />
-		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css' %}" />
+	<!-- ecard canvas -->
+    <link href=" {% static 'canvas/style/layout.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/magnific-popup.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/nouislider.fox.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/spectrum.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/jquery.Jcrop.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/joyride-2.1.css' %}" rel="stylesheet" />
+    <link href=" {% static 'canvas/style/editor.css' %}" rel="stylesheet" />
 
-		<link rel="stylesheet" href=" {% static 'admin/assets/vendor/elusive-icons/css/elusive-icons.css' %}" />
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme.css' %}" />
+	<!-- Custom css -->
+	<link href=" {% static 'custom-dev.css' %}" rel="stylesheet" />
+</head>
 
-		<!-- Skin CSS -->
-		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/skins/default.css' %}" />
+<body>
+    <section class="body">
 
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href=" {% static 'admin/assets/stylesheets/theme-custom.css' %}">
+		<!-- start: header -->
+		<header class="header">
+			<div class="logo-container">
+				<a href="../" class="logo">
+					<img src=" {% static 'porto/logo/Lovebird.png' %}" height="35" alt="Porto Admin" />
+				</a>
+				<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+					<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+				</div>
+			</div>
+		</header>
 
-		<!-- Head Libs -->
-		<script src=" {% static 'ecardcanvas/scripts/vendor/modernizr-2.6.2.js' %}"></script>
-		{% render_block "css" %}
-	</head>
-	<body>
-
-	{% cms_toolbar %}
-		<section class="body">
-
-			<!-- start: header -->
-			<header class="header">
-				<div class="logo-container">
-					<a href="../" class="logo">
-						<img src="{% static 'porto/logo/Lovebird.png' %} " height="35" />
-					</a>
-					<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+		<div class="inner-wrapper">
+			<!-- start: sidebar -->
+			<aside id="sidebar-left" class="sidebar-left">
+			
+				<div class="sidebar-header">
+					<div class="sidebar-title">
+						Chức năng
+					</div>
+					<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
 						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
 					</div>
 				</div>
-			</header>
-			<!-- end: header -->
-			{% block content %}{% endblock content %}
+			
+				<div class="nano"  id="sidebar-left-nav">
+					<div class="nano-content editor-toolbar">
+						<nav id="menu" class="nav-main" role="navigation">
+							<ul class="nav nav-main">
+								<li class="nav-active" style="display: block !important">
+									<a href="">
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Trang chủ</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="photoGroup" title="Change Photo">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Change</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Upload" title="Upload Photo">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Upload</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="frameGroup" title="Frame">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Frame</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Brightness" title="Brightness">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Brightness</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Contrast" title="Contrast">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Contrast</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Filter" title="Filters">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Filter</span>
+									</a>
+								</li>
+								<li data-ecc-method="deleteShape" data-ecc-type="clipart text" title="Delete">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Delete</span>
+									</a>
+								</li>
+								<li data-ecc-method="moveToTop" data-ecc-type="clipart text" title="Move to Top">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Bring front</span>
+									</a>
+								</li>
+								<li data-ecc-method="moveToBottom" data-ecc-type="clipart text" title="Move to Bottom">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Move back</span>
+									</a>
+								</li>
+								<li data-ecc-method="flipHorizontal" data-ecc-type="clipart" title="Flip Horizontal">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Flip</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="shadow" title="Shadow">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Shadow</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="Opacity" title="Opacity">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Opacity</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="clipart" data-ecc-id="FillColor" title="Color Fill">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Color fill</span>
+									</a>
+								</li>
+								<li data-ecc-method="editText" data-ecc-type="text" data-ecc-id="editText" title="Edit Text">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Edit</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="fontFamilyGroup" title="Font Family">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Font</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="style" title="Text Style">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Style</span>
+									</a>
+								</li>
+								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="stroke" title="Text Stroke">
+									<a>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<span>Stroke</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+			
+					<script>
+						// Maintain Scroll Position
+						if (typeof localStorage !== 'undefined') {
+							if (localStorage.getItem('sidebar-left-position') !== null) {
+								var initialPosition = localStorage.getItem('sidebar-left-position'),
+									sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+								
+								sidebarLeft.scrollTop = initialPosition;
+							}
+						}
+					</script>
+			
+				</div>
+			
+			</aside>
+			<!-- end: sidebar -->
 
-		</section>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery-1.10.2.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery.lazyload.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/magnific-popup.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery.Jcrop.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/iscroll-5.0.5.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/waypoints.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery.nouislider.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/spectrum.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/caman-4.1.1.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/kinetic-v4.7.2.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery.joyride-2.1.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/vendor/jquery.cookie.js' %}"></script>
+			<section role="main" class="content-body" id="content-body">
+				<header class="page-header">
+					<h2>Dashboard</h2>
+				
+				</header>
 
-		<script src=" {% static 'ecardcanvas/scripts/editor/helpers.js' %}"></script>
+				<!-- start: page -->
+				<div class="row">
+					{% block content %}{% endblock content %}
+				</div>
 
-		<script src=" {% static 'ecardcanvas/scripts/model/base.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/model/shape.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/model/bg.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/model/clipart.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/model/text.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/model/card.js' %}"></script>
+	</section>
 
-		<script src=" {% static 'ecardcanvas/scripts/editor/data.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/editor/progressbar.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/editor/win.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/editor/pan.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/editor/toolbar.js' %}"></script>
-		<script src=" {% static 'ecardcanvas/scripts/editor/editor.js' %}"></script>
+	<!-- Canvas -->
+    <script src= " {% static 'canvas/scripts/vendor/jquery-1.10.2.js' %}"></script>
+	<script src= " {% static 'canvas/scripts/vendor/modernizr-2.6.2.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/jquery.lazyload.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/magnific-popup.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/jquery.Jcrop.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/iscroll-5.0.5.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/waypoints.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/jquery.nouislider.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/spectrum.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/caman-4.1.1.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/kinetic-v4.7.2.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/jquery.joyride-2.1.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/vendor/jquery.cookie.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/helpers.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/base.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/shape.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/bg.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/clipart.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/text.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/model/card.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/data.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/progressbar.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/win.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/pan.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/toolbar.js' %}"></script>
+    <script src= " {% static 'canvas/scripts/editor/editor.js' %}"></script>
 
+	<!-- Web Font -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js"></script>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/webfont/1.0.31/webfont.js"></script>
+	<!-- Vendor -->
+	<script src=" {% static 'admin/assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js' %}"></script>
+	<script src=" {% static 'admin/assets/vendor/bootstrap/js/bootstrap.js' %}"></script>
+	<script src=" {% static 'admin/assets/vendor/nanoscroller/nanoscroller.js' %}"></script>
+	<script src=" {% static 'admin/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js' %}"></script>
+	<script src=" {% static 'admin/assets/vendor/magnific-popup/jquery.magnific-popup.js' %}"></script>
+	<script src=" {% static 'admin/assets/vendor/jquery-placeholder/jquery-placeholder.js' %}"></script>
+	
+	<!-- Theme Base, Components and Settings -->
+	<script src=" {% static 'admin/assets/javascripts/theme.js' %}"></script>
+	
+	<!-- Theme Custom -->
+	<script src=" {% static 'admin/assets/javascripts/theme.custom.js' %}"></script>
+	
+	<!-- Theme Initialization Files -->
+	<script src=" {% static 'admin/assets/javascripts/theme.init.js' %}"></script>
 
-		<!-- Vendor -->
-		<!--<script src="{% static 'admin/assets/vendor/jquery/jquery.js' %}"></script>-->
-		<script src="{% static 'admin/assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js' %}"></script>
-		<script src="{% static 'admin/assets/vendor/bootstrap/js/bootstrap.js' %}"></script>
-		<script src="{% static 'admin/assets/vendor/nanoscroller/nanoscroller.js' %}"></script>
-		<script src="{% static 'admin/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js' %}"></script>
-		<script src="{% static 'admin/assets/vendor/magnific-popup/jquery.magnific-popup.js' %}"></script>
-		<script src="{% static 'admin/assets/vendor/jquery-placeholder/jquery-placeholder.js' %}"></script>
-		
-		<!-- Specific Page Vendor -->
-		<script src="{% static 'admin/assets/vendor/isotope/isotope.js' %}"></script>
-		
-		<!-- Theme Base, Components and Settings -->
-		<script src="{% static 'admin/assets/javascripts/theme.js' %}"></script>
-		
-		<!-- Theme Custom -->
-		<script src="{% static 'admin/assets/javascripts/theme.custom.js' %}"></script>
-		
-		<!-- Theme Initialization Files -->
-		<script src="{% static 'admin/assets/javascripts/theme.init.js' %}"></script>
-
-		<!-- Examples -->
-		<script src="{% static 'admin/assets/javascripts/pages/examples.mediagallery.js' %}"></script>
-
-		<script>
-			var environment = {
+    <script>
+        var environment = {
 				fileInputSupported: isFileInputSupported,
 				hasTouch: hasTouch,
 				saveUrl: "card/SaveCard",
 				cardConfig: [{src:"background/notebook.png",type:'background'}],
-				contentPath: "{% static 'ecardcanvas/content/' %}",
-				assetsPath:  "{% static 'ecardcanvas/content/assets/' %}",
-				assetThumbPath: "{% static 'ecardcanvas/content/thumbnails/{0}' %}"
+				contentPath: "{% static 'canvas/content/' %}",
+				assetsPath:  "{% static 'canvas/content/assets/' %}",
+				assetThumbPath: "{% static 'canvas/content/thumbnails/{0}' %}"
 			};
-		</script>
-		{% render_block "js" %}
-	</body>
+		var height = $('#card-canvas').width();
+		$('#sidebar-left-nav').height(height);
+    </script>
+
+</body>
 </html>
