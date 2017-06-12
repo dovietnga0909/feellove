@@ -9,32 +9,31 @@
 			<div class="editor border-box">
 				<div class="editor-navbar clearfix">
 					<ul>
-						<li class="btn border-box tip-add-text" data-ecc-id="text"><span><i class="ecc-icon ecc-icon-plus"></i> Text</span></li>
-						<li class="btn border-box tip-add-clipart" data-ecc-id="clipart"><span><i class="ecc-icon ecc-icon-plus"></i> Clipart</span></li>
-						<li class="btn last border-box tip-save-card" data-ecc-id="save"><span><i class="ecc-icon ecc-icon-save"></i> Save</span></li>
+						<li class="btn border-box tip-add-text" data-ecc-id="text"><span><i class="ecc-icon ecc-icon-plus"></i> Chèn chữ</span></li>
+						<li class="btn border-box tip-add-clipart" data-ecc-id="clipart"><span><i class="ecc-icon ecc-icon-plus"></i> Chèn Sticker</span></li>
+						<li class="btn last border-box tip-save-card" data-ecc-id="save"><span><i class="ecc-icon ecc-icon-save"></i> Lưu thiệp</span></li>
 					</ul>
 				</div>
 				<div class="editor-body" tabindex="0">
 					<div id="editor-canvas-container"></div>
-					<div class="editor-progress"><span>Loading</span></div>
+					<div class="editor-progress"><span>Đang tải</span></div>
 				</div>
 				
 			</div>
 
 			<div class="editor-not-supported">
-				<p>Your browser doesn't support <a href=" {% static 'canvas/http://en.wikipedia.org/wiki/Canvas_element">html5 canvas</a>. Please upgrade
-					your browser to a more recent one!</p>
+				<p>Trình duyệt của bạn không hỗ trợ <a href=" {% static 'canvas/http://en.wikipedia.org/wiki/Canvas_element">html5 canvas</a>. Xin vui lòng nâng cấp phiên bản trình duyệt!</p>
 			</div>
 
 			<div class="card-save-form">
 				<div class="form">
 
 					<form action="/edit" method="post">
-						<label class="label-optional label-optional-personal label-required-public" for="Title">Title</label>
+						<label class="label-optional label-optional-personal label-required-public" for="Title">Tiêu đề</label>
 						<input id="Title" name="Title" type="text" value="" />
-						<label class="label-optional label-optional-personal label-required-public" for="CategoryId">Category</label>
+						<label class="label-optional label-optional-personal label-required-public" for="CategoryId">Danh mục</label>
 						<select id="CategoryId" name="CategoryId">
-							<option value="">Select a category</option>
+							<option value="">Chọn danh mục</option>
 							<option value="2">Birthday</option>
 							<option value="3">Love</option>
 							<option value="4">Friendship</option>
@@ -54,10 +53,10 @@
 						<input id="definition" name="definition" type="hidden" value="[{src:&#39;background/notebook.png&#39;,type:&#39;background&#39;}]"
 						/>
 						<input id="filtersDisabled" name="filtersDisabled" type="hidden" value="" />
-						<button type="submit" class="save" style="width:160px;">Save</button>
+						<button type="submit" class="save" style="width:160px;">Lưu</button>
 					</form>
 					<div class="status-error"></div>
-					<div class="save-progress">Saving...Please Wait...</div>
+					<div class="save-progress">Đang lưu...Xin đợi...</div>
 				</div>
 				<p class="card-save-form-terms"><i class="ecc-icon ecc-icon-info"></i> Please note that by saving this card you agree to the <a href=" {% static 'canvas/#" target="_blank">terms</a>                of this site.</p>
 				<div class="card-save-form-download">

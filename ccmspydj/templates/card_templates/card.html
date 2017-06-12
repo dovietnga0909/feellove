@@ -65,7 +65,7 @@
 			
 				<div class="sidebar-header">
 					<div class="sidebar-title">
-						Chức năng
+						Điều hướng
 					</div>
 					<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
 						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
@@ -84,86 +84,86 @@
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="photoGroup" title="Change Photo">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Change</span>
+										<i class="el el-delicious" aria-hidden="true"></i>
+										<span>Nền</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Upload" title="Upload Photo">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Upload</span>
+										<i class="fa fa-upload" aria-hidden="true"></i>		
+										<span>Tải ảnh</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="frameGroup" title="Frame">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Frame</span>
+										<i class="el el-check-empty" aria-hidden="true"></i>
+										<span>Khung</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Brightness" title="Brightness">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Brightness</span>
+										<i class="el el-adjust" aria-hidden="true"></i>
+										<span>Độ sáng</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Contrast" title="Contrast">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Contrast</span>
+										<i class="el el-idea" aria-hidden="true"></i>
+										<span>Độ tương phản</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Filter" title="Filters">
 									<a>
-										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Filter</span>
+										<i class="el el-adjust" aria-hidden="true"></i>
+										<span>Bộ lọc</span>
 									</a>
 								</li>
 								<li data-ecc-method="deleteShape" data-ecc-type="clipart text" title="Delete">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Delete</span>
+										<span>Xóa</span>
 									</a>
 								</li>
 								<li data-ecc-method="moveToTop" data-ecc-type="clipart text" title="Move to Top">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Bring front</span>
+										<span>Hiện trước</span>
 									</a>
 								</li>
 								<li data-ecc-method="moveToBottom" data-ecc-type="clipart text" title="Move to Bottom">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Move back</span>
+										<span>Ẩn sau</span>
 									</a>
 								</li>
 								<li data-ecc-method="flipHorizontal" data-ecc-type="clipart" title="Flip Horizontal">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Flip</span>
+										<span>Lật</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="shadow" title="Shadow">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Shadow</span>
+										<span>Che bóng</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="Opacity" title="Opacity">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Opacity</span>
+										<span>Độ mờ</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="clipart" data-ecc-id="FillColor" title="Color Fill">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Color fill</span>
+										<span>Điền màu</span>
 									</a>
 								</li>
 								<li data-ecc-method="editText" data-ecc-type="text" data-ecc-id="editText" title="Edit Text">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Edit</span>
+										<span>Chỉnh sửa</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="fontFamilyGroup" title="Font Family">
@@ -175,13 +175,13 @@
 								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="style" title="Text Style">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Style</span>
+										<span>Phong cách</span>
 									</a>
 								</li>
 								<li data-ecc-method="showProperty" data-ecc-type="text" data-ecc-id="stroke" title="Text Stroke">
 									<a>
 										<i class="fa fa-home" aria-hidden="true"></i>
-										<span>Stroke</span>
+										<span>Nét chữ</span>
 									</a>
 								</li>
 							</ul>
@@ -276,7 +276,8 @@
 				assetsPath:  "{% static 'canvas/content/assets/' %}",
 				assetThumbPath: "{% static 'canvas/content/thumbnails/{0}' %}"
 			};
-		var height = $('#card-canvas').width();
+
+		var height = $('.content-body').width();
 		$('#sidebar-left-nav').height(height);
     </script>
 	{% render_block "js" %}

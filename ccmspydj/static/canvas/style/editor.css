@@ -9,7 +9,7 @@
     .slow-device .note { padding-top: 50px; color: #999; font-size: 0.9em; }
 
 .editor-navbar { position: absolute; height: 30px; background-color: #f5f5f5; background-image: linear-gradient(to bottom, #f8f8f8, #e3e3e3 ); top: 0; width: 100%;  border-bottom: solid 1px #AAAAAB; }
-    .editor-navbar li { float: left; width: 100px; text-align: center; }
+    .editor-navbar li { float: left; width: 130px; text-align: center; }
     .editor-navbar li.last { float: right; }
         .editor-navbar li span { color: #666; display: block; padding: 5px 0 5px 0; cursor: pointer; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
         .editor-navbar li:hover span { color: #000; }
@@ -19,13 +19,13 @@
 #editor-canvas-container { z-index: 1; }
     #editor-canvas-container .kineticjs-content { display: block !important;  }
 
-.editor-body { position: relative; width: 600px; margin: 0 auto; overflow: hidden; }
+.editor-body { position: relative; width: 100%; margin: 0 auto; overflow: hidden; }
 
 /* ----- Editor Popup Windows ----- */
 .editor-win { width: 100%; position: absolute; z-index: 20; background: #f3f3f3; left: 0; top: 0; display: none; }
 .editor-win-active { animation:slide-top 0.6s; -webkit-animation:slide-top 0.6s; display: block; }
 .editor-win-head { padding: 5px 50px 5px 10px; }
-    .editor-win-head h3 { font-size: 1.6em; font-weight: bold; line-height: 30px; margin: 0; color: #333; }
+    .editor-win-head h3 { font-size: 1.6em; line-height: 30px; margin: 0; color: #333; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
     .editor-win-head a { position: absolute; display: block; right: 10px; top: 05px; width: 32px; height: 32px; background: url(img/button_sprite.png) no-repeat -64px 0px; cursor: pointer; }
         .editor-win-head a:hover { background-position: -64px -32px; }
         .editor-win-head a span { display: none; }
@@ -109,7 +109,6 @@
     }
 .card-save-form-login {
     padding: 5px;
-    background-color: #F0FFF0;
     border-radius: 4px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
