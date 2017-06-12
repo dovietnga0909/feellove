@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi">
     <meta name="description" content="" />
-    <title>Editor - eCardCanvas.com</title>
+    <title>Tự tạo thiệp online</title>
 
 	<!-- Web Fonts  -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
@@ -40,9 +40,11 @@
 
 	<!-- Custom css -->
 	<link href=" {% static 'custom-dev.css' %}" rel="stylesheet" />
+	{% render_block "css" %}
 </head>
 
 <body>
+	{% cms_toolbar %}
     <section class="body">
 
 		<!-- start: header -->
@@ -205,8 +207,8 @@
 
 			<section role="main" class="content-body" id="content-body">
 				<header class="page-header">
-					<h2>Dashboard</h2>
-				
+					<h2>Feedlove Card</h2>
+					<h6>Tự tạo thiệp theo phong cách của bạn</h6>
 				</header>
 
 				<!-- start: page -->
@@ -277,6 +279,6 @@
 		var height = $('#card-canvas').width();
 		$('#sidebar-left-nav').height(height);
     </script>
-
+	{% render_block "js" %}
 </body>
 </html>

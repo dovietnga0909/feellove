@@ -1,1 +1,39 @@
-div,nav,ul,li{outline:none !important}.inner-wrapper{padding-top:20px}.sidebar-left .nano{background:#1D2127;box-shadow:-5px 0 0 #2F3139 inset}.nano-content,.editor-toolbar{margin-right:0px !important}.property-item .label{display:block;padding:0 4px !important;font-size:75% !important;font-weight:0.8em !important;line-height:initial !important;color:#fff !important;text-align:center !important;white-space:nowrap !important;border-radius:10px !important}#card-canvas .container{padding:0 !important}#card-canvas .container .editor .editor-navbar{height:auto !important}
+div,
+nav,
+ul,
+li {
+    outline: none !important
+}
+.inner-wrapper {
+    padding-top: 20px
+}
+.sidebar-left .nano {
+    background: #1D2127;
+    box-shadow: -5px 0 0 #2F3139 inset
+}
+.nano-content,
+.editor-toolbar {
+    margin-right: 0px !important
+}
+.property-item .label {
+    display: block;
+    padding: 0 4px !important;
+    font-size: 75% !important;
+    font-weight: 0.8em !important;
+    line-height: initial !important;
+    color: #fff !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    border-radius: 10px !important
+}
+#card-canvas .container {
+    padding: 0 !important
+}
+#card-canvas .container .editor .editor-navbar {
+    height: auto !important
+}
+.page-header h6 {
+    margin-top: 0px;
+    padding: 10px;
+    color: #999;
+}
