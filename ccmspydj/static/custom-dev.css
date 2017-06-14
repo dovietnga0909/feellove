@@ -7,8 +7,31 @@ ul,
 li {
     outline: none !important
 }
+.page-header{
+    box-shadow: 1px 1px 0 1px #00c4cc;
+    border-left: none;
+    background: #00c4cc;
+}
+.page-header h2{
+    border-bottom: none;
+}
+.page-header h6{
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+}
+.sidebar-left .sidebar-header{
+    height: 52px;
+}
+.sidebar-left .sidebar-header .sidebar-title, .sidebar-left .sidebar-header .sidebar-toggle, .sidebar-left .sidebar-header .sidebar-toggle i{
+    background: #00c4cc;
+    color: #fff;
+}
 .inner-wrapper {
     padding-top: 20px
+}
+.sidebar-left .sidebar-header .sidebar-toggle{
+    color: #fff;
 }
 .content-body{
     padding-bottom: 0px;
@@ -51,15 +74,9 @@ ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
 #card-canvas .container .editor .editor-navbar {
     height: auto !important
 }
-.page-header h6 {
-    margin-top: 0px;
-    padding: 10px;
-    color: #999;
-}
-
 #editor-section{
     margin-left: -25px;
-    margin-top: -40px;
+    margin-top: -38px;
     background: #3f4652;
     padding: 0 20px 0 20px;
 }
@@ -68,11 +85,18 @@ ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
     display: none !important;
 }
 
-.editor-prop-pan-Upload .editor-pan-body{
+.editor-prop-pan-Upload .editor-pan-body, .editor-pan-edit-text .editor-pan-body{
     overflow: visible;
 }
 
 .editor-prop-pan-Upload .editor-pan-content{
     overflow: visible;
     background: #DFDFDF;
+}
+
+.editor-pan-edit-text .editor-pan-content{
+    overflow: visible;
+}
+html.sidebar-left-collapsed .sidebar-left .sidebar-title{
+    opacity: 1 !important;
 }
