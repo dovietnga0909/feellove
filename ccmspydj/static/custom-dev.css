@@ -63,9 +63,16 @@ ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
     background: #3f4652;
     padding: 0 20px 0 20px;
 }
-.editor-tools{
-    padding-top:20px;
+
+.range, .double-range, .range.active{
+    display: none !important;
 }
-.editor-pan{
-    position: relative;
+
+.editor-prop-pan-Upload .editor-pan-body{
+    overflow: visible;
+}
+
+.editor-prop-pan-Upload .editor-pan-content{
+    overflow: visible;
+    background: #DFDFDF;
 }

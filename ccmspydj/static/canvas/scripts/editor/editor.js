@@ -155,5 +155,7 @@ $(function () {
 
     initilize();
 	$('#sidebar-left-nav').height($('#sidebar-left').height() - $('.sidebar-header').height());
-    $('#editor-section').height($('#sidebar-left').height() - $('.sidebar-header').height())
+    $('#editor-section').height($('#sidebar-left').height() - $('.sidebar-header').height());
+    
+    
 });

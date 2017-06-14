@@ -100,7 +100,7 @@
 										<span>Khung</span>
 									</a>
 								</li>
-								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Brightness" title="Brightness">
+								<!--<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Brightness" title="Brightness">
 									<a>
 										<i class="el el-adjust" aria-hidden="true"></i>
 										<span>Độ sáng</span>
@@ -111,7 +111,7 @@
 										<i class="el el-idea" aria-hidden="true"></i>
 										<span>Độ tương phản</span>
 									</a>
-								</li>
+								</li>-->
 								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="Filter" title="Filters">
 									<a>
 										<i class="el el-adjust" aria-hidden="true"></i>
@@ -148,12 +148,12 @@
 										<span>Che bóng</span>
 									</a>
 								</li>
-								<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="Opacity" title="Opacity">
+								<!--<li data-ecc-method="showProperty" data-ecc-type="clipart text" data-ecc-id="Opacity" title="Opacity">
 									<a>
 										<i class="fa fa-genderless" aria-hidden="true"></i>
 										<span>Độ mờ</span>
 									</a>
-								</li>
+								</li>-->
 								<li data-ecc-method="showProperty" data-ecc-type="clipart" data-ecc-id="FillColor" title="Color Fill">
 									<a>
 										<i class="fa fa-paint-brush" aria-hidden="true"></i>
@@ -282,10 +282,18 @@
 					$(e).removeClass('nav-active-custom');
 				});
 			}
+
+			function actionRender(){
+				$('.iScrollHorizontalScrollbar.iScrollLoneScrollbar').remove();
+				$('.editor-pan-nav.border-box').remove();
+				
+			}
 			$('ul.nav-main li').each(function(i, e){			
 				$(e).click(function(){	
 					removeActiveMenu();			
 					$(e).addClass('nav-active-custom');
+					actionRender();
+					$('.editor-pan-body').height($('#sidebar-left').height() - $('.sidebar-header').height() - 20);
 				})
 			})
     </script>
