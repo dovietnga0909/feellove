@@ -1,6 +1,6 @@
 {% load cms_tags menu_tags sekizai_tags %}
 <!DOCTYPE html>
-<html lang="{{ LANGUAGE_CODE }}">
+<html lang="{{ LANGUAGE_CODE }}" class="sidebar-left-collapsed">
 {% load static %}
 <head>
     <meta charset="utf-8" />
@@ -76,7 +76,7 @@
 					<div class="nano-content editor-toolbar">
 						<nav id="menu" class="nav-main" role="navigation">
 							<ul class="nav nav-main">
-								<li class="nav-active" style="display: block !important">
+								<li class="nav-active-custom" style="display: block !important">
 									<a href="">
 										<i class="fa fa-home" aria-hidden="true"></i>
 										<span>Trang chủ</span>
@@ -277,8 +277,17 @@
 				assetThumbPath: "{% static 'canvas/content/thumbnails/{0}' %}"
 			};
 
-		var height = $('.content-body').width();
-		$('#sidebar-left-nav').height(height);
+			function removeActiveMenu(){
+				$('ul.nav-main li').each(function(i, e){
+					$(e).removeClass('nav-active-custom');
+				});
+			}
+			$('ul.nav-main li').each(function(i, e){			
+				$(e).click(function(){	
+					removeActiveMenu();			
+					$(e).addClass('nav-active-custom');
+				})
+			})
     </script>
 	{% render_block "js" %}
 </body>

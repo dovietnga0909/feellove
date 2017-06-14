@@ -1,3 +1,6 @@
+body{
+    padding-bottom: 0px;
+}
 div,
 nav,
 ul,
@@ -7,13 +10,29 @@ li {
 .inner-wrapper {
     padding-top: 20px
 }
+.content-body{
+    padding-bottom: 0px;
+}
 .sidebar-left .nano {
-    background: #1D2127;
-    box-shadow: -5px 0 0 #2F3139 inset
+    background: #272c33 !important;
+    box-shadow: none !important;
 }
 .nano-content,
 .editor-toolbar {
     margin-right: 0px !important
+}
+ul.nav-main {
+    margin-right: 0px;
+}
+ul.nav-main li a {
+    color: #fff;
+}
+ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
+    background-color: #272c33 !important;
+    color: #00c4cc !important;
+}
+.nav-active-custom {
+    background-color: #3f4652 !important;
 }
 .property-item .label {
     display: block;
@@ -36,4 +55,17 @@ li {
     margin-top: 0px;
     padding: 10px;
     color: #999;
+}
+
+#editor-section{
+    margin-left: -25px;
+    margin-top: -40px;
+    background: #3f4652;
+    padding: 0 20px 0 20px;
+}
+.editor-tools{
+    padding-top:20px;
+}
+.editor-pan{
+    position: relative;
 }
