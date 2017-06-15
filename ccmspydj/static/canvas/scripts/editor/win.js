@@ -30,7 +30,7 @@ var WinManager = BaseObject.extend({
 	},
 	_create: function (id, title) {
 	    var win = $('<div class="editor-win ' + id + '"></div>').appendTo(this.container);
-	    win.append('<div class="editor-win-head"><h3>' + title + '</h3><a class="editor-cancel"><span>Close</span></a></div>');
+	    win.append('<div class="editor-win-head"><h3>' + title + '</h3><a class="editor-cancel"><span>Đóng</span></a></div>');
 	    win.append('<div class="editor-win-body"><ul class="editor-win-nav border-box clearfix"></ul><div class="editor-win-contents border-box"></div><div class="editor-win-footer"></div></div>');
 	    return win;
 	},
@@ -96,23 +96,23 @@ var WinManager = BaseObject.extend({
 	        var nav = win.find('.editor-win-nav');
 	        nav.addClass('editor-win-toolbar');
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-right"></i> Rotate right 90&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-right"></i> Xoay phải </span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), 90));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-left"></i> Rotate left 90&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-left"></i> Xoay trái </span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), -90));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-180"></i> Rotate 180&deg;</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-rotate-180"></i> Xoay 180 độ </span>').appendTo(nav).click(function () {
 	            displayImage(rotateImage(getImage(), 180));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-vertical"></i> Flip vertical</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-vertical"></i> Xoay ngang </span>').appendTo(nav).click(function () {
 	            displayImage(flipVertical(getImage()));
 	        });
 
-	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-horizontal"></i> Flip horizontal</span>').appendTo(nav).click(function () {
+	        $('<span class="editor-win-crop-tool"><i class="ecc-icon ecc-icon-flip-horizontal"></i> Lật ngang </span>').appendTo(nav).click(function () {
 	            displayImage(flipHorizontal(getImage()));
 	        });
 
@@ -162,7 +162,7 @@ var WinManager = BaseObject.extend({
 	                popular.append('<span>Tình yêu</span><span>Cuộc sống</span><span>Sinh nhật</span>');
                     search.attr('placeholder', 'Tìm kiếm nội dung mẫu...')
 	            } else {
-	                popular.append('<span>Tình yêu</span><span>Tự nhiên</span><span>Con người</span><span>Nhãn hiệu</span><span>Trừu tượng</span><span>Vui vẻ</span><span>Kỷ niệm</span><span>Giáng sinh</span>');
+	                popular.append('<span>Tình yêu</span><span>Tự nhiên</span><span>Con người</span><span>Vui nhộn</span><span>Giáng sinh</span>');
 	                search.attr('placeholder', 'Tìm kiếm sticker...')
 	            }
 

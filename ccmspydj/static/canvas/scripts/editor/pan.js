@@ -156,7 +156,7 @@ var PanManager = BaseObject.extend({
 
         var li = $('<li class="property-item color-item color-item-selector border-box"></li>').appendTo(ul)
         var colorInput = $('<input type="text" />').appendTo(li);
-        $('<div class="label border-box"><span>Select Color</span></div>').appendTo(li);
+        $('<div class="label border-box"><span>Chọn màu</span></div>').appendTo(li);
 
         var $this = this;
 
@@ -228,7 +228,7 @@ var PanManager = BaseObject.extend({
     drawPropertyUserPhotoSelector: function (type, data, parent) {
         var wrap = $('<div class="user-photo-selector"></div>').appendTo(parent);
         if (window.File && window.FileReader && window.FileList && window.Blob && isFileInputSupported) {
-            wrap.append('<p>Select your photo:</p>');
+            wrap.append('<p>Chọn ảnh của bạn:</p>');
 
             var fileInput = $('<input type="file" size="30" id="photo_custom_input" />').appendTo(wrap);
 
