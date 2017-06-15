@@ -1,5 +1,5 @@
 ﻿var shapes = [{
-    id: 2330, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 500, height: 379, scale: 0.6, src: 'clipart/speech_bubble_one.png'
+    id: 2330, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 500, height: 379, scale: 0.6, src: 'clipart/speech_bubble_one.png'
 }, {
     id: 2100, type: 'clipart', tags: 'fly,bird,nature', width: 429, height: 543, scale: 0.5, src: 'clipart/bird.png'
 }, {
@@ -37,9 +37,9 @@
 }, {
     id: 2320, type: 'clipart', tags: 'people,hot,chick,girl,bikini,woman', width: 151, height: 558, scale: 0.8, src: 'clipart/hot_chick.png'
 }, {
-    id: 2350, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 589, height: 408, scale: 0.6, src: 'clipart/speech_bubble_two.png'
+    id: 2350, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 589, height: 408, scale: 0.6, src: 'clipart/speech_bubble_two.png'
 }, {
-    id: 2360, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 471, height: 344, scale: 0.7, src: 'clipart/speech_bubble_three.png'
+    id: 2360, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 471, height: 344, scale: 0.7, src: 'clipart/speech_bubble_three.png'
 }, {
     id: 2370, type: 'clipart', tags: 'people,shopping,girl,woman,hot,sexy,silhouette,bags', width: 264, height: 600, scale: 0.8, src: 'clipart/shopping_girl.png'
 }, {
@@ -55,21 +55,21 @@
 }, {
     id: 2450, type: 'clipart', tags: 'teddy,bear,heart,love,cute,gift', width: 395, height: 444, scale: 0.7, src: 'clipart/bear_heart.png'
 }, {
-    id: 2460, type: 'clipart', tags: 'badge,roadblock,road,block,sticker', width: 480, height: 354, scale: 0.7, src: 'clipart/roadblock.png'
+    id: 2460, type: 'clipart', tags: 'Nhãn hiệu,roadblock,road,block,sticker', width: 480, height: 354, scale: 0.7, src: 'clipart/roadblock.png'
 }, {
     id: 2470, type: 'clipart', tags: 'pink,heart,love', width: 600, height: 509, scale: 0.6, src: 'clipart/heart_pink.png'
 }, {
-    id: 2480, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 450, height: 443, scale: 0.6, src: 'clipart/speech_bubble_four.png'
+    id: 2480, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 450, height: 443, scale: 0.6, src: 'clipart/speech_bubble_four.png'
 }, {
-    id: 2490, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 500, height: 310, scale: 0.6, src: 'clipart/speech_bubble_five.png'
+    id: 2490, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 500, height: 310, scale: 0.6, src: 'clipart/speech_bubble_five.png'
 }, {
-    id: 2500, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 450, height: 243, scale: 0.7, src: 'clipart/speech_bubble_six.png'
+    id: 2500, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 450, height: 243, scale: 0.7, src: 'clipart/speech_bubble_six.png'
 }, {
-    id: 2510, type: 'clipart', tags: 'badge,speech,bubble,sticker,balloon', width: 450, height: 358, scale: 0.7, src: 'clipart/speech_bubble_seven.png'
+    id: 2510, type: 'clipart', tags: 'Nhãn hiệu,Lời nói,bubble,sticker,balloon', width: 450, height: 358, scale: 0.7, src: 'clipart/speech_bubble_seven.png'
 }, {
     id: 2520, type: 'clipart', tags: 'yacht,boat,holiday,ocean,sailing,rich', width: 800, height: 298, scale: 0.7, src: 'clipart/yacht.png'
 }, {
-    id: 2530, type: 'clipart', tags: 'badge,smiley,sticker,yellow', width: 395, height: 396, scale: 0.8, src: 'clipart/smiley_sticker.png'
+    id: 2530, type: 'clipart', tags: 'Nhãn hiệu,smiley,sticker,yellow', width: 395, height: 396, scale: 0.8, src: 'clipart/smiley_sticker.png'
 }, {
     id: 2540, type: 'clipart', tags: 'red,sport,car,fast,rich', width: 600, height: 319, scale: 0.7, src: 'clipart/sport_car.png'
 }, {
@@ -77,7 +77,7 @@
 }, {
     id: 2570, type: 'clipart', tags: 'basketball,sport', title: 'Basketball', width: 450, height: 446, scale: 0.7, src: 'clipart/basketball.png'
 }, {
-    id: 2580, type: 'clipart', tags: 'badge,tv,retro,television', width: 600, height: 688, scale: 0.6, src: 'clipart/retro_tv.png'
+    id: 2580, type: 'clipart', tags: 'Nhãn hiệu,tv,retro,television', width: 600, height: 688, scale: 0.6, src: 'clipart/retro_tv.png'
 }, {
     id: 2590, type: 'clipart', tags: 'clover,flower,nature', width: 450, height: 530, scale: 0.6, src: 'clipart/clover.png'
 }, {
@@ -89,7 +89,7 @@
 }, {
     id: 2640, type: 'clipart', tags: 'christmas,tree,nature', width: 393, height: 600, scale: 0.8, src: 'clipart/christmas_tree.png'
 }, {
-    id: 2650, type: 'clipart', tags: 'badge,audio,cassette,retro,music', width: 483, height: 294, scale: 0.8, src: 'clipart/audio_cassette.png'
+    id: 2650, type: 'clipart', tags: 'Nhãn hiệu,audio,cassette,retro,music', width: 483, height: 294, scale: 0.8, src: 'clipart/audio_cassette.png'
 }, {
     id: 2660, type: 'clipart', tags: 'lifestyle,gamble,gambling,casino,cards,play,game', width: 567, height: 312, scale: 0.8, src: 'clipart/gambling.png'
 }, {
@@ -97,13 +97,13 @@
 }, {
     id: 2690, type: 'clipart', tags: 'christmas,santa,gift,celebration', width: 456, height: 431, scale: 0.8, src: 'clipart/santa.png'
 }, {
-    id: 2700, type: 'clipart', tags: 'badge,love,heart,bird,label', width: 572, height: 440, scale: 0.8, src: 'clipart/be_mine.png'
+    id: 2700, type: 'clipart', tags: 'Nhãn hiệu,love,heart,bird,label', width: 572, height: 440, scale: 0.8, src: 'clipart/be_mine.png'
 }, {
     id: 2710, type: 'clipart', tags: 'people,fashion,girl,woman,sexy,hot,lady,silhouette,model', width: 210, height: 600, scale: 0.8, src: 'clipart/fashion_girl.png'
 }, {
     id: 2720, type: 'clipart', tags: 'people,baby,girl,kid,cute,birth', width: 450, height: 449, scale: 0.8, src: 'clipart/baby_girl.png'
 }, {
-    id: 2730, type: 'clipart', tags: 'badge,hello,kitty,sticker,christmas', width: 450, height: 454, scale: 0.8, src: 'clipart/hello_kitty_christmas.png'
+    id: 2730, type: 'clipart', tags: 'Nhãn hiệu,hello,kitty,sticker,christmas', width: 450, height: 454, scale: 0.8, src: 'clipart/hello_kitty_christmas.png'
 }, {
     id: 2750, type: 'clipart', tags: 'abstract,grunge,splatter', width: 505, height: 418, scale: 0.8, src: 'clipart/grunge_splatter.png'
 }, {
@@ -119,9 +119,9 @@
 }, {
     id: 2810, type: 'clipart', tags: 'abstracy,color,splash,grunge', width: 650, height: 541, scale: 0.8, src: 'clipart/colorful_splashes.png'
 }, {
-    id: 2820, type: 'clipart', tags: 'badge,wooden,banner,note', width: 650, height: 419, scale: 0.7, src: 'clipart/wooden_banner.png'
+    id: 2820, type: 'clipart', tags: 'Nhãn hiệu,wooden,banner,note', width: 650, height: 419, scale: 0.7, src: 'clipart/wooden_banner.png'
 }, {
-    id: 2830, type: 'clipart', tags: 'badge,mushroom,banner,note', width: 650, height: 200, scale: 0.7, src: 'clipart/mushroom_banner.png'
+    id: 2830, type: 'clipart', tags: 'Nhãn hiệu,mushroom,banner,note', width: 650, height: 200, scale: 0.7, src: 'clipart/mushroom_banner.png'
 }, {
     id: 2840, type: 'clipart', tags: 'abstractt,ink,brush', width: 561, height: 114, scale: 0.7, src: 'clipart/ink_brush_one.png'
 }, {
@@ -137,7 +137,7 @@
 }, {
     id: 2900, type: 'clipart', tags: 'people,woman,girl,lady,silhoette,head', width: 471, height: 665, scale: 0.7, src: 'clipart/retro_woman.png'
 }, {
-    id: 2910, type: 'clipart', tags: 'badge,valentine,love,banner,note,heart', width: 600, height: 521, scale: 0.7, src: 'clipart/valentine_banner.png'
+    id: 2910, type: 'clipart', tags: 'Nhãn hiệu,valentine,love,banner,note,heart', width: 600, height: 521, scale: 0.7, src: 'clipart/valentine_banner.png'
 }, {
     id: 2920, type: 'clipart', tags: 'lotus,blossoms,flower,nature', width: 537, height: 438, scale: 0.8, src: 'clipart/lotus_blossoms.png'
 }, {
@@ -177,7 +177,7 @@
 }, {
     id: 3067, type: 'clipart', tags: 'bath,tub,shower,bubble', width: 472, height: 475, scale: 0.7, src: 'clipart/bathtub.png'
 }, {
-    id: 3068, type: 'clipart', tags: 'birthday,plane,gift,red,fly,celebration', width: 492, height: 401, scale: 0.7, src: 'clipart/birthday_plane.png'
+    id: 3068, type: 'clipart', tags: 'Sinh nhật,plane,gift,red,fly,celebration', width: 492, height: 401, scale: 0.7, src: 'clipart/birthday_plane.png'
 }, {
     id: 3069, type: 'clipart', tags: 'people,couple,propose,silhouette,love', width: 356, height: 440, scale: 0.8, src: 'clipart/couple_propose.png'
 }, {
@@ -203,13 +203,13 @@
 }, {
     id: 3080, type: 'clipart', tags: 'chinese,lantern,green,celebration', width: 269, height: 487, scale: 0.8, src: 'clipart/chinese_lantern_green.png'
 }, {
-    id: 3081, type: 'clipart', tags: 'birthday,cake,celebration', width: 333, height: 433, scale: 0.8, src: 'clipart/birthday_cake.png'
+    id: 3081, type: 'clipart', tags: 'Sinh nhật,cake,celebration', width: 333, height: 433, scale: 0.8, src: 'clipart/birthday_cake.png'
 }, {
     id: 3082, type: 'clipart', tags: 'bird,singing,blue,funny,nature', width: 293, height: 453, scale: 0.8, src: 'clipart/bird_singing.png'
 }, {
     id: 3083, type: 'clipart', tags: 'people,father,son,play,silhouette', width: 409, height: 483, scale: 0.8, src: 'clipart/father_son.png'
 }, {
-    id: 3084, type: 'clipart', tags: 'birthday,cake,candle,red,celebration', width: 517, height: 395, scale: 0.8, src: 'clipart/birthday_cake_one.png'
+    id: 3084, type: 'clipart', tags: 'Sinh nhật,cake,candle,red,celebration', width: 517, height: 395, scale: 0.8, src: 'clipart/birthday_cake_one.png'
 }, {
     id: 3085, type: 'clipart', tags: 'flower,nature', width: 465, height: 469, scale: 0.8, src: 'clipart/fresh_flower.png'
 }, {
@@ -241,23 +241,23 @@
 }, {
     id: 3099, type: 'clipart', tags: 'people,couple,propose,love,silhouette', width: 408, height: 503, scale: 0.8, src: 'clipart/couple_propose_two.png'
 }, {
-    id: 3100, type: 'clipart', tags: 'badge,money,bag,silhouette', width: 413, height: 444, scale: 0.8, src: 'clipart/money_bag.png'
+    id: 3100, type: 'clipart', tags: 'Nhãn hiệu,money,bag,silhouette', width: 413, height: 444, scale: 0.8, src: 'clipart/money_bag.png'
 }, {
-    id: 3101, type: 'clipart', tags: 'badge,money,cash', width: 400, height: 482, scale: 0.8, src: 'clipart/money.png'
+    id: 3101, type: 'clipart', tags: 'Nhãn hiệu,money,cash', width: 400, height: 482, scale: 0.8, src: 'clipart/money.png'
 }, {
     id: 3102, type: 'clipart', tags: 'people,mother,child,silhouette', width: 318, height: 507, scale: 0.8, src: 'clipart/mother_child.png'
 }, {
     id: 3103, type: 'clipart', tags: 'people,couple,holding,hands,love,silhouette', width: 412, height: 502, scale: 0.8, src: 'clipart/couple_holding_hands_two.png'
 }, {
-    id: 3104, type: 'clipart', tags: 'gift,box,birthday,love,celebration', width: 393, height: 506, scale: 0.8, src: 'clipart/gift_box.png'
+    id: 3104, type: 'clipart', tags: 'gift,box,Sinh nhật,love,celebration', width: 393, height: 506, scale: 0.8, src: 'clipart/gift_box.png'
 }, {
-    id: 3105, type: 'clipart', tags: 'badge,sticker,red', width: 495, height: 325, scale: 0.8, src: 'clipart/sticker.png'
+    id: 3105, type: 'clipart', tags: 'Nhãn hiệu,sticker,red', width: 495, height: 325, scale: 0.8, src: 'clipart/sticker.png'
 }, {
-    id: 3106, type: 'clipart', tags: 'badge,sticker,red', width: 189, height: 492, scale: 0.8, src: 'clipart/sticker_one.png'
+    id: 3106, type: 'clipart', tags: 'Nhãn hiệu,sticker,red', width: 189, height: 492, scale: 0.8, src: 'clipart/sticker_one.png'
 }, {
     id: 3107, type: 'clipart', tags: 'celebration,gift,box,love,pink', width: 375, height: 481, scale: 0.8, src: 'clipart/gift_box_one.png'
 }, {
-    id: 3108, type: 'clipart', tags: 'celebration,birthday,cake', width: 304, height: 505, scale: 0.8, src: 'clipart/birthday_cake_two.png'
+    id: 3108, type: 'clipart', tags: 'celebration,Sinh nhật,cake', width: 304, height: 505, scale: 0.8, src: 'clipart/birthday_cake_two.png'
 }, {
     id: 3109, type: 'clipart', tags: 'people,girl,fashion,silhouette', width: 325, height: 501, scale: 0.8, src: 'clipart/fashion_girl_one.png'
 }, {
@@ -315,7 +315,7 @@
 }, {
     id: 3136, type: 'clipart', tags: 'pen,writing,stationery', width: 53, height: 521, scale: 0.8, src: 'clipart/stationery_graphic_one.png'
 }, {
-    id: 3137, type: 'clipart', tags: 'badge,halloween,lantern,pumpkin,scary', width: 492, height: 448, scale: 0.8, src: 'clipart/halloween_lantern.png'
+    id: 3137, type: 'clipart', tags: 'Nhãn hiệu,halloween,lantern,pumpkin,scary', width: 492, height: 448, scale: 0.8, src: 'clipart/halloween_lantern.png'
 }, {
     id: 3138, type: 'clipart', tags: 'vacation,bag,hat,suitcase,holiday,luggage', width: 327, height: 510, scale: 0.8, src: 'clipart/vacation.png'
 }, {
@@ -421,7 +421,7 @@
 }, {
     id: 3205, type: 'clipart', tags: 'flower,basket,nature', width: 692, height: 380, scale: 0.8, src: 'clipart/flower_basket.png'
 }, {
-    id: 3206, type: 'clipart', tags: 'badge,love,letter,pink,heart,mail,pocket', width: 506, height: 435, scale: 0.8, src: 'clipart/love_letter.png'
+    id: 3206, type: 'clipart', tags: 'Nhãn hiệu,love,letter,pink,heart,mail,pocket', width: 506, height: 435, scale: 0.8, src: 'clipart/love_letter.png'
 }, {
     id: 3207, type: 'clipart', tags: 'love,heart', width: 516, height: 465, scale: 0.8, src: 'clipart/heart_four.png'
 }, {
@@ -487,7 +487,7 @@
 }, {
     id: 3246, type: 'clipart', tags: 'people,love,heart,cartoon,cute,silhouette', width: 140, height: 538, scale: 0.8, src: 'clipart/love_heart_one.png'
 }, {
-    id: 3247, type: 'clipart', tags: 'badge,note,sticky', width: 476, height: 341, scale: 0.8, src: 'clipart/sticky_note.png'
+    id: 3247, type: 'clipart', tags: 'Nhãn hiệu,note,sticky', width: 476, height: 341, scale: 0.8, src: 'clipart/sticky_note.png'
 }, {
     id: 3251, type: 'clipart', tags: 'music,silhouette,celebration', width: 467, height: 358, scale: 0.8, src: 'clipart/music.png'
 }, {
@@ -507,9 +507,9 @@
 }, {
     id: 3266, type: 'clipart', tags: 'flower,nature', width: 337, height: 576, scale: 0.7, src: 'clipart/flourish_banner.png'
 }, {
-    id: 3267, type: 'clipart', tags: 'badge,lable,sticker,paint,roller', width: 689, height: 190, scale: 0.7, src: 'clipart/coloured_paint_roller.png'
+    id: 3267, type: 'clipart', tags: 'Nhãn hiệu,lable,sticker,paint,roller', width: 689, height: 190, scale: 0.7, src: 'clipart/coloured_paint_roller.png'
 }, {
-    id: 3268, type: 'clipart', tags: 'badge,lable,sticker,paint,roller', width: 723, height: 252, scale: 0.7, src: 'clipart/coloured_paint_roller_one.png'
+    id: 3268, type: 'clipart', tags: 'Nhãn hiệu,lable,sticker,paint,roller', width: 723, height: 252, scale: 0.7, src: 'clipart/coloured_paint_roller_one.png'
 }, {
     id: 3269, type: 'clipart', tags: 'leaf,leaves,green,tree,nature', width: 372, height: 474, scale: 0.7, src: 'clipart/leaf_twig.png'
 }, {
@@ -609,7 +609,7 @@
 }, {
     id: 3325, type: 'clipart', tags: 'bird,nature,animal,cute', width: 524, height: 496, scale: 0.7, src: 'clipart/cute_bird_four.png'
 }, {
-    id: 3326, type: 'clipart', tags: 'badge,doodle', width: 733, height: 331, scale: 0.7, src: 'clipart/cute_doodle.png'
+    id: 3326, type: 'clipart', tags: 'Nhãn hiệu,doodle', width: 733, height: 331, scale: 0.7, src: 'clipart/cute_doodle.png'
 }, {
     id: 3327, type: 'clipart', tags: 'people,girl,doodle', width: 353, height: 568, scale: 0.7, src: 'clipart/cute_doodle_two.png'
 }, {
@@ -621,19 +621,19 @@
 }, {
     id: 3334, type: 'clipart', tags: 'people,girl,dance,party', width: 259, height: 550, scale: 0.7, src: 'clipart/party_girl.png'
 }, {
-    id: 3335, type: 'clipart', tags: 'cake,birthday,celebration', width: 415, height: 508, scale: 0.7, src: 'clipart/birthday_cake_three.png'
+    id: 3335, type: 'clipart', tags: 'cake,Sinh nhật,celebration', width: 415, height: 508, scale: 0.7, src: 'clipart/birthday_cake_three.png'
 }, {
-    id: 3336, type: 'clipart', tags: 'cake,birthday,celebration,girl,people,party', width: 284, height: 569, scale: 0.7, src: 'clipart/birthday_girl.png'
+    id: 3336, type: 'clipart', tags: 'cake,Sinh nhật,celebration,girl,people,party', width: 284, height: 569, scale: 0.7, src: 'clipart/birthday_girl.png'
 }, {
-    id: 3337, type: 'clipart', tags: 'birthday,frame,badge', width: 477, height: 487, scale: 0.7, src: 'clipart/birthday_frame.png'
+    id: 3337, type: 'clipart', tags: 'Sinh nhật,frame,Nhãn hiệu', width: 477, height: 487, scale: 0.7, src: 'clipart/birthday_frame.png'
 }, {
-    id: 3338, type: 'clipart', tags: 'birthday,frame,badge', width: 490, height: 501, scale: 0.7, src: 'clipart/birthday_frame_one.png'
+    id: 3338, type: 'clipart', tags: 'Sinh nhật,frame,Nhãn hiệu', width: 490, height: 501, scale: 0.7, src: 'clipart/birthday_frame_one.png'
 }, {
-    id: 3339, type: 'clipart', tags: 'birthday,frame,badge', width: 462, height: 473, scale: 0.7, src: 'clipart/birthday_frame_two.png'
+    id: 3339, type: 'clipart', tags: 'Sinh nhật,frame,Nhãn hiệu', width: 462, height: 473, scale: 0.7, src: 'clipart/birthday_frame_two.png'
 }, {
-    id: 3340, type: 'clipart', tags: 'birthday,frame,badge', width: 473, height: 473, scale: 0.7, src: 'clipart/birthday_frame_three.png'
+    id: 3340, type: 'clipart', tags: 'Sinh nhật,frame,Nhãn hiệu', width: 473, height: 473, scale: 0.7, src: 'clipart/birthday_frame_three.png'
 }, {
-    id: 3341, type: 'clipart', tags: 'birthday,frame,badge', width: 519, height: 519, scale: 0.7, src: 'clipart/birthday_frame_four.png'
+    id: 3341, type: 'clipart', tags: 'Sinh nhật,frame,Nhãn hiệu', width: 519, height: 519, scale: 0.7, src: 'clipart/birthday_frame_four.png'
 }, {
     id: 3342, type: 'clipart', tags: 'vase,pot,nature,flower', width: 208, height: 545, scale: 0.7, src: 'clipart/daisy_vase.png'
 }, {
@@ -643,17 +643,17 @@
 }, {
     id: 3345, type: 'clipart', tags: 'gift,box,girl,present,people', width: 320, height: 558, scale: 0.7, src: 'clipart/girl_with_present.png'
 }, {
-    id: 3346, type: 'clipart', tags: 'boy,kid,badge', width: 373, height: 527, scale: 0.7, src: 'clipart/kids.png'
+    id: 3346, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 373, height: 527, scale: 0.7, src: 'clipart/kids.png'
 }, {
-    id: 3347, type: 'clipart', tags: 'boy,kid,badge', width: 678, height: 437, scale: 0.7, src: 'clipart/kids_one.png'
+    id: 3347, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 678, height: 437, scale: 0.7, src: 'clipart/kids_one.png'
 }, {
-    id: 3348, type: 'clipart', tags: 'boy,kid,badge', width: 676, height: 413, scale: 0.7, src: 'clipart/kids_two.png'
+    id: 3348, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 676, height: 413, scale: 0.7, src: 'clipart/kids_two.png'
 }, {
-    id: 3349, type: 'clipart', tags: 'boy,kid,badge', width: 617, height: 493, scale: 0.7, src: 'clipart/kids_three.png'
+    id: 3349, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 617, height: 493, scale: 0.7, src: 'clipart/kids_three.png'
 }, {
-    id: 3350, type: 'clipart', tags: 'boy,kid,badge', width: 372, height: 531, scale: 0.7, src: 'clipart/kids_four.png'
+    id: 3350, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 372, height: 531, scale: 0.7, src: 'clipart/kids_four.png'
 }, {
-    id: 3351, type: 'clipart', tags: 'boy,kid,badge', width: 692, height: 448, scale: 0.7, src: 'clipart/kids_five.png'
+    id: 3351, type: 'clipart', tags: 'boy,kid,Nhãn hiệu', width: 692, height: 448, scale: 0.7, src: 'clipart/kids_five.png'
 }, {
     id: 3352, type: 'clipart', tags: 'love', width: 687, height: 503, scale: 0.7, src: 'clipart/love_design.png'
 }, {
@@ -661,21 +661,21 @@
 }, {
     id: 3354, type: 'clipart', tags: 'santa,christmas,celebration', width: 575, height: 528, scale: 0.7, src: 'clipart/santa_two.png'
 }, {
-    id: 3355, type: 'clipart', tags: 'girl,people,badge', width: 420, height: 534, scale: 0.7, src: 'clipart/girl_with_board.png'
+    id: 3355, type: 'clipart', tags: 'girl,people,Nhãn hiệu', width: 420, height: 534, scale: 0.7, src: 'clipart/girl_with_board.png'
 }, {
-    id: 3356, type: 'clipart', tags: 'star,birthday,celebration', width: 394, height: 261, scale: 0.7, src: 'clipart/birthday_graphic_one.png'
+    id: 3356, type: 'clipart', tags: 'star,Sinh nhật,celebration', width: 394, height: 261, scale: 0.7, src: 'clipart/birthday_graphic_one.png'
 }, {
-    id: 3357, type: 'clipart', tags: 'star,birthday,celebration', width: 472, height: 475, scale: 0.7, src: 'clipart/birthday_graphic_two.png'
+    id: 3357, type: 'clipart', tags: 'star,Sinh nhật,celebration', width: 472, height: 475, scale: 0.7, src: 'clipart/birthday_graphic_two.png'
 }, {
     id: 3358, type: 'clipart', tags: 'people,character,guevara,man,silhouette', width: 629, height: 459, scale: 0.7, src: 'clipart/guevara.png'
 }, {
-    id: 3359, type: 'clipart', tags: 'cake,love,birthday', width: 597, height: 512, scale: 0.7, src: 'clipart/lovely_cake.png'
+    id: 3359, type: 'clipart', tags: 'cake,love,Sinh nhật', width: 597, height: 512, scale: 0.7, src: 'clipart/lovely_cake.png'
 }, {
     id: 3362, type: 'clipart', tags: 'tree,nature,love', width: 480, height: 522, scale: 0.7, src: 'clipart/tree_cartoon.png'
 }, {
     id: 3364, type: 'clipart', tags: 'santa,christmas,celebration', width: 533, height: 472, scale: 0.7, src: 'clipart/santa_three.png'
 }, {
-    id: 3366, type: 'clipart', tags: 'christmas,celebration,badge', width: 561, height: 474, scale: 0.7, src: 'clipart/christmas_design_one.png'
+    id: 3366, type: 'clipart', tags: 'christmas,celebration,Nhãn hiệu', width: 561, height: 474, scale: 0.7, src: 'clipart/christmas_design_one.png'
 }, {
     id: 3367, type: 'clipart', tags: 'christmas,celebration', width: 720, height: 233, scale: 0.7, src: 'clipart/christmas_design_two.png'
 }, {
@@ -683,11 +683,11 @@
 }, {
     id: 3369, type: 'clipart', tags: 'christmas,celebration,gift,box', width: 243, height: 535, scale: 0.7, src: 'clipart/christmas_design_five.png'
 }, {
-    id: 3370, type: 'clipart', tags: 'christmas,celebration,badge', width: 667, height: 401, scale: 0.7, src: 'clipart/christmas_design_six.png'
+    id: 3370, type: 'clipart', tags: 'christmas,celebration,Nhãn hiệu', width: 667, height: 401, scale: 0.7, src: 'clipart/christmas_design_six.png'
 }, {
     id: 3371, type: 'clipart', tags: 'santa,christmas,celebration,sleigh', width: 708, height: 359, scale: 0.7, src: 'clipart/santa_sleigh.png'
 }, {
-    id: 3372, type: 'clipart', tags: 'cake,birthday', width: 464, height: 624, scale: 0.7, src: 'clipart/romantic_cake.png'
+    id: 3372, type: 'clipart', tags: 'cake,Sinh nhật', width: 464, height: 624, scale: 0.7, src: 'clipart/romantic_cake.png'
 }, {
     id: 3373, type: 'clipart', tags: 'girl,people,dance,ballerina', width: 456, height: 526, scale: 0.7, src: 'clipart/ballerina_two.png'
 }, {
@@ -745,9 +745,9 @@
 }, {
     id: 3401, type: 'clipart', tags: 'lady,woman,people,face,silhouette', width: 296, height: 541, scale: 0.7, src: 'clipart/lady_one.png'
 }, {
-    id: 3402, type: 'clipart', tags: 'birthday,badge,animal,celebration', width: 435, height: 475, scale: 0.7, src: 'clipart/child_birthday.png'
+    id: 3402, type: 'clipart', tags: 'Sinh nhật,Nhãn hiệu,animal,celebration', width: 435, height: 475, scale: 0.7, src: 'clipart/child_birthday.png'
 }, {
-    id: 3403, type: 'clipart', tags: 'santa,celebration,christmas,badge', width: 366, height: 489, scale: 0.7, src: 'clipart/santa_five.png'
+    id: 3403, type: 'clipart', tags: 'santa,celebration,christmas,Nhãn hiệu', width: 366, height: 489, scale: 0.7, src: 'clipart/santa_five.png'
 }, {
     id: 3404, type: 'clipart', tags: 'love,people', width: 586, height: 416, scale: 0.7, src: 'clipart/vintage_love.png'
 }, {
@@ -791,25 +791,23 @@
 }, {
     id: 3424, type: 'clipart', tags: 'moustache,silhouette', width: 545, height: 105, scale: 0.6, src: 'clipart/moustache_ten.png'
 }, {
-    id: 4000, type: 'text', tags: 'birthday', title: 'Know the true value of time;\n snatch, seize, and enjoy every moment of it.\n No idleness, no delay, no procrastination;\n never put off till tomorrow,\n what you can do today.'
+    id: 3425, type: 'text', tags: 'Sinh nhật', title: 'Hôm nay là một ngày rất đặc biệt, ngày này vài chục năm trước có một bé gái cất "tiếng thét" chào đời, và bây giờ đã là một cô gái "quá xinh đẹp", là một người bạn thân thương, tốt bụng và rất nhiệt tình của tớ. Chúc ... luôn "hiền", trẻ nè, đẹp nè, mạnh khoẻ, thành đạt và nụ cười luôn nở trên môi nhé!'
 }, {
-    id: 4001, type: 'text', tags: 'birthday', title: 'Every year on your birthday, you get a chance to start new. \n-Sammy Hagar'
+    id: 3426, type: 'text', tags: 'Sinh nhật', title: 'Ngày này ....... năm về trước, một cô bé ( cậu bé ) đã khóc thật nhiều để chào đón mình ra đời. Và ngày hôm nay cô bé ấy chính là bạn, bạn hãy mỉm cười thật nhiều nhé để thấy rằng từng giây, từng phút đều mang lại hạnh phúc cho bạn. Và tôi, tôi muốn nói với bạn rằng: chúc bạn sinh nhật vui vẻ và thành công trong tuổi mới!'
 }, {
-    id: 4002, type: 'text', tags: 'birthday', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
+    id: 3427, type: 'text', tags: 'Sinh nhật', title: "Happy birthday! Chúc bạn Sinh nhật đầy áp yêu thuơng va tiếng cười, thêm tuổi, thêm hạnh phúc, thêm nhiều niềm zui nhé"
 }, {
-    id: 4003, type: 'text', tags: 'birthday', title: "It was on my fifth birthday that Papa put his hand on my shoulder and said, 'Remember, my son, if you ever need a helping hand, you'll find one at the end of your arm.'"
+    id: 3428, type: 'text', tags: 'Tình yêu', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
 }, {
-    id: 4004, type: 'text', tags: 'birthday', title: "About astrology and palmistry: they are good because they make people vivid and full of possibilities. They are communism at its best. Everybody has a birthday and almost everybody has a palm."
+    id: 3429, type: 'text', tags: 'Tình yêu', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
 }, {
-    id: 4005, type: 'text', tags: 'birthday', title: 'Let us celebrate the occasion with wine and sweet words.'
+    id: 3430, type: 'text', tags: 'Tình yêu', title: 'My computer beat me at checkers, but I sure beat it at kickboxing.'
 }, {
-    id: 4100, type: 'text', tags: 'love', title: 'A kiss is a lovely trick designed by nature to stop speech when words become superfluous.'
+    id: 3431, type: 'text', tags: 'Cuộc sống', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
 }, {
-    id: 4200, type: 'text', tags: 'life', title: 'Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, cause hate in your heart will consume you too.'
+    id: 3432, type: 'text', tags: 'Cuộc sống', title: "Presents don't really mean much to me. I don't want to sound mawkish, but - it was the realization that I have a great many people in my life who really love me, and who I really love."
 }, {
-    id: 4300, type: 'text', tags: 'wisdom', title: 'A wise man is superior to any insults which can be put upon him, and the best reply to unseemly behavior is patience and moderation. '
-}, {
-    id: 4400, type: 'text', tags: 'humor', title: 'My computer beat me at checkers, but I sure beat it at kickboxing.'
+    id: 3433, type: 'text', tags: 'Cuộc sống', title: 'My computer beat me at checkers, but I sure beat it at kickboxing.'
 }];
 
 var propertySettings = [{

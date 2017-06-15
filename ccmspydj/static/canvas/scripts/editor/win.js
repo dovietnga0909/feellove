@@ -151,19 +151,19 @@ var WinManager = BaseObject.extend({
 	            $('.card-save-form').appendTo(contents).show();
 	        } else {
 	            var list = $('<ul></ul>').appendTo(contents);
-	            var more = $('<div class="load-more">Load More...</div>').appendTo(contents);
+	            var more = $('<div class="load-more">Tải thêm...</div>').appendTo(contents);
 	            var search = $('<input type="text" />');
-	            var popular = $('<div class="toolbar-sub"><strong>Popular: </strong></div>').appendTo(nav);
+	            var popular = $('<div class="toolbar-sub"><strong>Phổ biến: </strong></div>').appendTo(nav);
 
 	            win.find('.editor-win-head h3').replaceWith(search).wrap('<div class="editor-win-search border-box"></div>');
 
 	            if (type === 'text') {
 	                this._addCustomTextTab(win);
-	                popular.append('<span>Love</span><span>Life</span><span>Humor</span><span>Wisdom</span><span>Birthday</span>');
-                    search.attr('placeholder', 'Search for Text Quotes...')
+	                popular.append('<span>Tình yêu</span><span>Cuộc sống</span><span>Sinh nhật</span>');
+                    search.attr('placeholder', 'Tìm kiếm nội dung mẫu...')
 	            } else {
-	                popular.append('<span>Love</span><span>Nature</span><span>People</span><span>Badge</span><span>Abstract</span><span>Funny</span><span>Celebration</span><span>Christmas</span>');
-	                search.attr('placeholder', 'Search for Clipart...')
+	                popular.append('<span>Tình yêu</span><span>Tự nhiên</span><span>Con người</span><span>Nhãn hiệu</span><span>Trừu tượng</span><span>Vui vẻ</span><span>Kỷ niệm</span><span>Giáng sinh</span>');
+	                search.attr('placeholder', 'Tìm kiếm sticker...')
 	            }
 
 	            var wpnt = null;
@@ -242,9 +242,9 @@ var WinManager = BaseObject.extend({
 	},
 	_addCustomTextTab: function (win) {
 	    var footer = win.find('.editor-win-footer').addClass('visible form');
-	    footer.append('<label for="text_custom_input">Add your custom text here</label>');
-	    footer.append('<textarea cols="30" rows="5" id="text_custom_input" value="Put your text here..." />');
-	    $('<button>Insert Text</button>').appendTo(footer).click(function () {
+	    footer.append('<label for="text_custom_input">Thêm nội dung</label>');
+	    footer.append('<textarea cols="30" rows="5" id="text_custom_input" value="Nhập nội dung bạn muốn chèn..." />');
+	    $('<button>Chèn chữ</button>').appendTo(footer).click(function () {
 	        var txt = $('#text_custom_input').val();
 	        if (txt !== null && txt !== '') {
 	            var cfg = { type: 'text', title: txt, x: 300, y: 250, width: 450, scale: 1 };

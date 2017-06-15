@@ -1,7 +1,7 @@
 ﻿.content { padding-top: 15px; }
     .content h2 { display: none; }
 
-.editor { -ms-touch-action: none; padding: 50px 0 180px 0; position: relative; background: #606060 url(img/transparent_dark.png); border: solid 1px #ccc; box-shadow: rgba(0,0,0,0.2) 0 0 6px; }
+.editor { -ms-touch-action: none; padding: 50px 0 0 0; position: relative; background: #606060 url(img/transparent_dark.png); border: solid 1px #ccc; box-shadow: rgba(0,0,0,0.2) 0 0 6px; }
 .editor-not-supported { display: none; }
 .slow-device { display: none; }
     .slow-device .buttons { padding: 50px 0; text-align: center; }

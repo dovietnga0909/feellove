@@ -82,7 +82,7 @@
 										<span>Trang chủ</span>
 									</a>
 								</li>
-								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="photoGroup" title="Change Photo">
+								<li data-ecc-method="showProperty" data-ecc-type="background" data-ecc-id="photoGroup" id="photoGroup" title="Change Photo">
 									<a>
 										<i class="el el-delicious" aria-hidden="true"></i>
 										<span>Nền</span>
@@ -258,44 +258,18 @@
 	<script src=" {% static 'admin/assets/vendor/jquery-placeholder/jquery-placeholder.js' %}"></script>
 	
 	<!-- Theme Base, Components and Settings -->
-	<script src=" {% static 'admin/assets/javascripts/theme.js' %}"></script>
 	
-	<!-- Theme Custom -->
-	<script src=" {% static 'admin/assets/javascripts/theme.custom.js' %}"></script>
-	
-	<!-- Theme Initialization Files -->
-	<script src=" {% static 'admin/assets/javascripts/theme.init.js' %}"></script>
 
     <script>
         var environment = {
-				fileInputSupported: isFileInputSupported,
-				hasTouch: hasTouch,
-				saveUrl: "card/SaveCard",
-				cardConfig: [{src:"background/notebook.png",type:'background'}],
-				contentPath: "{% static 'canvas/content/' %}",
-				assetsPath:  "{% static 'canvas/content/assets/' %}",
-				assetThumbPath: "{% static 'canvas/content/thumbnails/{0}' %}"
-			};
-
-			function removeActiveMenu(){
-				$('ul.nav-main li').each(function(i, e){
-					$(e).removeClass('nav-active-custom');
-				});
-			}
-
-			function actionRender(){
-				$('.iScrollHorizontalScrollbar.iScrollLoneScrollbar').remove();
-				$('.editor-pan-nav.border-box').remove();
-				
-			}
-			$('ul.nav-main li').each(function(i, e){			
-				$(e).click(function(){	
-					removeActiveMenu();			
-					$(e).addClass('nav-active-custom');
-					actionRender();
-					$('.editor-pan-body').height($('#sidebar-left').height() - $('.sidebar-header').height() - 20);
-				})
-			})
+			fileInputSupported: isFileInputSupported,
+			hasTouch: hasTouch,
+			saveUrl: "card/SaveCard",
+			cardConfig: [{src:"background/notebook.png",type:'background'}],
+			contentPath: "{% static 'canvas/content/' %}",
+			assetsPath:  "{% static 'canvas/content/assets/' %}",
+			assetThumbPath: "{% static 'canvas/content/thumbnails/{0}' %}"
+		};
     </script>
 	{% render_block "js" %}
 </body>
