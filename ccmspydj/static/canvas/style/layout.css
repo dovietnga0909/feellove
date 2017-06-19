@@ -20,7 +20,7 @@ body {
 }
 
 .container { 
-    width: 602px; 
+    width: 800px; 
     margin: 0 auto; 
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05); 
     border: 1px solid rgba(0, 0, 0, 0.1); 
@@ -42,7 +42,7 @@ body {
     .ecc-icon-info { background-position: -304px 0; }
 
 @media all and (max-width: 1000px) {
-    .container { width: 650px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+    .container { width: 800px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
     body { background: #fff; overflow-x: hidden; }
 }
 

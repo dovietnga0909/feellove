@@ -71,9 +71,9 @@ ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
 #card-canvas .container {
     padding: 0 !important
 }
-#card-canvas .container .editor .editor-navbar {
+/*#card-canvas .container .editor .editor-navbar {
     height: auto !important
-}
+}*/
 #editor-section{
     margin-left: -25px;
     margin-top: -38px;

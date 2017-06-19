@@ -8,7 +8,7 @@
     .slow-device .button { width: 130px; margin: 0 5px; }
     .slow-device .note { padding-top: 50px; color: #999; font-size: 0.9em; }
 
-.editor-navbar { position: absolute; height: 30px; background-color: #f5f5f5; background-image: linear-gradient(to bottom, #f8f8f8, #e3e3e3 ); top: 0; width: 100%;  border-bottom: solid 1px #AAAAAB; }
+.editor-navbar { position: absolute; height: 50px; background-color: #f5f5f5; top: 0; width: 100%;  border-bottom: solid 1px #AAAAAB; }
     .editor-navbar li { float: left; width: 130px; text-align: center; }
     .editor-navbar li.last { float: right; }
         .editor-navbar li span { color: #666; display: block; padding: 5px 0 5px 0; cursor: pointer; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
@@ -187,13 +187,12 @@
 /*.editor-pan { position: absolute; left: 0; bottom: 65px; width: 100%; display: none; }*/
 /*.editor-pan { margin-top: 30px; }*/
 .editor-pan-body { overflow-y: scroll;}
-.editor-pan-content { -webkit-user-select: none; -moz-user-select: none; overflow: auto; position: relative; padding: 0 15px; display: block !important}
-.editor-pan-content { -webkit-user-select: none; -moz-user-select: none; overflow: auto; position: relative; padding: 0 15px; display: block !important}
+.editor-pan-content { -webkit-user-select: none; -moz-user-select: none; overflow: auto; position: relative; display: block !important}
     .editor-pan-content.active { display: block !important; }
     .editor-pan-content ul { position: relative; height: 100%; width: 100% !important; z-index: 10; }
 
-.editor-pan-content:before { content: " "; position: absolute; left: 0; width: 15px; height: 100%; z-index: 11; }
-.editor-pan-content:after { content: " "; position: absolute; right: 0; width: 30px; height: 100%; z-index: 11; }
+/*.editor-pan-content:before { content: " "; position: absolute; left: 0; width: 15px; height: 100%; z-index: 11; }
+.editor-pan-content:after { content: " "; position: absolute; right: 0; width: 30px; height: 100%; z-index: 11; }*/
 
 .editor-pan-edit-text .editor-pan-content { -webkit-user-select: auto; -moz-user-select: auto; padding: 5px; }
 .editor-pan-edit-text textarea { width: 100%; height: 100%; }
@@ -223,9 +222,9 @@
 
 .user-photo-selector { padding: 10px; }
 
-.property-item { float: left; width: 85px; padding: 5px 5px 5px 0; }
+.property-item { float: left; width: 45%; padding: 2.5%; }
     .property-item .thumb { height: 80px; border-radius: 4px; background-color: #fff; background-repeat: no-repeat; cursor: pointer; }
-    .property-item-image { width: 105px; }
+    .property-item-image { width: 45%; }
         .property-item-image img { width: 100%; height: 100%; border-radius: 4px; }
 .property-item .label { margin-top: 5px; padding: 0 4px; background: #000; color: #fff; font-size: 0.8em; border-radius: 10px; text-align: center;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 .property-item.selected .label { background-color: #39f; }
@@ -399,4 +398,25 @@
     .editor-pan-slider p { padding-bottom: 5px; font-size: 0.8em; }
     .editor-pan-slider span { font-size: 0.9em; }
     .editor-pan-slider input { margin-top: 2px; background-color: #e6e6e6; }
+}
+
+.editor-pan-body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.editor-pan-body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.editor-pan-body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #272c33;
 }

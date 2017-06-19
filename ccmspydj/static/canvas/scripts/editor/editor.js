@@ -123,6 +123,27 @@ $(function () {
                 wm.saveCard();                
             }
             window.location.hash = "#edit";
+            $('#sidebar-left-nav').height($('#sidebar-left').height() - $('.sidebar-header').height());
+            $('#editor-section').height($('#sidebar-left').height() - $('.sidebar-header').height());
+            function removeActiveMenu(){
+                $('ul.nav-main li').each(function(i, e){
+                    $(e).removeClass('nav-active-custom');
+                });
+            }
+
+            function actionRender(){
+                $('.iScrollHorizontalScrollbar.iScrollLoneScrollbar').remove();
+                $('.editor-pan-nav.border-box').remove();
+                
+            }
+            $('ul.nav-main li').each(function(i, e){			
+                $(e).click(function(){	
+                    removeActiveMenu();			
+                    $(e).addClass('nav-active-custom');
+                    actionRender();
+                    $('.editor-pan-body').height($('#sidebar-left').height() - $('.sidebar-header').height() - 20);
+                })
+            })
             $('#photoGroup').trigger('tap');
             $('#photoGroup').trigger('click');   
         });
@@ -157,27 +178,7 @@ $(function () {
 
     initilize();
     
-	$('#sidebar-left-nav').height($('#sidebar-left').height() - $('.sidebar-header').height());
-    $('#editor-section').height($('#sidebar-left').height() - $('.sidebar-header').height());
-    function removeActiveMenu(){
-        $('ul.nav-main li').each(function(i, e){
-            $(e).removeClass('nav-active-custom');
-        });
-    }
-
-    function actionRender(){
-        $('.iScrollHorizontalScrollbar.iScrollLoneScrollbar').remove();
-        $('.editor-pan-nav.border-box').remove();
-        
-    }
-    $('ul.nav-main li').each(function(i, e){			
-        $(e).click(function(){	
-            removeActiveMenu();			
-            $(e).addClass('nav-active-custom');
-            actionRender();
-            $('.editor-pan-body').height($('#sidebar-left').height() - $('.sidebar-header').height() - 20);
-        })
-    })
+	
     
     
 });
