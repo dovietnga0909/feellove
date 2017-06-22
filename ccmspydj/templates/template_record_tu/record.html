@@ -63,9 +63,9 @@
 					<a href="../" class="logo">
 						<img src=" {% static 'porto/logo/Lovebird.png' %}" height="35" alt="Porto Admin" />
 					</a>
-					<!--<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
-						<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
-					</div>-->
+					<div class="visible-xs toggle-sidebar-left">
+						<i class="fa fa-bars"></i>
+					</div>
 				</div>
 			
 			</header>
@@ -79,9 +79,9 @@
 						<div class="sidebar-title">
 							Navigation
 						</div>
-						<!--<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+						<div class="sidebar-toggle hidden-xs">
 							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
-						</div>-->
+						</div>
 					</div>
 				
 					<div class="nano">
@@ -470,6 +470,9 @@
     <script type="text/javascript" src=" {% static 'record/app/js/filesystemutility.js' %}"></script>
     <script type="text/javascript" src=" {% static 'record/app/js/editorapp.js' %}"></script>
 
+	<script>
+		var WORKER_PATH = " {% static 'record/js/lib/recorderWorker.js' %}";
+	</script>
     <script src=" {% static 'record/js/lib/recorder.js' %}"></script>
     <script src=" {% static 'record/js/recordLive.js' %}"></script>
     <script src=" {% static 'record/js/sequencer.js' %}"></script>
