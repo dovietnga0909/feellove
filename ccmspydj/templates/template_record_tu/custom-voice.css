@@ -1,0 +1,118 @@
+body{
+    padding-bottom: 0px;
+}
+div,
+nav,
+ul,
+li {
+    outline: none !important
+}
+
+.editor.container, .recorder.container{
+    width: 100% !important;
+}
+
+.page-header{
+    box-shadow: 1px 1px 0 1px #00c4cc;
+    border-left: none;
+    background: #00c4cc;
+}
+.page-header h2{
+    border-bottom: none;
+}
+.page-header h6{
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+}
+.sidebar-left .sidebar-header{
+    height: 52px;
+}
+.sidebar-left .sidebar-header .sidebar-title, .sidebar-left .sidebar-header .sidebar-toggle, .sidebar-left .sidebar-header .sidebar-toggle i{
+    background: #00c4cc;
+    color: #fff;
+}
+.inner-wrapper {
+    padding-top: 20px
+}
+.sidebar-left .sidebar-header .sidebar-toggle{
+    color: #fff;
+}
+.content-body{
+    padding-bottom: 0px;
+}
+.sidebar-left .nano {
+    background: #272c33 !important;
+    box-shadow: none !important;
+}
+ul.nav-main {
+    margin-right: 0px;
+}
+ul.nav-main li a {
+    color: #fff;
+}
+ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
+    background-color: #272c33 !important;
+    color: #00c4cc !important;
+}
+.nav-active-custom {
+    background-color: #3f4652 !important;
+}
+
+#editor-section{
+    margin-left: -25px;
+    margin-top: -38px;
+    background: #3f4652;
+    padding: 0 20px 0 20px;
+    min-height: 1500px;
+    color: white;
+}
+
+html.sidebar-left-collapsed .sidebar-left .sidebar-title{
+    opacity: 1 !important;
+}
+
+#recordingslist{
+    width: 100%;
+    margin: 40px 0;
+}
+
+#recordingslist th{
+    padding: 10px 15px;
+}
+
+.box-mg-15{
+    margin: 0 15px;
+}
+
+.sound-catalog-title{
+    font-size: 11px;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    letter-spacing: 1px;
+}
+
+.sound-title{
+}
+
+.box-sound{
+    align-items: center;
+    background: #353c45;
+    
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 90%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.box-feature .btn{
+    box-shadow: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    background: rgba(63,70,82,.15);
+}
