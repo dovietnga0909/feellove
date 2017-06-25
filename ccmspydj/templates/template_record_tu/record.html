@@ -178,24 +178,24 @@
 											<div class="box-mg-15">
 												<form class="form-horizontal form-bordered">
 													<div class="form-group">															
-														<label class="col-md-3 control-label">Record monitor volume </label>
+														<label class="col-md-3 control-label">Âm lượng mic </label>
 														<div class="col-md-6">
 															<input type="range" max="1" step="0.1" value="0" onchange="changeVolume(this.value)"/>
 														</div>
 													</div>
 													<div class="form-group">															
-														<label class="col-md-3 control-label">Start record </label>
+														<label class="col-md-3 control-label">Ghi âm </label>
 														<div class="col-md-6">
-															<button class="btn btn-primary" onclick="startRecording(this);">Record</button>
-															<button class="btn btn-warning" onclick="stopRecording(this);" disabled>Stop</button>
+															<button class="btn btn-primary" onclick="startRecording(this);">Bắt đầu</button>
+															<button class="btn btn-warning" onclick="stopRecording(this);" disabled>Dừng</button>
 														</div>
 													</div>
 													
 													<div class="form-group">															
-														<label class="col-md-3 control-label">Sequencer </label>
+														<label class="col-md-3 control-label">Trình tự </label>
 														<div class="col-md-6">
-															<button class="btn btn-primary" onclick="startSequencer(this);">Play</button>
-															<button class="btn btn-warning" onclick="stopSequencer(this);" disabled>Stop</button>
+															<button class="btn btn-primary" onclick="startSequencer(this);">Bắt đầu</button>
+															<button class="btn btn-warning" onclick="stopSequencer(this);" disabled>Dừng</button>
 														</div>
 													</div>
 												</form>
@@ -216,15 +216,15 @@
 														</th>
 													</tr>
 													<tr>
-														<th>Drone</th>
+														<th>Điệu trầm</th>
 														<th>
 															
 															<input class='control' id='BaseNote' type='range' min='40' max='100' value='63'>
-															<label for='BaseNote'>Base Note: <span class='controlVal'></span></label>
+															<label for='BaseNote'>Âm cơ bản: <span class='controlVal'></span></label>
 														</th>
 														<th>																
 															<input class='control' id='NumOsc' type='range' min='1' max='40' value='40'>
-															<label for='NumOsc'>Number of Generators: <span class='controlVal'></span></label>
+															<label for='NumOsc'>Số nguyên âm: <span class='controlVal'></span></label>
 														</th>
 														<th>
 															<!-- <input type="checkbox" id="droneToggle" checked/> -->
@@ -247,15 +247,15 @@
 														<div class="text-center">
 															<div class="btn-toolbar" style="display: inline-block">
 																<div class="btn-group">
-																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].copy();"><i class="fa fa-files-o" aria-hidden="true"></i> Copy</a>
-																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].paste();"><i class="fa fa-clipboard"></i> Paste</a>
-																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].cut();"><i class="fa fa-scissors"></i> Cut</a>
-																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].del();"><i class="fa fa-times" aria-hidden="true"></i></i> Delete</a>
+																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].copy();"><i class="fa fa-files-o" aria-hidden="true"></i> Chép</a>
+																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].paste();"><i class="fa fa-clipboard"></i> Dán</a>
+																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].cut();"><i class="fa fa-scissors"></i> Cắt</a>
+																<a class="btn btn-primary" onclick="$('#audioLayerControl')[0].del();"><i class="fa fa-times" aria-hidden="true"></i></i> Xóa</a>
 																</div>
 																<div class="btn-group">
-																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].selectAll();"><i class="fa fa-list"></i> Select All</a>
-																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomIntoSelection();"><i class="fa fa-arrows"></i> Zoom To Selection</a>
-																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomToFit();"><i class="fa fa-arrows-alt"></i> Zoom To Fit</a>
+																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].selectAll();"><i class="fa fa-list"></i> Chọn tất</a>
+																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomIntoSelection();"><i class="fa fa-arrows"></i> Phóng to</a>
+																<a class="btn btn-success" onclick="$('#audioLayerControl')[0].zoomToFit();"><i class="fa fa-arrows-alt"></i> Thu nhỏ</a>
 																</div>
 															</div>
 														</div>
@@ -264,13 +264,13 @@
 												<hr />
 												<div class="row">
 													<div class="col-md-4">
-														<h6>Spectrum</h6>
+														<h6>Quang phổ</h6>
 														<div class="well">
 															<div id="spectrum"></div>
 														</div>
 													</div>
 													<div class="col-md-8">
-														<h6>Editor</h6>
+														<h6>Công cụ</h6>
 														<div class="well">
 															<audioLayerControl id="audioLayerControl" title="CloudCompany.mp3" />
 														</div>
@@ -294,7 +294,7 @@
 															</div>
 															<div class="btn-group">
 																<!-- <a class="btn btn-large btn-primary" onclick="$('#audioLayerControl')[0].save($('#savelink')[0]);"><i class="icon-fire"></i> Render</a> -->
-																<button class="btn btn-large btn-success" id="savelink" onclick="$('#audioLayerControl')[0].saveBack();"><i class="icon-download"></i> Save</button>
+																<button class="btn btn-large btn-success" id="savelink" onclick="$('#audioLayerControl')[0].saveBack();"><i class="icon-download"></i> Lưu</button>
 															</div>
 															</div>
 														</div>
@@ -312,9 +312,9 @@
 												<br>
 												<div class="row">
 													<div class="col-md-4">
-														<h6>Gain</h6>
+														<h6>Gia lượng</h6>
 														<div class="well" style="height: 130px; position:relative">
-															<p>Change the volume of the selected audio sequence with the given gain multiplicator.</p>
+															<p>Thay đổi âm lượng của chuỗi âm thanh đã chọn với phép nhân số.</p>
 															
 															<div class="pull-right" style=" position:absolute; bottom: 5px; width: 100%;" >
 																<div class="btn-group" >
@@ -365,34 +365,34 @@
 														</div>
 													</div>
 													<div class="col-md-4">
-														<h6>Normalize</h6>
+														<h6>Chế Độ Bình Thường</h6>
 														<div class="well" style="height: 130px; position:relative">
-															<p>Adjust the volume to the maximum of the selected audio sequence.</p>
+															<p>Chuyển đoạn âm đã chọn về chế độ bình thường.</p>
 															<a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterNormalize();">Apply</a>
 															<br>
 														</div>
 														</div>
 													<div class="col-md-4">
-														<h6>Silence</h6>
+														<h6>Chế Độ Im Lặng</h6>
 														<div class="well" style="height: 130px; position:relative">
-															<p>Silence the selected audio sequence</p>
-															<a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterSilence();">Apply</a>
+															<p>Chuyển đoạn âm đã chọn về chế độ im lặng</p>
+															<a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterSilence();">Áp dụng</a>
 															<br>
 														</div>
 													</div>
 													<div class="col-md-4">
-														<h6>Fade In</h6>
+														<h6>Chế Độ To Dần</h6>
 														<div class="well" style="height: 130px; position:relative">
-															<p>Create a linear fade int of the selected audio sequence</p>
-															<a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeIn();">Apply</a>
+															<p>Chuyển đoạn âm đã chọn về chế độ to dần</p>
+															<a style="position:absolute; bottom: 5px; right: 5px"  class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeIn();">Áp dụng</a>
 															<br>
 														</div>
 														</div>
 													<div class="col-md-4">
-														<h6>Fade Out</h6>
+														<h6>Chế Độ Nhỏ Dần</h6>
 														<div class="well" style="height: 130px; position:relative">
-															<p>Create a linear fade out of the selected audio sequence</p>
-															<a style="position:absolute; bottom: 5px; right: 5px" class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeOut();">Apply</a>
+															<p>Chuyển đoạn âm đã chọn về chế độ nhỏ dần</p>
+															<a style="position:absolute; bottom: 5px; right: 5px" class="btn btn-primary pull-right" onclick="$('#audioLayerControl')[0].filterFadeOut();">Áp dụng</a>
 															<br>
 														</div>
 													</div>

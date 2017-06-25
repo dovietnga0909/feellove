@@ -116,3 +116,9 @@ html.sidebar-left-collapsed .sidebar-left .sidebar-title{
     color: #fff;
     background: rgba(63,70,82,.15);
 }
+
+.editor canvas{
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}

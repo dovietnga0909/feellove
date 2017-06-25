@@ -17,8 +17,10 @@ function stopAll(){
     for(var i = 0; i < allAudio.length; i++){
         allAudio[i].pause();
         allAudio[i].currentTime = 0;
-        document.getElementById('btn-' +  allAudio[i].id).innerHTML = '<i class="fa fa-play"></i>';
-        $('#' + allAudio[i].id).attr('running-status', 'stop');
+        if(document.getElementById('btn-' +  allAudio[i].id)){
+            document.getElementById('btn-' +  allAudio[i].id).innerHTML = '<i class="fa fa-play"></i>';
+            $('#' + allAudio[i].id).attr('running-status', 'stop');
+        }
     }
 }
 

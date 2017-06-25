@@ -66,7 +66,7 @@ function handleWAV(blob) {
 
   downloadAnchor.href = url;
   downloadAnchor.download = new Date().toISOString() + '.wav';
-  downloadAnchor.innerHTML = 'Download';
+  downloadAnchor.innerHTML = 'Tải về';
   downloadAnchor.className = 'btn btn-primary';
 
   editButton.onclick = function(e) {
@@ -86,7 +86,7 @@ function handleWAV(blob) {
     };
     f.readAsArrayBuffer(blob);
   };
-  editButton.innerHTML = 'Edit';
+  editButton.innerHTML = 'Chỉnh sửa';
   editButton.className = 'btn btn-primary';
 
   var newCell = newRow.insertCell(-1);
