@@ -137,49 +137,33 @@
 									<div class="box-sound">
 										<span>Tiếng mưa</span>
 										<div class="box-feature">							
-											<button class="btn" onclick="playAudio('tieng-mua-roi');"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='tieng-mua-roi' running="false" controls="" src=" {% static 'record/media/tieng-mua-roi.mp3' %}"></audio>
+											<button class="btn" id="btn-tieng-mua-roi" onclick="effect('tieng-mua-roi');"><i class="fa fa-play"></i></button>
+											<audio class="hide" id='tieng-mua-roi' running-status="stop" controls="" src=" {% static 'record/media/tieng-mua-roi.wav' %}"></audio>
 										</div>
 									</div>
 									<div class="box-sound">
 										<span>Âm thanh buổi sáng</span>
 										<div class="box-feature">							
-											<button class="btn" onclick="playAudio('am-thanh-buoi-sang');"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='am-thanh-buoi-sang' running="false" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
+											<button class="btn" id="btn-am-thanh-buoi-sang" onclick="effect('am-thanh-buoi-sang');"><i class="fa fa-play"></i></button>
+											<audio class="hide" id='am-thanh-buoi-sang' running-status="stop" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
 										</div>
 									</div>
 								</div>
+
 								<div class="col-md-12">
-									<h3 class="sound-catalog-title">Tiếng Piano</h3>
+									<h3 class="sound-catalog-title">Piano</h3>
 									<div class="box-sound">
-										<span>Tiếng mưa</span>
+										<span>Kiss the rain</span>
 										<div class="box-feature">							
-											<button class="btn"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='am-thanh-buoi-sang' running="false" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
+											<button class="btn" id="btn-kiss-the-rain" onclick="effect('kiss-the-rain');"><i class="fa fa-play"></i></button>
+											<audio class="hide" id='kiss-the-rain' running-status="stop" controls="" src=" {% static 'record/media/kiss-the-rain.mp3' %}"></audio>
 										</div>
 									</div>
 									<div class="box-sound">
-										<span>Âm thanh buổi sáng</span>
+										<span>River flows in you</span>
 										<div class="box-feature">							
-											<button class="btn"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='am-thanh-buoi-sang' running="false" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<h3 class="sound-catalog-title">Nhạc không lời</h3>
-									<div class="box-sound">
-										<span>Tiếng mưa</span>
-										<div class="box-feature">							
-											<button class="btn am-thanh-buoi-sang-btn"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='am-thanh-buoi-sang' running="false" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
-										</div>
-									</div>
-									<div class="box-sound">
-										<span>Âm thanh buổi sáng</span>
-										<div class="box-feature">							
-											<button class="btn"><i class="fa fa-play"></i></button>
-											<audio class="hide" id='am-thanh-buoi-sang' running="false" controls="" src=" {% static 'record/media/am-thanh-buoi-sang.mp3' %}"></audio>
+											<button class="btn" id="btn-river-flows-in-you" onclick="effect('river-flows-in-you');"><i class="fa fa-play"></i></button>
+											<audio class="hide" id='river-flows-in-you' running-status="stop" controls="" src=" {% static 'record/media/river-flows-in-you.mp3' %}"></audio>
 										</div>
 									</div>
 								</div>
@@ -477,29 +461,7 @@
     <script src=" {% static 'record/js/recordLive.js' %}"></script>
     <script src=" {% static 'record/js/sequencer.js' %}"></script>
     <script src=" {% static 'record/js/drone.js' %}"></script>
-
-    <script type="text/javascript">
-	function playAudio(id){
-           var audio = document.getElementById(id);
-           audio.play();
-    };
-     $(window).on('load', function(){
-		$('.editor').addClass('invisible');
-		onDocumentLoaded();
-		function removeActiveMenu(){
-			$('ul.nav-main li').each(function(i, e){
-				$(e).removeClass('nav-active-custom');
-			});
-		}
-
-		$('ul.nav-main li').each(function(i, e){			
-			$(e).click(function(){	
-				removeActiveMenu();			
-				$(e).addClass('nav-active-custom');
-			})
-		})
-	});
-    </script>
+    <script src=" {% static 'record/js/custom-voice.js' %}"></script>
 	{% render_block "js" %}
 	</body>
 </html>
